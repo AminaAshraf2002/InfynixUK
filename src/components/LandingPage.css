@@ -358,7 +358,7 @@
   .lp-hero,
   .lp-local {
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 24px;
   }
 
   /* Text first on narrow screens: the statement should land before the picture. */
@@ -367,8 +367,69 @@
 }
 
 @media (max-width: 768px) {
-  /* The floating navbar overlaps the top of the page on mobile; clear it. */
-  .lp-breadcrumb { padding-top: 110px; }
-  .lp-section { padding: 40px 0; }
-  .lp-local { padding: 30px 22px; }
+  .lp {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 60px;
+  }
+
+  .lp-breadcrumb {
+    padding-top: 96px;
+  }
+
+  .lp-hero {
+    padding: 20px 0 36px;
+    gap: 24px;
+  }
+
+  .lp-eyebrow {
+    margin-bottom: 12px;
+  }
+
+  .lp-h1 {
+    margin-bottom: 16px;
+    font-size: 1.85rem;
+  }
+
+  .lp-sub {
+    margin-bottom: 24px;
+    font-size: 0.95rem;
+  }
+
+  .lp-actions {
+    gap: 12px;
+  }
+
+  .lp-btn {
+    padding: 12px 22px;
+    font-size: 0.9rem;
+  }
+
+  .lp-section {
+    padding: 36px 0;
+  }
+
+  .lp-local {
+    padding: 26px 20px;
+    gap: 24px;
+  }
+
+  .lp-card {
+    padding: 22px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .lp {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .lp-breadcrumb {
+    padding-top: 92px;
+  }
+
+  .lp-hero {
+    padding: 16px 0 30px;
+  }
 }

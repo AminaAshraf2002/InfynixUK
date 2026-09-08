@@ -15,6 +15,11 @@ import regions2x from '../assets/lp/lp-regions@2x.webp';
 import kochi from '../assets/lp/lp-kochi.webp';
 import kochi2x from '../assets/lp/lp-kochi@2x.webp';
 
+import londonLdm from '../assets/London/Ldm.png';
+import londonLsd from '../assets/London/Lsd.png';
+import londonLseo from '../assets/London/Lseo.png';
+import londonLwd from '../assets/London/Lwd.png';
+
 const IMAGES = {
   marketing: {
     src: marketing,
@@ -43,10 +48,51 @@ const IMAGES = {
     srcSet: `${kochi} 640w, ${kochi2x} 1120w`,
     alt: 'Oberon Mall, Padivattom, Edappally, home to the Infynix Solutions office in Kochi',
   },
+  londonDm: {
+    src: londonLdm,
+    srcSet: `${londonLdm} 640w`,
+    alt: 'Digital Marketing Agency in London',
+  },
+  londonSd: {
+    src: londonLsd,
+    srcSet: `${londonLsd} 640w`,
+    alt: 'Software Development Company in London',
+  },
+  londonSeo: {
+    src: londonLseo,
+    srcSet: `${londonLseo} 640w`,
+    alt: 'SEO Company in London',
+  },
+  londonWd: {
+    src: londonLwd,
+    srcSet: `${londonLwd} 640w`,
+    alt: 'Web Design Company in London',
+  },
 };
 
 /** Lead image for the page hero, chosen from what the page is actually about. */
 export const heroImageFor = (page) => {
+  if (!page) return IMAGES.marketing;
+
+  if (page.heroImage && IMAGES[page.heroImage]) {
+    return IMAGES[page.heroImage];
+  }
+
+  if (page.city === 'London' || (page.slug && page.slug.includes('london'))) {
+    if (page.slug === 'seo-company-in-london' || /seo/i.test(page.service)) {
+      return IMAGES.londonSeo;
+    }
+    if (page.slug === 'digital-marketing-agency-in-london' || /digital marketing/i.test(page.service)) {
+      return IMAGES.londonDm;
+    }
+    if (page.slug === 'web-design-company-in-london' || /web design/i.test(page.service) || /ui-ux/i.test(page.slug)) {
+      return IMAGES.londonWd;
+    }
+    if (page.slug === 'software-development-company-in-london' || /software|mobile|ecommerce/i.test(page.service)) {
+      return IMAGES.londonSd;
+    }
+  }
+
   if (/social|media/i.test(page.service)) return IMAGES.media;
   return page.category === 'technology' ? IMAGES.technology : IMAGES.marketing;
 };

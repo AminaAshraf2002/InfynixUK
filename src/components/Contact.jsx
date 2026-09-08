@@ -178,7 +178,7 @@ export default function Contact() {
                             <div className="sidebar-divider" />
                             <div className="sidebar-query-block">
                                 <p className="sidebar-query-title">HR Related Queries</p>
-                                <p className="sidebar-query-val">+44 20 7946 0192</p>
+                                <p className="sidebar-query-val">+44 7436 670553</p>
                                 <a href="mailto:office@infynixsolution.co.uk" className="sidebar-query-val">office@infynixsolution.co.uk</a>
                             </div>
                             <div className="sidebar-divider" />

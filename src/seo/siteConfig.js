@@ -22,7 +22,7 @@ export const DEFAULT_OG_IMAGE = `${SITE_URL}/logo.png`;
 export const BUSINESS = {
   legalName: 'Infynix Solutions',
   email: 'office@infynixsolution.co.uk',
-  telephone: '+44-20-7946-0192',
+  telephone: '+44 7436 670553',
   address: {
     street: '1-75 Shelton St, Covent Garden',
     locality: 'London',
