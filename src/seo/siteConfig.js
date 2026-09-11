@@ -23,12 +23,20 @@ export const BUSINESS = {
   legalName: 'Infynix Solutions',
   email: 'office@infynixsolution.co.uk',
   telephone: '+44 7436 670553',
+  uaeTelephone: '+971 54 257 5702',
+  indiaTelephone: '+91 99959 11173',
   address: {
     street: '1-75 Shelton St, Covent Garden',
     locality: 'London',
     region: 'Greater London',
     postalCode: 'WC2H 9JQ',
     country: 'GB',
+  },
+  uaeAddress: {
+    street: 'C1 Building - Office C1 1F-SF6540, Free Zone, Al Butain',
+    locality: 'Ajman',
+    region: 'Ajman',
+    country: 'AE',
   },
   geo: { latitude: 51.5149, longitude: -0.1236 },
   openingHours: {
@@ -40,6 +48,8 @@ export const BUSINESS = {
     'United Kingdom',
     'London',
     'United Arab Emirates',
+    'Ajman',
+    'Dubai',
     'India',
   ],
 };

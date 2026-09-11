@@ -99,7 +99,7 @@ export default function WhoWeAre() {
             Infynix operates from our London office at 1-75 Shelton St, Covent Garden, working directly with UK businesses on growth engineering, web development, and AI automation.
           </p>
           <p style={{ fontFamily: 'var(--ix-font-body)', fontSize: '1rem', color: '#555', lineHeight: 1.6, marginBottom: '2.5rem', maxWidth: '580px' }}>
-            Our client-facing and strategy work is based in the UK, supported by dedicated delivery teams in Dubai (UAE) and Kochi (India) — giving UK clients local accessibility with efficient, high-quality engineering behind it.
+            Our client-facing and strategy work is based in the UK, supported by dedicated delivery teams in UAE and Kochi (India) — giving UK clients local accessibility with efficient, high-quality engineering behind it.
           </p>
           <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
             <Link to="/contact" style={{ background: '#007A5E', color: '#ffffffff', padding: '0.9rem 1.8rem', borderRadius: '40px', fontWeight: 600, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', transition: 'background 0.3s' }} onMouseEnter={e => e.currentTarget.style.background = '#96c200'} onMouseLeave={e => e.currentTarget.style.background = '#a7d600'}>

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "./Contact.css";
 import kochiImage from "../assets/kochi-office.jpg";
+import officeImage from "../assets/office.webp";
 import Seo from '../seo/Seo';
 import { organizationSchema, localBusinessSchema, breadcrumbSchema } from '../seo/schema';
 
@@ -22,17 +23,19 @@ const offices = [
         label: "UK Headquarters",
         desc: "1-75 Shelton St, London, WC2H 9JQ. Our global executive headquarters directing international operations, technology consulting, and enterprise client strategy across European and American regions.",
         image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=900&q=80",
+        mapUrl: "https://maps.google.com/?q=1-75+Shelton+St,+London,+WC2H+9JQ"
     },
     {
-        city: "Dubai",
-        label: "UAE Office",
-        desc: "Business Bay, Dubai, UAE. Our strategic regional office managing partnerships, cloud growth projects, and AI system installations across the Middle East and GCC countries.",
-        image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=900&q=80",
+        city: "UAE",
+        label: "UAE Office (Ajman)",
+        desc: "C1 Building - Office C1 1F-SF6540, Free Zone, Al Butain, Ajman, United Arab Emirates. Tel: +971 54 257 5702. Our strategic regional office managing partnerships, cloud growth projects, and AI system installations across the Middle East and GCC countries.",
+        image: officeImage,
+        mapUrl: "https://maps.google.com/?q=C1+Building+Office+C1+1F+SF6540+Free+Zone+Al+Butain+Ajman+United+Arab+Emirates"
     },
     {
         city: "Kochi",
         label: "Kerala Office",
-        desc: "3rd Floor, Oberon Mall, Padivattom, Edappally, Kochi, Ernakulam, Kerala 682024. Our core engineering powerhouse and development centre delivering robust backend growth architecture.",
+        desc: "3rd Floor, Oberon Mall, Padivattom, Edappally, Kochi, Ernakulam, Kerala 682024. Tel: +91 99959 11173. Our core engineering powerhouse and development centre delivering robust backend growth architecture.",
         image: kochiImage,
         mapUrl: "https://share.google/KX27eRrKxncrDFibN"
     },
@@ -62,8 +65,8 @@ export default function Contact() {
     return (
         <div className="contact-page">
             <Seo
-                title="Contact Infynix Solutions | Offices in Kochi, Dubai & London"
-                description="Talk to Infynix Solutions about digital marketing, software development or automation. Kerala office: 3rd Floor, Oberon Mall, Padivattom, Edappally, Kochi 682024. Call +91 99959 11173."
+                title="Contact Infynix Solutions | Offices in London, UAE & Kochi"
+                description="Talk to Infynix Solutions about digital marketing, software development or AI automation. UAE: +971 54 257 5702, India: +91 99959 11173, UK: +44 7436 670553. Email: office@infynixsolution.co.uk."
                 path="/contact"
                 schema={[
                     organizationSchema(),
@@ -172,14 +175,24 @@ export default function Contact() {
                         {/* Queries card */}
                         <div className="sidebar-card">
                             <div className="sidebar-query-block">
-                                <p className="sidebar-query-title">Sales-Related Queries</p>
+                                <p className="sidebar-query-title">Sales &amp; Partnerships</p>
                                 <a href="mailto:office@infynixsolution.co.uk" className="sidebar-query-val">office@infynixsolution.co.uk</a>
                             </div>
                             <div className="sidebar-divider" />
                             <div className="sidebar-query-block">
-                                <p className="sidebar-query-title">HR Related Queries</p>
-                                <p className="sidebar-query-val">+44 7436 670553</p>
-                                <a href="mailto:office@infynixsolution.co.uk" className="sidebar-query-val">office@infynixsolution.co.uk</a>
+                                <p className="sidebar-query-title">Direct Contact Numbers</p>
+                                <p className="sidebar-query-val" style={{ margin: '4px 0 2px' }}>
+                                    <span style={{ color: '#888', fontSize: '0.8rem', marginRight: '6px' }}>UAE:</span>
+                                    <a href="tel:+971542575702" style={{ color: 'inherit', textDecoration: 'none' }}>+971 54 257 5702</a>
+                                </p>
+                                <p className="sidebar-query-val" style={{ margin: '2px 0' }}>
+                                    <span style={{ color: '#888', fontSize: '0.8rem', marginRight: '6px' }}>India:</span>
+                                    <a href="tel:+919995911173" style={{ color: 'inherit', textDecoration: 'none' }}>+91 99959 11173</a>
+                                </p>
+                                <p className="sidebar-query-val" style={{ margin: '2px 0' }}>
+                                    <span style={{ color: '#888', fontSize: '0.8rem', marginRight: '6px' }}>UK:</span>
+                                    <a href="tel:+447436670553" style={{ color: 'inherit', textDecoration: 'none' }}>+44 7436 670553</a>
+                                </p>
                             </div>
                             <div className="sidebar-divider" />
                             <div className="sidebar-query-block">

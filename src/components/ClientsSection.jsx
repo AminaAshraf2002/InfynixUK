@@ -146,31 +146,38 @@ const ClientsSection = () => {
             </div>
 
             <div className="footer-location-card">
-              <img loading="lazy" decoding="async" src={ukLImage} alt="UK London Office" className="footer-location-svg" />
-              <div className="footer-location-title">UK - LONDON</div>
-              <div className="footer-location-addr">
-                1-75 Shelton St,<br />
-                London, WC2H 9JQ
-              </div>
+              <a href="https://maps.google.com/?q=1-75+Shelton+St,+London,+WC2H+9JQ" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <img loading="lazy" decoding="async" src={ukLImage} alt="UK London Office" className="footer-location-svg" />
+                <div className="footer-location-title">UK - LONDON ↗</div>
+                <div className="footer-location-addr">
+                  1-75 Shelton St,<br />
+                  London, WC2H 9JQ
+                </div>
+              </a>
             </div>
 
             <div className="footer-location-card">
-              <img loading="lazy" decoding="async" src={dubaiImage} alt="Dubai UAE Office" className="footer-location-svg" />
-              <div className="footer-location-title">DUBAI - UAE</div>
-              <div className="footer-location-addr">
-                Business Bay,<br />
-                Dubai, UAE
-              </div>
+              <a href="https://maps.google.com/?q=C1+Building+Office+C1+1F+SF6540+Free+Zone+Al+Butain+Ajman+United+Arab+Emirates" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <img loading="lazy" decoding="async" src={dubaiImage} alt="UAE Office" className="footer-location-svg" />
+                <div className="footer-location-title">UAE - AJMAN ↗</div>
+                <div className="footer-location-addr">
+                  C1 Building, Office C1 1F-SF6540,<br />
+                  Free Zone, Al Butain,<br />
+                  Ajman, UAE<br />
+                </div>
+              </a>
             </div>
 
             <div className="footer-location-card">
-              <img loading="lazy" decoding="async" src={kochiImage} alt="Infynix Solutions office, Kochi, India" className="footer-location-svg" />
-              <div className="footer-location-title">INDIA - KOCHI</div>
-              <div className="footer-location-addr">
-                3rd Floor, Oberon Mall,<br />
-                Padivattom, Edappally,<br />
-                Ernakulam, Kochi, Kerala 682024
-              </div>
+              <a href="https://share.google/KX27eRrKxncrDFibN" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <img loading="lazy" decoding="async" src={kochiImage} alt="Infynix Solutions office, Kochi, India" className="footer-location-svg" />
+                <div className="footer-location-title">INDIA - KOCHI ↗</div>
+                <div className="footer-location-addr">
+                  3rd Floor, Oberon Mall,<br />
+                  Padivattom, Edappally,<br />
+                  Ernakulam, Kochi, Kerala 682024
+                </div>
+              </a>
             </div>
           </div>
 
