@@ -26,10 +26,10 @@ export const BUSINESS = {
   uaeTelephone: '+971 54 257 5702',
   indiaTelephone: '+91 99959 11173',
   address: {
-    street: '1-75 Shelton St, Covent Garden',
-    locality: 'London',
+    street: '68 Endsleigh Gardens',
+    locality: 'Ilford',
     region: 'Greater London',
-    postalCode: 'WC2H 9JQ',
+    postalCode: 'IG1 3EG',
     country: 'GB',
   },
   uaeAddress: {

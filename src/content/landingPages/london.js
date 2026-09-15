@@ -4,18 +4,18 @@ export const londonPages = [
   {
     "slug": "digital-marketing-agency-in-london",
     "city": "London",
-    "cityAlt": "Covent Garden",
+    "cityAlt": "Ilford",
     "region": "Greater London",
     "service": "Digital Marketing",
     "category": "marketing",
     "title": "Digital Marketing Agency in London | Infynix Solutions",
     "description": "Infynix Solutions is a leading digital marketing agency in London running SEO, Google Ads, Meta ads, automation, and lead generation for UK brands.",
     "h1": "Digital Marketing Agency in London",
-    "heroSubtitle": "Performance marketing, SEO and automation built as one connected system, run from our Covent Garden HQ for businesses across London and Greater London.",
+    "heroSubtitle": "Performance marketing, SEO and automation built as one connected system, run from our Ilford HQ for businesses across London and Greater London.",
     "intro": [
       "Most London businesses do not have a marketing problem. They have a disconnection problem. Ads run in one place, the website sits in another, enquiries land in an unmonitored inbox or CRM, and by the time anyone asks which campaign produced revenue, the trail has gone cold.",
-      "Infynix Solutions operates with strategic direction from 1-75 Shelton Street in Covent Garden, London, and we build the technical plumbing before we launch spend. Tracking, CRM, lead routing and multi-touch attribution go in first. Then campaign budgets go to work, allowing you to trace every lead and sale back to its exact origin.",
-      "We work with retail and D2C brands, professional services, healthcare clinics, real estate developers, and high-growth B2B firms across London, from Covent Garden to the wider Greater London business hubs."
+      "Infynix Solutions operates with strategic direction from 68 Endsleigh Gardens in Ilford, London, and we build the technical plumbing before we launch spend. Tracking, CRM, lead routing and multi-touch attribution go in first. Then campaign budgets go to work, allowing you to trace every lead and sale back to its exact origin.",
+      "We work with retail and D2C brands, professional services, healthcare clinics, real estate developers, and high-growth B2B firms across London, from Ilford to the wider Greater London business hubs."
     ],
     "servicesHeading": "Digital Marketing Services We Run in London",
     "services": [
@@ -46,8 +46,8 @@ export const londonPages = [
     ],
     "localHeading": "Why a London Strategic Marketing Team Matters",
     "localBody": [
-      "London is a fast-paced UK commercial centre where competition for customer attention and search dominance is fierce. A business operating near Covent Garden requires tailored positioning that respects local buying signals, UK regulatory standards (UK GDPR, PECR), and nuanced buyer expectations.",
-      "Having our UK operational backbone at Covent Garden in London and serving clients directly across London means we bring cross-market benchmarks to your campaigns. We test hypotheses rapidly, refine copy for UK intent, and scale winning strategies."
+      "London is a fast-paced UK commercial centre where competition for customer attention and search dominance is fierce. A business operating near Ilford requires tailored positioning that respects local buying signals, UK regulatory standards (UK GDPR, PECR), and nuanced buyer expectations.",
+      "Having our UK operational backbone in Ilford, London and serving clients directly across London means we bring cross-market benchmarks to your campaigns. We test hypotheses rapidly, refine copy for UK intent, and scale winning strategies."
     ],
     "faqs": [
       {
@@ -68,7 +68,7 @@ export const londonPages = [
       },
       {
         "question": "Where is Infynix headquartered in the UK?",
-        "answer": "Our UK office is located at 1-75 Shelton Street, Covent Garden, London, WC2H 9JQ. We conduct strategy sessions in person and remotely for clients throughout London. Contact us at office@infynixsolutions.co.uk."
+        "answer": "Our UK office is located at 68 Endsleigh Gardens, Ilford, London IG1 3EG. We conduct strategy sessions in person and remotely for clients throughout London. Contact us at office@infynixsolutions.co.uk."
       }
     ],
     "related": [
@@ -81,7 +81,7 @@ export const londonPages = [
   {
     "slug": "software-development-company-in-london",
     "city": "London",
-    "cityAlt": "Covent Garden",
+    "cityAlt": "Ilford",
     "region": "Greater London",
     "service": "Software Development",
     "category": "engineering",
@@ -91,8 +91,8 @@ export const londonPages = [
     "heroSubtitle": "Custom web applications, API integrations, and scalable cloud systems engineered from London for businesses across London and Greater London.",
     "intro": [
       "Off-the-shelf software often creates operational bottlenecks rather than solving them. Many growing businesses in London struggle with fragmented tools, manual data re-entry, and legacy software that cannot keep up with rapid expansion.",
-      "Infynix Solutions designs and engineers bespoke web applications, cloud backends, microservices, and internal tools from our UK base at Covent Garden, London. We focus on maintainable clean code, resilient security, and high performance from day one.",
-      "Whether you need an enterprise portal, a custom workflow platform, or real-time API integrations, our software engineers partner directly with organisations in London, across Covent Garden and the broader Greater London."
+      "Infynix Solutions designs and engineers bespoke web applications, cloud backends, microservices, and internal tools from our UK base at Ilford, London. We focus on maintainable clean code, resilient security, and high performance from day one.",
+      "Whether you need an enterprise portal, a custom workflow platform, or real-time API integrations, our software engineers partner directly with organisations in London, across Ilford and the broader Greater London."
     ],
     "servicesHeading": "Software Engineering Services We Offer in London",
     "services": [
@@ -145,7 +145,7 @@ export const londonPages = [
       },
       {
         "question": "How can we start a software project with Infynix in London?",
-        "answer": "You can email our UK team at office@infynixsolutions.co.uk or call our Covent Garden office to schedule an initial technical discovery session."
+        "answer": "You can email our UK team at office@infynixsolutions.co.uk or call our Ilford office to schedule an initial technical discovery session."
       }
     ],
     "related": [
@@ -158,7 +158,7 @@ export const londonPages = [
   {
     "slug": "seo-company-in-london",
     "city": "London",
-    "cityAlt": "Covent Garden",
+    "cityAlt": "Ilford",
     "region": "Greater London",
     "service": "SEO",
     "category": "marketing",
@@ -168,8 +168,8 @@ export const londonPages = [
     "heroSubtitle": "Data-driven technical SEO, content strategy, and authority building engineered from London for high-growth brands in London.",
     "intro": [
       "Ranking on page one of Google in London requires far more than basic keyword insertion. Search engines demand fast site speeds, impeccable technical architecture, topical authority, and high-quality local trust signals.",
-      "Infynix Solutions delivers comprehensive organic search campaigns managed by our UK team based at Covent Garden. We fix underlying crawl errors, optimize schema markup, and produce expert copy that converts search intent into qualified business enquiries.",
-      "From local businesses targeting customers in Covent Garden to national UK brands competing across Greater London, our SEO campaigns deliver measurable ROI."
+      "Infynix Solutions delivers comprehensive organic search campaigns managed by our UK team based in Ilford, London. We fix underlying crawl errors, optimize schema markup, and produce expert copy that converts search intent into qualified business enquiries.",
+      "From local businesses targeting customers in Ilford to national UK brands competing across Greater London, our SEO campaigns deliver measurable ROI."
     ],
     "servicesHeading": "SEO & Search Growth Services in London",
     "services": [
@@ -235,7 +235,7 @@ export const londonPages = [
   {
     "slug": "web-design-company-in-london",
     "city": "London",
-    "cityAlt": "Covent Garden",
+    "cityAlt": "Ilford",
     "region": "Greater London",
     "service": "Web Design",
     "category": "engineering",
@@ -245,8 +245,8 @@ export const londonPages = [
     "heroSubtitle": "Stunning design, lightning-fast performance, and conversion-engineered web design created from London for businesses in London.",
     "intro": [
       "Your website is often the first impression a prospect has of your business in London. A slow, dated, or confusing site actively pushes potential customers straight into the arms of your competitors.",
-      "Infynix Solutions designs and builds modern, bespoke websites that combine sleek aesthetic design with rapid load speeds and clear conversion pathways. From our UK office in Covent Garden, we craft digital platforms that showcase your brand authority.",
-      "We serve companies throughout London, including Covent Garden and across Greater London, helping brands elevate their digital presence."
+      "Infynix Solutions designs and builds modern, bespoke websites that combine sleek aesthetic design with rapid load speeds and clear conversion pathways. From our UK office in Ilford, London, we craft digital platforms that showcase your brand authority.",
+      "We serve companies throughout London, including Ilford and across Greater London, helping brands elevate their digital presence."
     ],
     "servicesHeading": "Web Design & Frontend Development Services in London",
     "services": [
@@ -299,7 +299,7 @@ export const londonPages = [
       },
       {
         "question": "How do we get started?",
-        "answer": "Reach out to our Covent Garden team at office@infynixsolutions.co.uk or request a call to discuss your web design goals."
+        "answer": "Reach out to our Ilford team at office@infynixsolutions.co.uk or request a call to discuss your web design goals."
       }
     ],
     "related": [
@@ -312,7 +312,7 @@ export const londonPages = [
   {
     "slug": "mobile-app-development-in-london",
     "city": "London",
-    "cityAlt": "Covent Garden",
+    "cityAlt": "Ilford",
     "region": "Greater London",
     "service": "Mobile App Development",
     "category": "engineering",
@@ -322,8 +322,8 @@ export const londonPages = [
     "heroSubtitle": "High-performance iOS and Android mobile applications engineered from London for startups and enterprises in London.",
     "intro": [
       "Mobile apps have become the primary touchpoint for customer engagement, loyalty, and internal operations. Delivering an app in London requires frictionless UI, offline resilience, and enterprise-grade security.",
-      "Infynix Solutions develops native (Swift, Kotlin) and cross-platform (React Native, Flutter) mobile applications engineered from our UK hub in Covent Garden. We build mobile solutions that scale.",
-      "Whether launch-ready consumer apps or enterprise mobile portals, we support organisations across London, Covent Garden, and Greater London."
+      "Infynix Solutions develops native (Swift, Kotlin) and cross-platform (React Native, Flutter) mobile applications engineered from our UK hub in Ilford. We build mobile solutions that scale.",
+      "Whether launch-ready consumer apps or enterprise mobile portals, we support organisations across Ilford, East London, and Greater London."
     ],
     "servicesHeading": "Mobile Development Services in London",
     "services": [
@@ -376,7 +376,7 @@ export const londonPages = [
       },
       {
         "question": "How do we contact the team?",
-        "answer": "Email us at office@infynixsolutions.co.uk or visit our UK office at 1-75 Shelton Street, Covent Garden, London."
+        "answer": "Email us at office@infynixsolutions.co.uk or visit our UK office at 68 Endsleigh Gardens, Ilford, London."
       }
     ],
     "related": [
@@ -389,7 +389,7 @@ export const londonPages = [
   {
     "slug": "ecommerce-development-in-london",
     "city": "London",
-    "cityAlt": "Covent Garden",
+    "cityAlt": "Ilford",
     "region": "Greater London",
     "service": "E-Commerce Development",
     "category": "engineering",
@@ -399,8 +399,8 @@ export const londonPages = [
     "heroSubtitle": "High-converting Shopify, WooCommerce, and Headless e-commerce stores engineered from London for retail brands in London.",
     "intro": [
       "The UK e-commerce market is one of the most sophisticated in the world. Consumers in London expect lightning-fast page speed, instant mobile checkout, personalized product recommendations, and secure payments.",
-      "Infynix Solutions designs and builds high-growth e-commerce platforms from our UK base at Covent Garden, London. We craft shopping experiences that turn casual browsers into repeat buyers.",
-      "From D2C brands near Covent Garden to established multi-channel retailers across Greater London, we build e-commerce systems engineered for high revenue conversion."
+      "Infynix Solutions designs and builds high-growth e-commerce platforms from our UK base at Ilford, London. We craft shopping experiences that turn casual browsers into repeat buyers.",
+      "From D2C brands near Ilford to established multi-channel retailers across Greater London, we build e-commerce systems engineered for high revenue conversion."
     ],
     "servicesHeading": "E-Commerce Engineering Services in London",
     "services": [
@@ -453,7 +453,7 @@ export const londonPages = [
       },
       {
         "question": "How do we start our store project?",
-        "answer": "Contact our UK team at office@infynixsolutions.co.uk or call our London Covent Garden office."
+        "answer": "Contact our UK team at office@infynixsolutions.co.uk or call our Ilford office in London."
       }
     ],
     "related": [
@@ -466,7 +466,7 @@ export const londonPages = [
   {
     "slug": "ui-ux-design-company-in-london",
     "city": "London",
-    "cityAlt": "Covent Garden",
+    "cityAlt": "Ilford",
     "region": "Greater London",
     "service": "UI/UX Design",
     "category": "engineering",
@@ -476,8 +476,8 @@ export const londonPages = [
     "heroSubtitle": "User-centric digital product design, UX research, and UI design created from London for companies in London.",
     "intro": [
       "Great software fails if users struggle to navigate it. Products in London require intuitive design, smooth micro-interactions, and clear visual hierarchy to retain users.",
-      "Infynix Solutions delivers world-class UI/UX design from our UK headquarters at Covent Garden, London. We combine user research, wireframing, interactive prototyping, and design systems.",
-      "We collaborate with tech startups, scale-ups, and corporate teams across London, Covent Garden, and Greater London."
+      "Infynix Solutions delivers world-class UI/UX design from our UK headquarters at Ilford, London. We combine user research, wireframing, interactive prototyping, and design systems.",
+      "We collaborate with tech startups, scale-ups, and corporate teams across Ilford, East London, and Greater London."
     ],
     "servicesHeading": "UI/UX & Product Design Services in London",
     "services": [
@@ -530,7 +530,7 @@ export const londonPages = [
       },
       {
         "question": "How do we reach out?",
-        "answer": "Get in touch with our Covent Garden office at office@infynixsolutions.co.uk."
+        "answer": "Get in touch with our Ilford office at office@infynixsolutions.co.uk."
       }
     ],
     "related": [
@@ -550,10 +550,10 @@ export const londonPages = [
     "title": "Digital Marketing Agency in Manchester | Infynix Solutions",
     "description": "Infynix Solutions is a leading digital marketing agency in Manchester running SEO, Google Ads, Meta ads, automation, and lead generation for UK brands.",
     "h1": "Digital Marketing Agency in Manchester",
-    "heroSubtitle": "Performance marketing, SEO and automation built as one connected system, run from our Covent Garden HQ for businesses across Manchester and Greater Manchester.",
+    "heroSubtitle": "Performance marketing, SEO and automation built as one connected system, run from our Ilford HQ for businesses across Manchester and Greater Manchester.",
     "intro": [
       "Most Manchester businesses do not have a marketing problem. They have a disconnection problem. Ads run in one place, the website sits in another, enquiries land in an unmonitored inbox or CRM, and by the time anyone asks which campaign produced revenue, the trail has gone cold.",
-      "Infynix Solutions operates with strategic direction from 1-75 Shelton Street in Covent Garden, London, and we build the technical plumbing before we launch spend. Tracking, CRM, lead routing and multi-touch attribution go in first. Then campaign budgets go to work, allowing you to trace every lead and sale back to its exact origin.",
+      "Infynix Solutions operates with strategic direction from 68 Endsleigh Gardens in Ilford, London, and we build the technical plumbing before we launch spend. Tracking, CRM, lead routing and multi-touch attribution go in first. Then campaign budgets go to work, allowing you to trace every lead and sale back to its exact origin.",
       "We work with retail and D2C brands, professional services, healthcare clinics, real estate developers, and high-growth B2B firms across Manchester, from MediaCity to the wider Greater Manchester business hubs."
     ],
     "servicesHeading": "Digital Marketing Services We Run in Manchester",
@@ -586,7 +586,7 @@ export const londonPages = [
     "localHeading": "Why a Manchester Strategic Marketing Team Matters",
     "localBody": [
       "Manchester is a fast-paced UK commercial centre where competition for customer attention and search dominance is fierce. A business operating near MediaCity requires tailored positioning that respects local buying signals, UK regulatory standards (UK GDPR, PECR), and nuanced buyer expectations.",
-      "Having our UK operational backbone at Covent Garden in London and serving clients directly across Manchester means we bring cross-market benchmarks to your campaigns. We test hypotheses rapidly, refine copy for UK intent, and scale winning strategies."
+      "Having our UK operational backbone in Ilford, London and serving clients directly across Manchester means we bring cross-market benchmarks to your campaigns. We test hypotheses rapidly, refine copy for UK intent, and scale winning strategies."
     ],
     "faqs": [
       {
@@ -607,7 +607,7 @@ export const londonPages = [
       },
       {
         "question": "Where is Infynix headquartered in the UK?",
-        "answer": "Our UK office is located at 1-75 Shelton Street, Covent Garden, London, WC2H 9JQ. We conduct strategy sessions in person and remotely for clients throughout Manchester. Contact us at office@infynixsolutions.co.uk."
+        "answer": "Our UK office is located at 68 Endsleigh Gardens, Ilford, London IG1 3EG. We conduct strategy sessions in person and remotely for clients throughout Manchester. Contact us at office@infynixsolutions.co.uk."
       }
     ],
     "related": [
@@ -630,7 +630,7 @@ export const londonPages = [
     "heroSubtitle": "Custom web applications, API integrations, and scalable cloud systems engineered from London for businesses across Manchester and Greater Manchester.",
     "intro": [
       "Off-the-shelf software often creates operational bottlenecks rather than solving them. Many growing businesses in Manchester struggle with fragmented tools, manual data re-entry, and legacy software that cannot keep up with rapid expansion.",
-      "Infynix Solutions designs and engineers bespoke web applications, cloud backends, microservices, and internal tools from our UK base at Covent Garden, London. We focus on maintainable clean code, resilient security, and high performance from day one.",
+      "Infynix Solutions designs and engineers bespoke web applications, cloud backends, microservices, and internal tools from our UK base at Ilford, London. We focus on maintainable clean code, resilient security, and high performance from day one.",
       "Whether you need an enterprise portal, a custom workflow platform, or real-time API integrations, our software engineers partner directly with organisations in Manchester, across Deansgate and the broader Greater Manchester."
     ],
     "servicesHeading": "Software Engineering Services We Offer in Manchester",
@@ -684,7 +684,7 @@ export const londonPages = [
       },
       {
         "question": "How can we start a software project with Infynix in Manchester?",
-        "answer": "You can email our UK team at office@infynixsolutions.co.uk or call our Covent Garden office to schedule an initial technical discovery session."
+        "answer": "You can email our UK team at office@infynixsolutions.co.uk or call our Ilford office to schedule an initial technical discovery session."
       }
     ],
     "related": [
@@ -707,7 +707,7 @@ export const londonPages = [
     "heroSubtitle": "Data-driven technical SEO, content strategy, and authority building engineered from London for high-growth brands in Manchester.",
     "intro": [
       "Ranking on page one of Google in Manchester requires far more than basic keyword insertion. Search engines demand fast site speeds, impeccable technical architecture, topical authority, and high-quality local trust signals.",
-      "Infynix Solutions delivers comprehensive organic search campaigns managed by our UK team based at Covent Garden. We fix underlying crawl errors, optimize schema markup, and produce expert copy that converts search intent into qualified business enquiries.",
+      "Infynix Solutions delivers comprehensive organic search campaigns managed by our UK team based in Ilford, London. We fix underlying crawl errors, optimize schema markup, and produce expert copy that converts search intent into qualified business enquiries.",
       "From local businesses targeting customers in Spinningfields to national UK brands competing across Greater Manchester, our SEO campaigns deliver measurable ROI."
     ],
     "servicesHeading": "SEO & Search Growth Services in Manchester",
@@ -784,7 +784,7 @@ export const londonPages = [
     "heroSubtitle": "Stunning design, lightning-fast performance, and conversion-engineered web design created from London for businesses in Manchester.",
     "intro": [
       "Your website is often the first impression a prospect has of your business in Manchester. A slow, dated, or confusing site actively pushes potential customers straight into the arms of your competitors.",
-      "Infynix Solutions designs and builds modern, bespoke websites that combine sleek aesthetic design with rapid load speeds and clear conversion pathways. From our UK office in Covent Garden, we craft digital platforms that showcase your brand authority.",
+      "Infynix Solutions designs and builds modern, bespoke websites that combine sleek aesthetic design with rapid load speeds and clear conversion pathways. From our UK office in Ilford, London, we craft digital platforms that showcase your brand authority.",
       "We serve companies throughout Manchester, including Northern Quarter and across Greater Manchester, helping brands elevate their digital presence."
     ],
     "servicesHeading": "Web Design & Frontend Development Services in Manchester",
@@ -838,7 +838,7 @@ export const londonPages = [
       },
       {
         "question": "How do we get started?",
-        "answer": "Reach out to our Covent Garden team at office@infynixsolutions.co.uk or request a call to discuss your web design goals."
+        "answer": "Reach out to our Ilford team at office@infynixsolutions.co.uk or request a call to discuss your web design goals."
       }
     ],
     "related": [
@@ -858,10 +858,10 @@ export const londonPages = [
     "title": "Performance Marketing Agency in Manchester | Infynix Solutions",
     "description": "Infynix Solutions is a leading performance marketing agency in Manchester running SEO, Google Ads, Meta ads, automation, and lead generation for UK brands.",
     "h1": "Performance Marketing Agency in Manchester",
-    "heroSubtitle": "Performance marketing, SEO and automation built as one connected system, run from our Covent Garden HQ for businesses across Manchester and Greater Manchester.",
+    "heroSubtitle": "Performance marketing, SEO and automation built as one connected system, run from our Ilford HQ for businesses across Manchester and Greater Manchester.",
     "intro": [
       "Most Manchester businesses do not have a marketing problem. They have a disconnection problem. Ads run in one place, the website sits in another, enquiries land in an unmonitored inbox or CRM, and by the time anyone asks which campaign produced revenue, the trail has gone cold.",
-      "Infynix Solutions operates with strategic direction from 1-75 Shelton Street in Covent Garden, London, and we build the technical plumbing before we launch spend. Tracking, CRM, lead routing and multi-touch attribution go in first. Then campaign budgets go to work, allowing you to trace every lead and sale back to its exact origin.",
+      "Infynix Solutions operates with strategic direction from 68 Endsleigh Gardens in Ilford, London, and we build the technical plumbing before we launch spend. Tracking, CRM, lead routing and multi-touch attribution go in first. Then campaign budgets go to work, allowing you to trace every lead and sale back to its exact origin.",
       "We work with retail and D2C brands, professional services, healthcare clinics, real estate developers, and high-growth B2B firms across Manchester, from Salford Quays to the wider Greater Manchester business hubs."
     ],
     "servicesHeading": "Performance Marketing Services We Run in Manchester",
@@ -894,7 +894,7 @@ export const londonPages = [
     "localHeading": "Why a Manchester Strategic Marketing Team Matters",
     "localBody": [
       "Manchester is a fast-paced UK commercial centre where competition for customer attention and search dominance is fierce. A business operating near Salford Quays requires tailored positioning that respects local buying signals, UK regulatory standards (UK GDPR, PECR), and nuanced buyer expectations.",
-      "Having our UK operational backbone at Covent Garden in London and serving clients directly across Manchester means we bring cross-market benchmarks to your campaigns. We test hypotheses rapidly, refine copy for UK intent, and scale winning strategies."
+      "Having our UK operational backbone in Ilford, London and serving clients directly across Manchester means we bring cross-market benchmarks to your campaigns. We test hypotheses rapidly, refine copy for UK intent, and scale winning strategies."
     ],
     "faqs": [
       {
@@ -915,7 +915,7 @@ export const londonPages = [
       },
       {
         "question": "Where is Infynix headquartered in the UK?",
-        "answer": "Our UK office is located at 1-75 Shelton Street, Covent Garden, London, WC2H 9JQ. We conduct strategy sessions in person and remotely for clients throughout Manchester. Contact us at office@infynixsolutions.co.uk."
+        "answer": "Our UK office is located at 68 Endsleigh Gardens, Ilford, London IG1 3EG. We conduct strategy sessions in person and remotely for clients throughout Manchester. Contact us at office@infynixsolutions.co.uk."
       }
     ],
     "related": [
@@ -935,10 +935,10 @@ export const londonPages = [
     "title": "Digital Marketing Agency in Birmingham | Infynix Solutions",
     "description": "Infynix Solutions is a leading digital marketing agency in Birmingham running SEO, Google Ads, Meta ads, automation, and lead generation for UK brands.",
     "h1": "Digital Marketing Agency in Birmingham",
-    "heroSubtitle": "Performance marketing, SEO and automation built as one connected system, run from our Covent Garden HQ for businesses across Birmingham and West Midlands.",
+    "heroSubtitle": "Performance marketing, SEO and automation built as one connected system, run from our Ilford HQ for businesses across Birmingham and West Midlands.",
     "intro": [
       "Most Birmingham businesses do not have a marketing problem. They have a disconnection problem. Ads run in one place, the website sits in another, enquiries land in an unmonitored inbox or CRM, and by the time anyone asks which campaign produced revenue, the trail has gone cold.",
-      "Infynix Solutions operates with strategic direction from 1-75 Shelton Street in Covent Garden, London, and we build the technical plumbing before we launch spend. Tracking, CRM, lead routing and multi-touch attribution go in first. Then campaign budgets go to work, allowing you to trace every lead and sale back to its exact origin.",
+      "Infynix Solutions operates with strategic direction from 68 Endsleigh Gardens in Ilford, London, and we build the technical plumbing before we launch spend. Tracking, CRM, lead routing and multi-touch attribution go in first. Then campaign budgets go to work, allowing you to trace every lead and sale back to its exact origin.",
       "We work with retail and D2C brands, professional services, healthcare clinics, real estate developers, and high-growth B2B firms across Birmingham, from Colmore Row to the wider West Midlands business hubs."
     ],
     "servicesHeading": "Digital Marketing Services We Run in Birmingham",
@@ -971,7 +971,7 @@ export const londonPages = [
     "localHeading": "Why a Birmingham Strategic Marketing Team Matters",
     "localBody": [
       "Birmingham is a fast-paced UK commercial centre where competition for customer attention and search dominance is fierce. A business operating near Colmore Row requires tailored positioning that respects local buying signals, UK regulatory standards (UK GDPR, PECR), and nuanced buyer expectations.",
-      "Having our UK operational backbone at Covent Garden in London and serving clients directly across Birmingham means we bring cross-market benchmarks to your campaigns. We test hypotheses rapidly, refine copy for UK intent, and scale winning strategies."
+      "Having our UK operational backbone in Ilford, London and serving clients directly across Birmingham means we bring cross-market benchmarks to your campaigns. We test hypotheses rapidly, refine copy for UK intent, and scale winning strategies."
     ],
     "faqs": [
       {
@@ -992,7 +992,7 @@ export const londonPages = [
       },
       {
         "question": "Where is Infynix headquartered in the UK?",
-        "answer": "Our UK office is located at 1-75 Shelton Street, Covent Garden, London, WC2H 9JQ. We conduct strategy sessions in person and remotely for clients throughout Birmingham. Contact us at office@infynixsolutions.co.uk."
+        "answer": "Our UK office is located at 68 Endsleigh Gardens, Ilford, London IG1 3EG. We conduct strategy sessions in person and remotely for clients throughout Birmingham. Contact us at office@infynixsolutions.co.uk."
       }
     ],
     "related": [
@@ -1015,7 +1015,7 @@ export const londonPages = [
     "heroSubtitle": "Custom web applications, API integrations, and scalable cloud systems engineered from London for businesses across Birmingham and West Midlands.",
     "intro": [
       "Off-the-shelf software often creates operational bottlenecks rather than solving them. Many growing businesses in Birmingham struggle with fragmented tools, manual data re-entry, and legacy software that cannot keep up with rapid expansion.",
-      "Infynix Solutions designs and engineers bespoke web applications, cloud backends, microservices, and internal tools from our UK base at Covent Garden, London. We focus on maintainable clean code, resilient security, and high performance from day one.",
+      "Infynix Solutions designs and engineers bespoke web applications, cloud backends, microservices, and internal tools from our UK base at Ilford, London. We focus on maintainable clean code, resilient security, and high performance from day one.",
       "Whether you need an enterprise portal, a custom workflow platform, or real-time API integrations, our software engineers partner directly with organisations in Birmingham, across Digbeth and the broader West Midlands."
     ],
     "servicesHeading": "Software Engineering Services We Offer in Birmingham",
@@ -1069,7 +1069,7 @@ export const londonPages = [
       },
       {
         "question": "How can we start a software project with Infynix in Birmingham?",
-        "answer": "You can email our UK team at office@infynixsolutions.co.uk or call our Covent Garden office to schedule an initial technical discovery session."
+        "answer": "You can email our UK team at office@infynixsolutions.co.uk or call our Ilford office to schedule an initial technical discovery session."
       }
     ],
     "related": [
@@ -1092,7 +1092,7 @@ export const londonPages = [
     "heroSubtitle": "Data-driven technical SEO, content strategy, and authority building engineered from London for high-growth brands in Birmingham.",
     "intro": [
       "Ranking on page one of Google in Birmingham requires far more than basic keyword insertion. Search engines demand fast site speeds, impeccable technical architecture, topical authority, and high-quality local trust signals.",
-      "Infynix Solutions delivers comprehensive organic search campaigns managed by our UK team based at Covent Garden. We fix underlying crawl errors, optimize schema markup, and produce expert copy that converts search intent into qualified business enquiries.",
+      "Infynix Solutions delivers comprehensive organic search campaigns managed by our UK team based in Ilford, London. We fix underlying crawl errors, optimize schema markup, and produce expert copy that converts search intent into qualified business enquiries.",
       "From local businesses targeting customers in Jewellery Quarter to national UK brands competing across West Midlands, our SEO campaigns deliver measurable ROI."
     ],
     "servicesHeading": "SEO & Search Growth Services in Birmingham",
@@ -1169,7 +1169,7 @@ export const londonPages = [
     "heroSubtitle": "Stunning design, lightning-fast performance, and conversion-engineered web design created from London for businesses in Birmingham.",
     "intro": [
       "Your website is often the first impression a prospect has of your business in Birmingham. A slow, dated, or confusing site actively pushes potential customers straight into the arms of your competitors.",
-      "Infynix Solutions designs and builds modern, bespoke websites that combine sleek aesthetic design with rapid load speeds and clear conversion pathways. From our UK office in Covent Garden, we craft digital platforms that showcase your brand authority.",
+      "Infynix Solutions designs and builds modern, bespoke websites that combine sleek aesthetic design with rapid load speeds and clear conversion pathways. From our UK office in Ilford, London, we craft digital platforms that showcase your brand authority.",
       "We serve companies throughout Birmingham, including Colmore Business District and across West Midlands, helping brands elevate their digital presence."
     ],
     "servicesHeading": "Web Design & Frontend Development Services in Birmingham",
@@ -1223,7 +1223,7 @@ export const londonPages = [
       },
       {
         "question": "How do we get started?",
-        "answer": "Reach out to our Covent Garden team at office@infynixsolutions.co.uk or request a call to discuss your web design goals."
+        "answer": "Reach out to our Ilford team at office@infynixsolutions.co.uk or request a call to discuss your web design goals."
       }
     ],
     "related": [
@@ -1243,10 +1243,10 @@ export const londonPages = [
     "title": "Digital Marketing Agency in Leeds | Infynix Solutions",
     "description": "Infynix Solutions is a leading digital marketing agency in Leeds running SEO, Google Ads, Meta ads, automation, and lead generation for UK brands.",
     "h1": "Digital Marketing Agency in Leeds",
-    "heroSubtitle": "Performance marketing, SEO and automation built as one connected system, run from our Covent Garden HQ for businesses across Leeds and West Yorkshire.",
+    "heroSubtitle": "Performance marketing, SEO and automation built as one connected system, run from our Ilford HQ for businesses across Leeds and West Yorkshire.",
     "intro": [
       "Most Leeds businesses do not have a marketing problem. They have a disconnection problem. Ads run in one place, the website sits in another, enquiries land in an unmonitored inbox or CRM, and by the time anyone asks which campaign produced revenue, the trail has gone cold.",
-      "Infynix Solutions operates with strategic direction from 1-75 Shelton Street in Covent Garden, London, and we build the technical plumbing before we launch spend. Tracking, CRM, lead routing and multi-touch attribution go in first. Then campaign budgets go to work, allowing you to trace every lead and sale back to its exact origin.",
+      "Infynix Solutions operates with strategic direction from 68 Endsleigh Gardens in Ilford, London, and we build the technical plumbing before we launch spend. Tracking, CRM, lead routing and multi-touch attribution go in first. Then campaign budgets go to work, allowing you to trace every lead and sale back to its exact origin.",
       "We work with retail and D2C brands, professional services, healthcare clinics, real estate developers, and high-growth B2B firms across Leeds, from Wellington Street to the wider West Yorkshire business hubs."
     ],
     "servicesHeading": "Digital Marketing Services We Run in Leeds",
@@ -1279,7 +1279,7 @@ export const londonPages = [
     "localHeading": "Why a Leeds Strategic Marketing Team Matters",
     "localBody": [
       "Leeds is a fast-paced UK commercial centre where competition for customer attention and search dominance is fierce. A business operating near Wellington Street requires tailored positioning that respects local buying signals, UK regulatory standards (UK GDPR, PECR), and nuanced buyer expectations.",
-      "Having our UK operational backbone at Covent Garden in London and serving clients directly across Leeds means we bring cross-market benchmarks to your campaigns. We test hypotheses rapidly, refine copy for UK intent, and scale winning strategies."
+      "Having our UK operational backbone in Ilford, London and serving clients directly across Leeds means we bring cross-market benchmarks to your campaigns. We test hypotheses rapidly, refine copy for UK intent, and scale winning strategies."
     ],
     "faqs": [
       {
@@ -1300,7 +1300,7 @@ export const londonPages = [
       },
       {
         "question": "Where is Infynix headquartered in the UK?",
-        "answer": "Our UK office is located at 1-75 Shelton Street, Covent Garden, London, WC2H 9JQ. We conduct strategy sessions in person and remotely for clients throughout Leeds. Contact us at office@infynixsolutions.co.uk."
+        "answer": "Our UK office is located at 68 Endsleigh Gardens, Ilford, London IG1 3EG. We conduct strategy sessions in person and remotely for clients throughout Leeds. Contact us at office@infynixsolutions.co.uk."
       }
     ],
     "related": [
@@ -1323,7 +1323,7 @@ export const londonPages = [
     "heroSubtitle": "Custom web applications, API integrations, and scalable cloud systems engineered from London for businesses across Leeds and West Yorkshire.",
     "intro": [
       "Off-the-shelf software often creates operational bottlenecks rather than solving them. Many growing businesses in Leeds struggle with fragmented tools, manual data re-entry, and legacy software that cannot keep up with rapid expansion.",
-      "Infynix Solutions designs and engineers bespoke web applications, cloud backends, microservices, and internal tools from our UK base at Covent Garden, London. We focus on maintainable clean code, resilient security, and high performance from day one.",
+      "Infynix Solutions designs and engineers bespoke web applications, cloud backends, microservices, and internal tools from our UK base at Ilford, London. We focus on maintainable clean code, resilient security, and high performance from day one.",
       "Whether you need an enterprise portal, a custom workflow platform, or real-time API integrations, our software engineers partner directly with organisations in Leeds, across Tech Hub and the broader West Yorkshire."
     ],
     "servicesHeading": "Software Engineering Services We Offer in Leeds",
@@ -1377,7 +1377,7 @@ export const londonPages = [
       },
       {
         "question": "How can we start a software project with Infynix in Leeds?",
-        "answer": "You can email our UK team at office@infynixsolutions.co.uk or call our Covent Garden office to schedule an initial technical discovery session."
+        "answer": "You can email our UK team at office@infynixsolutions.co.uk or call our Ilford office to schedule an initial technical discovery session."
       }
     ],
     "related": [
@@ -1400,7 +1400,7 @@ export const londonPages = [
     "heroSubtitle": "Data-driven technical SEO, content strategy, and authority building engineered from London for high-growth brands in Leeds.",
     "intro": [
       "Ranking on page one of Google in Leeds requires far more than basic keyword insertion. Search engines demand fast site speeds, impeccable technical architecture, topical authority, and high-quality local trust signals.",
-      "Infynix Solutions delivers comprehensive organic search campaigns managed by our UK team based at Covent Garden. We fix underlying crawl errors, optimize schema markup, and produce expert copy that converts search intent into qualified business enquiries.",
+      "Infynix Solutions delivers comprehensive organic search campaigns managed by our UK team based in Ilford, London. We fix underlying crawl errors, optimize schema markup, and produce expert copy that converts search intent into qualified business enquiries.",
       "From local businesses targeting customers in City Centre to national UK brands competing across West Yorkshire, our SEO campaigns deliver measurable ROI."
     ],
     "servicesHeading": "SEO & Search Growth Services in Leeds",
@@ -1477,7 +1477,7 @@ export const londonPages = [
     "heroSubtitle": "Stunning design, lightning-fast performance, and conversion-engineered web design created from London for businesses in Leeds.",
     "intro": [
       "Your website is often the first impression a prospect has of your business in Leeds. A slow, dated, or confusing site actively pushes potential customers straight into the arms of your competitors.",
-      "Infynix Solutions designs and builds modern, bespoke websites that combine sleek aesthetic design with rapid load speeds and clear conversion pathways. From our UK office in Covent Garden, we craft digital platforms that showcase your brand authority.",
+      "Infynix Solutions designs and builds modern, bespoke websites that combine sleek aesthetic design with rapid load speeds and clear conversion pathways. From our UK office in Ilford, London, we craft digital platforms that showcase your brand authority.",
       "We serve companies throughout Leeds, including South Bank and across West Yorkshire, helping brands elevate their digital presence."
     ],
     "servicesHeading": "Web Design & Frontend Development Services in Leeds",
@@ -1531,7 +1531,7 @@ export const londonPages = [
       },
       {
         "question": "How do we get started?",
-        "answer": "Reach out to our Covent Garden team at office@infynixsolutions.co.uk or request a call to discuss your web design goals."
+        "answer": "Reach out to our Ilford team at office@infynixsolutions.co.uk or request a call to discuss your web design goals."
       }
     ],
     "related": [
