@@ -118,7 +118,7 @@ const GrowthEngineering = () => {
     '@context': 'https://schema.org',
     '@type': 'Service',
     'name': 'Growth Engineering Agency London',
-    'provider': { '@type': 'Organization', 'name': 'Infynix Solutions', 'url': 'https://www.infynix-solutions.com' },
+    'provider': { '@type': 'Organization', 'name': 'Infynix Solutions', 'url': 'https://www.infynixsolutions.co.uk' },
     'description': 'Infynix is a growth engineering agency serving London and the UK — web development, AI automation, CRM integration and performance marketing.',
     'serviceType': 'Growth Engineering',
   };
@@ -126,9 +126,9 @@ const GrowthEngineering = () => {
   return (
     <>
       <SEOManager
-        title="Growth Engineering Agency London | Infynix Solutions"
-        description="Infynix is a growth engineering agency serving London and the UK — web development, AI automation, CRM integration and performance marketing."
-        canonicalUrl="https://www.infynix-solutions.com/growth-engineering"
+        title="What Growth Engineering Means | Infynix Solutions UK"
+        description="The Growth Engineering method explained: how Infynix connects search, paid media, software and automation into one system for UK businesses."
+        canonicalUrl="/growth-engineering"
         schemaData={schema}
       />
 
