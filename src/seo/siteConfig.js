@@ -59,7 +59,7 @@ export const BUSINESS = {
 // The Google Business Profile. Exported separately because it is also used as
 // the LocalBusiness hasMap value and linked from the site, not just listed in
 // sameAs. Reviews left here are the strongest local ranking signal available.
-export const GOOGLE_BUSINESS_PROFILE = 'https://share.google/ey1Jfvouw3GLkRGzF';
+export const GOOGLE_BUSINESS_PROFILE = 'https://share.google/nr3IR1BycI55dDqUs';
 
 export const SOCIAL_PROFILES = [
   'https://www.linkedin.com/company/infynix-solutions',

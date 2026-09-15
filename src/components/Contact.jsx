@@ -23,21 +23,21 @@ const offices = [
         label: "UK Headquarters",
         desc: "1-75 Shelton St, London, WC2H 9JQ. Our global executive headquarters directing international operations, technology consulting, and enterprise client strategy across European and American regions.",
         image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=900&q=80",
-        mapUrl: "https://maps.google.com/?q=1-75+Shelton+St,+London,+WC2H+9JQ"
+        mapUrl: "https://share.google/nr3IR1BycI55dDqUs"
     },
     {
         city: "UAE",
         label: "UAE Office (Ajman)",
         desc: "C1 Building - Office C1 1F-SF6540, Free Zone, Al Butain, Ajman, United Arab Emirates. Tel: +971 54 257 5702. Our strategic regional office managing partnerships, cloud growth projects, and AI system installations across the Middle East and GCC countries.",
         image: officeImage,
-        mapUrl: "https://maps.google.com/?q=C1+Building+Office+C1+1F+SF6540+Free+Zone+Al+Butain+Ajman+United+Arab+Emirates"
+        mapUrl: "https://share.google/GeaxRIc5dl6JKegOr"
     },
     {
         city: "Kochi",
         label: "Kerala Office",
         desc: "3rd Floor, Oberon Mall, Padivattom, Edappally, Kochi, Ernakulam, Kerala 682024. Tel: +91 99959 11173. Our core engineering powerhouse and development centre delivering robust backend growth architecture.",
         image: kochiImage,
-        mapUrl: "https://share.google/KX27eRrKxncrDFibN"
+        mapUrl: "https://share.google/de6rHeKgl4nC3riaW"
     },
 ];
 
