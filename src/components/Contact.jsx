@@ -21,9 +21,9 @@ const offices = [
     {
         city: "London",
         label: "UK Headquarters",
-        desc: "1-75 Shelton St, London, WC2H 9JQ. Our global executive headquarters directing international operations, technology consulting, and enterprise client strategy across European and American regions.",
+        desc: "68 Endsleigh Gardens, Ilford IG1 3EG, United Kingdom. Our global executive headquarters directing international operations, technology consulting, and enterprise client strategy across European and American regions.",
         image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=900&q=80",
-        mapUrl: "https://maps.google.com/?q=1-75+Shelton+St,+London,+WC2H+9JQ"
+        mapUrl: "https://maps.google.com/?q=68+Endsleigh+Gardens,+Ilford+IG1+3EG,+United+Kingdom"
     },
     {
         city: "UAE",
@@ -201,6 +201,39 @@ export default function Contact() {
                                 <a href="#" className="sidebar-careers-btn">
                                     Careers <ArrowIcon />
                                 </a>
+                            </div>
+                            <div className="sidebar-divider" />
+                            <div className="sidebar-query-block">
+                                <p className="sidebar-query-title">Follow Us</p>
+                                <div className="contact-socials" style={{ display: 'flex', gap: '10px', marginTop: '10px' }}>
+                                    <a
+                                        href="https://www.linkedin.com/company/infynix-solutionglobal/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Infynix Solutions LinkedIn"
+                                        className="contact-social-btn"
+                                    >
+                                        <i className="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                    <a
+                                        href="https://www.instagram.com/infynix_growth_solutions/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Infynix Solutions Instagram"
+                                        className="contact-social-btn"
+                                    >
+                                        <i className="fa-brands fa-instagram"></i>
+                                    </a>
+                                    <a
+                                        href="https://www.facebook.com/people/Infynix-Solutions/61584250757142/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Infynix Solutions Facebook"
+                                        className="contact-social-btn"
+                                    >
+                                        <i className="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
 

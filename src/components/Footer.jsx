@@ -26,12 +26,12 @@ const Footer = () => {
           </div>
 
           <div className="footer-location-card">
-            <a href="https://maps.google.com/?q=1-75+Shelton+St,+London,+WC2H+9JQ" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <a href="https://maps.google.com/?q=68+Endsleigh+Gardens,+Ilford+IG1+3EG,+United+Kingdom" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
               <img loading="lazy" decoding="async" src={ukLImage} alt="UK London Office" className="footer-location-svg" />
               <div className="footer-location-title">UK - LONDON ↗</div>
               <div className="footer-location-addr">
-                1-75 Shelton St,<br />
-                London, WC2H 9JQ
+                68 Endsleigh Gardens,<br />
+                Ilford IG1 3EG, United Kingdom
               </div>
             </a>
           </div>
@@ -155,7 +155,33 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom" style={{ borderTop: '1px solid rgba(204, 191, 191, 0.28)', marginTop: '40px', paddingTop: '30px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '20px' }}>
-          <p style={{ fontSize: '0.8rem', color: '#ffffff' }}>© 2026 Infynix Solutions. All Rights Reserved.</p>
+          <p style={{ fontSize: '0.8rem', color: '#ffffff', margin: 0 }}>© 2026 Infynix Solutions. All Rights Reserved.</p>
+          <div className="footer-socials">
+            <a
+              href="https://www.linkedin.com/company/infynix-solutionglobal/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Infynix Solutions LinkedIn"
+            >
+              <i className="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/infynix_growth_solutions/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Infynix Solutions Instagram"
+            >
+              <i className="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/people/Infynix-Solutions/61584250757142/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Infynix Solutions Facebook"
+            >
+              <i className="fa-brands fa-facebook-f"></i>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
