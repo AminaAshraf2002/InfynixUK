@@ -143,7 +143,7 @@ const GrowthEngineering = () => {
     <>
       <SEOManager
         title="Growth Engineering Company | Infynix"
-        description="Businesses don't struggle because they lack ambition. They struggle because technology, marketing, operations and data operate independently. Infynix engineers these into one system."
+        description="Businesses don't struggle because they lack ambition. They struggle because technology, marketing, operations and data operate independently."
         canonicalUrl="https://www.infynix-solutions.com/growth-engineering"
         schemaData={schema}
       />

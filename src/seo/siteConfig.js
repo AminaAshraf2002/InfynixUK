@@ -13,7 +13,7 @@ export const DEFAULT_TITLE =
   'Growth Engineering Agency London | Infynix Solutions';
 
 export const DEFAULT_DESCRIPTION =
-  'Infynix is a growth engineering agency serving London and the UK — web development, AI automation, CRM integration and performance marketing.';
+  'Infynix is a growth engineering agency serving London and the UK, web development, AI automation, CRM integration and performance marketing.';
 
 export const DEFAULT_OG_IMAGE = `${SITE_URL}/logo.png`;
 

@@ -205,7 +205,7 @@ export const industriesData = {
   'healthcare': {
     name: 'Healthcare',
     heroTitle: 'Healthcare Growth & Automation Systems UK',
-    challenge: 'Healthcare teams struggle with paper forms, manual scheduling, and disconnected records — supporting UK healthcare providers and private clinics with compliant, automated systems.',
+    challenge: 'Healthcare teams struggle with paper forms, manual scheduling, and disconnected records, supporting UK healthcare providers and private clinics with compliant, automated systems.',
     opportunity: 'Automate intake, deploy secure patient portals, and streamline daily scheduling for UK clinics.',
     solutions: ['Patient portals, automated appointment reminders, and secure data storage.'],
     faqs: [
@@ -220,7 +220,7 @@ export const industriesData = {
   'education': {
     name: 'Education',
     heroTitle: 'Education Technology & Student Portals UK',
-    challenge: 'Outdated platforms make student registration frustrating — built for UK academies, colleges, and EdTech providers.',
+    challenge: 'Outdated platforms make student registration frustrating, built for UK academies, colleges, and EdTech providers.',
     opportunity: 'Modernize learning with fast student portals, online enrollment, and clear dashboards.',
     solutions: ['Custom LMS setups, online registration tools, and student portals.'],
     faqs: [
@@ -235,7 +235,7 @@ export const industriesData = {
   'real-estate': {
     name: 'Real Estate',
     heroTitle: 'Real Estate Portals & Lead Systems UK',
-    challenge: 'Slow property listing sites lose buyers — tailored real estate software solutions for UK property agencies and developers.',
+    challenge: 'Slow property listing sites lose buyers, tailored real estate software solutions for UK property agencies and developers.',
     opportunity: 'Engage home buyers with fast property search, interactive maps, and automated lead routing.',
     solutions: ['Fast property listing engines, interactive map search, and CRM lead capture.'],
     faqs: [
@@ -250,7 +250,7 @@ export const industriesData = {
   'retail': {
     name: 'Retail & Commerce',
     heroTitle: 'Retail & E-Commerce Web Platforms UK',
-    challenge: 'Slow checkout pages cause cart abandonment — retail ecommerce software solutions for UK retailers unifying inventory, customers, and channels.',
+    challenge: 'Slow checkout pages cause cart abandonment, retail ecommerce software solutions for UK retailers unifying inventory, customers, and channels.',
     opportunity: 'Increase online sales with fast mobile checkout, smart product recommendations, and simple carts.',
     solutions: ['Fast online stores, cart recovery tools, and sales reporting.'],
     faqs: [

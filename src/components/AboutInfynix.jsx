@@ -45,7 +45,7 @@ const AboutInfynix = () => {
           </h2>
           
           <p className="about-paragraph">
-            We build high-speed web apps, search architecture, targeted paid campaigns, and AI vision systems for UK businesses. No filler, no disconnected tools — just solid engineering designed to get results.
+            We build high-speed web apps, search architecture, targeted paid campaigns, and AI vision systems for UK businesses. No filler, no disconnected tools, just solid engineering designed to get results.
           </p>
 
           <div className="about-buttons">

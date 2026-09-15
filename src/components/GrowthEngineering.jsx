@@ -47,7 +47,7 @@ const GrowthEngineering = () => {
       title: "Search Infrastructure",
       mockupIcon: "fa-solid fa-magnifying-glass",
       capability: "Search Infrastructure & Web Development",
-      details: "Built by our web development team using React and modern frameworks — fast, pre-rendered sites engineered to perform in competitive UK search results.",
+      details: "Built by our web development team using React and modern frameworks, fast, pre-rendered sites engineered to perform in competitive UK search results.",
       heading: "Turn search engines into your primary driver of commercial growth across the UK."
     },
     {
@@ -68,14 +68,14 @@ const GrowthEngineering = () => {
       title: "Infynix Development",
       mockupIcon: "fa-solid fa-code",
       capability: "Custom Software & CRM Integration",
-      details: "AI-native software for UK businesses, built to run everything above it in the stack — including HubSpot, Salesforce, and Zoho CRM integration.",
+      details: "AI-native software for UK businesses, built to run everything above it in the stack, including HubSpot, Salesforce, and Zoho CRM integration.",
       heading: "Bespoke web applications and CRM integrations built for UK operational needs."
     },
     {
       title: "AI Automation",
       mockupIcon: "fa-solid fa-robot",
       capability: "AI Automation & Computer Vision",
-      details: "AI automation agency UK solutions — custom workflow pipelines, automated client intake, and real-time computer vision security models.",
+      details: "AI automation agency UK solutions, custom workflow pipelines, automated client intake, and real-time computer vision security models.",
       heading: "Automate complex manual workflows and scale without linear headcount costs."
     }
   ];
@@ -119,7 +119,7 @@ const GrowthEngineering = () => {
     '@type': 'Service',
     'name': 'Growth Engineering Agency London',
     'provider': { '@type': 'Organization', 'name': 'Infynix Solutions', 'url': 'https://www.infynixsolutions.co.uk' },
-    'description': 'Infynix is a growth engineering agency serving London and the UK — web development, AI automation, CRM integration and performance marketing.',
+    'description': 'Infynix is a growth engineering agency serving London and the UK, web development, AI automation, CRM integration and performance marketing.',
     'serviceType': 'Growth Engineering',
   };
 
@@ -173,7 +173,7 @@ const GrowthEngineering = () => {
             </h1>
 
             <p className="ge-hero-p" style={{ fontFamily: "var(--ix-font-body)", fontSize: "1.1rem", color: "#555", lineHeight: 1.6, marginTop: "1rem" }}>
-              Software, AI vision, and retail growth systems — built for companies scaling across the UK.
+              Software, AI vision, and retail growth systems, built for companies scaling across the UK.
             </p>
           </div>
 

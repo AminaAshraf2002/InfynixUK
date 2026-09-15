@@ -1523,7 +1523,7 @@ section[style*="var(--ix-primary)"]::after,
   justify-content: center;
 }
 
-/* Slow oscillating slide — drifts one direction, then smoothly returns */
+/* Slow oscillating slide, drifts one direction, then smoothly returns */
 .left-scroll .marquee-track {
   animation: oscillate-left 8s ease-in-out infinite;
 }
@@ -2107,7 +2107,7 @@ section[style*="var(--ix-primary)"]::after,
   border-top: 1px solid rgba(255,255,255,0.08);
 }
 
-/* Nav grid — 4 columns desktop, collapses on mobile */
+/* Nav grid, 4 columns desktop, collapses on mobile */
 .footer-nav-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -2154,7 +2154,7 @@ section[style*="var(--ix-primary)"]::after,
 }
 
 /* ════════════════════════════════════════════
-   FOOTER — MOBILE RESPONSIVE
+   FOOTER, MOBILE RESPONSIVE
    ════════════════════════════════════════════ */
 @media (max-width: 900px) {
   .footer-locations-grid {
@@ -2169,7 +2169,7 @@ section[style*="var(--ix-primary)"]::after,
 }
 
 @media (max-width: 600px) {
-  /* Outer padding — tighter on mobile */
+  /* Outer padding, tighter on mobile */
   .premium-footer.spec-footer {
     padding: 32px 20px 32px !important;
   }
@@ -2608,9 +2608,9 @@ section[style*="var(--ix-primary)"]::after,
 }
 
 /* ══════════════════════════════════════════════════════
-   FULL RESPONSIVE CSS — ALL BREAKPOINTS
-   xs  < 480px   | sm  480–639px | md  640–767px
-   lg  768–1023px | xl  1024–1279px | 2xl 1280–1535px
+   FULL RESPONSIVE CSS, ALL BREAKPOINTS
+   xs  < 480px   | sm  480-639px | md  640-767px
+   lg  768-1023px | xl  1024-1279px | 2xl 1280-1535px
    3xl 1536px+
 ══════════════════════════════════════════════════════ */
 
@@ -2717,7 +2717,7 @@ section[style*="var(--ix-primary)"]::after,
   }
 }
 
-/* ─── 2XL / LARGE DESKTOP (1280–1535px) ─── */
+/* ─── 2XL / LARGE DESKTOP (1280-1535px) ─── */
 @media (min-width: 1280px) and (max-width: 1535px) {
   nav {
     max-width: 960px;
@@ -2782,7 +2782,7 @@ section[style*="var(--ix-primary)"]::after,
   }
 }
 
-/* ─── XL / STANDARD DESKTOP (1024–1279px) ─── */
+/* ─── XL / STANDARD DESKTOP (1024-1279px) ─── */
 @media (min-width: 1024px) and (max-width: 1279px) {
   nav {
     max-width: 860px;
@@ -2810,7 +2810,7 @@ section[style*="var(--ix-primary)"]::after,
     max-width: 900px;
   }
 
-  /* Initiatives — keep 2-col but add overflow protection */
+  /* Initiatives, keep 2-col but add overflow protection */
   .initiatives-inner {
     max-width: 980px;
     gap: 3.5rem;
@@ -2883,7 +2883,7 @@ section[style*="var(--ix-primary)"]::after,
   }
 }
 
-/* ─── LG / TABLET LANDSCAPE (768–1023px) ─── */
+/* ─── LG / TABLET LANDSCAPE (768-1023px) ─── */
 @media (min-width: 768px) and (max-width: 1023px) {
   nav {
     width: calc(100% - 48px);
@@ -3149,7 +3149,7 @@ section[style*="var(--ix-primary)"]::after,
   }
 }
 
-/* ─── MD / TABLET PORTRAIT (640–767px) ─── */
+/* ─── MD / TABLET PORTRAIT (640-767px) ─── */
 @media (min-width: 640px) and (max-width: 767px) {
   .site-header {
     width: calc(100% - 32px);
@@ -3456,7 +3456,7 @@ section[style*="var(--ix-primary)"]::after,
   }
 }
 
-/* ─── SM / LARGE MOBILE (480–639px) ─── */
+/* ─── SM / LARGE MOBILE (480-639px) ─── */
 @media (min-width: 480px) and (max-width: 639px) {
   .site-header {
     width: calc(100% - 24px);

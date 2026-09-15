@@ -45,7 +45,7 @@ function HeroSection({ data }) {
           </h1>
 
           <p style={{ color: '#ccc', fontSize: '1.08rem', marginTop: '0.8rem', marginBottom: '2.2rem', maxWidth: '560px', lineHeight: 1.5, fontFamily: 'var(--ix-font-body)' }}>
-            Software, AI vision, and retail growth systems — built for companies scaling across the UK.
+            Software, AI vision, and retail growth systems, built for companies scaling across the UK.
           </p>
 
           <div className="hero-actions">

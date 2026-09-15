@@ -132,7 +132,7 @@ const Footer = () => {
                 rel="noopener"
                 style={{ display: 'flex', alignItems: 'center', gap: '6px' }}
               >
-                🇬🇧 UK — infynixsolutions.co.uk
+                🇬🇧 UK, infynixsolutions.co.uk
               </a>
               <a
                 href="https://www.infynixsolutions.ae"
@@ -140,7 +140,7 @@ const Footer = () => {
                 rel="noopener"
                 style={{ display: 'flex', alignItems: 'center', gap: '6px' }}
               >
-                🇦🇪 UAE — infynixsolutions.ae
+                🇦🇪 UAE, infynixsolutions.ae
               </a>
               <a
                 href="https://www.infynix-solutions.com"
@@ -148,7 +148,7 @@ const Footer = () => {
                 rel="noopener"
                 style={{ display: 'flex', alignItems: 'center', gap: '6px' }}
               >
-                🇮🇳 India — infynix-solutions.com
+                🇮🇳 India, infynix-solutions.com
               </a>
             </div>
           </div>
