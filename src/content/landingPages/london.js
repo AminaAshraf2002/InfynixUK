@@ -68,7 +68,7 @@ export const londonPages = [
       },
       {
         "question": "Where is Infynix headquartered in the UK?",
-        "answer": "Our UK office is located at 1-75 Shelton Street, Covent Garden, London, WC2H 9JQ. We conduct strategy sessions in person and remotely for clients throughout London. Contact us at office@infynixsolution.co.uk."
+        "answer": "Our UK office is located at 1-75 Shelton Street, Covent Garden, London, WC2H 9JQ. We conduct strategy sessions in person and remotely for clients throughout London. Contact us at office@infynixsolutions.co.uk."
       }
     ],
     "related": [
@@ -145,7 +145,7 @@ export const londonPages = [
       },
       {
         "question": "How can we start a software project with Infynix in London?",
-        "answer": "You can email our UK team at office@infynixsolution.co.uk or call our Covent Garden office to schedule an initial technical discovery session."
+        "answer": "You can email our UK team at office@infynixsolutions.co.uk or call our Covent Garden office to schedule an initial technical discovery session."
       }
     ],
     "related": [
@@ -299,7 +299,7 @@ export const londonPages = [
       },
       {
         "question": "How do we get started?",
-        "answer": "Reach out to our Covent Garden team at office@infynixsolution.co.uk or request a call to discuss your web design goals."
+        "answer": "Reach out to our Covent Garden team at office@infynixsolutions.co.uk or request a call to discuss your web design goals."
       }
     ],
     "related": [
@@ -376,7 +376,7 @@ export const londonPages = [
       },
       {
         "question": "How do we contact the team?",
-        "answer": "Email us at office@infynixsolution.co.uk or visit our UK office at 1-75 Shelton Street, Covent Garden, London."
+        "answer": "Email us at office@infynixsolutions.co.uk or visit our UK office at 1-75 Shelton Street, Covent Garden, London."
       }
     ],
     "related": [
@@ -453,7 +453,7 @@ export const londonPages = [
       },
       {
         "question": "How do we start our store project?",
-        "answer": "Contact our UK team at office@infynixsolution.co.uk or call our London Covent Garden office."
+        "answer": "Contact our UK team at office@infynixsolutions.co.uk or call our London Covent Garden office."
       }
     ],
     "related": [
@@ -530,7 +530,7 @@ export const londonPages = [
       },
       {
         "question": "How do we reach out?",
-        "answer": "Get in touch with our Covent Garden office at office@infynixsolution.co.uk."
+        "answer": "Get in touch with our Covent Garden office at office@infynixsolutions.co.uk."
       }
     ],
     "related": [
@@ -607,7 +607,7 @@ export const londonPages = [
       },
       {
         "question": "Where is Infynix headquartered in the UK?",
-        "answer": "Our UK office is located at 1-75 Shelton Street, Covent Garden, London, WC2H 9JQ. We conduct strategy sessions in person and remotely for clients throughout Manchester. Contact us at office@infynixsolution.co.uk."
+        "answer": "Our UK office is located at 1-75 Shelton Street, Covent Garden, London, WC2H 9JQ. We conduct strategy sessions in person and remotely for clients throughout Manchester. Contact us at office@infynixsolutions.co.uk."
       }
     ],
     "related": [
@@ -684,7 +684,7 @@ export const londonPages = [
       },
       {
         "question": "How can we start a software project with Infynix in Manchester?",
-        "answer": "You can email our UK team at office@infynixsolution.co.uk or call our Covent Garden office to schedule an initial technical discovery session."
+        "answer": "You can email our UK team at office@infynixsolutions.co.uk or call our Covent Garden office to schedule an initial technical discovery session."
       }
     ],
     "related": [
@@ -838,7 +838,7 @@ export const londonPages = [
       },
       {
         "question": "How do we get started?",
-        "answer": "Reach out to our Covent Garden team at office@infynixsolution.co.uk or request a call to discuss your web design goals."
+        "answer": "Reach out to our Covent Garden team at office@infynixsolutions.co.uk or request a call to discuss your web design goals."
       }
     ],
     "related": [
@@ -915,7 +915,7 @@ export const londonPages = [
       },
       {
         "question": "Where is Infynix headquartered in the UK?",
-        "answer": "Our UK office is located at 1-75 Shelton Street, Covent Garden, London, WC2H 9JQ. We conduct strategy sessions in person and remotely for clients throughout Manchester. Contact us at office@infynixsolution.co.uk."
+        "answer": "Our UK office is located at 1-75 Shelton Street, Covent Garden, London, WC2H 9JQ. We conduct strategy sessions in person and remotely for clients throughout Manchester. Contact us at office@infynixsolutions.co.uk."
       }
     ],
     "related": [
@@ -992,7 +992,7 @@ export const londonPages = [
       },
       {
         "question": "Where is Infynix headquartered in the UK?",
-        "answer": "Our UK office is located at 1-75 Shelton Street, Covent Garden, London, WC2H 9JQ. We conduct strategy sessions in person and remotely for clients throughout Birmingham. Contact us at office@infynixsolution.co.uk."
+        "answer": "Our UK office is located at 1-75 Shelton Street, Covent Garden, London, WC2H 9JQ. We conduct strategy sessions in person and remotely for clients throughout Birmingham. Contact us at office@infynixsolutions.co.uk."
       }
     ],
     "related": [
@@ -1069,7 +1069,7 @@ export const londonPages = [
       },
       {
         "question": "How can we start a software project with Infynix in Birmingham?",
-        "answer": "You can email our UK team at office@infynixsolution.co.uk or call our Covent Garden office to schedule an initial technical discovery session."
+        "answer": "You can email our UK team at office@infynixsolutions.co.uk or call our Covent Garden office to schedule an initial technical discovery session."
       }
     ],
     "related": [
@@ -1223,7 +1223,7 @@ export const londonPages = [
       },
       {
         "question": "How do we get started?",
-        "answer": "Reach out to our Covent Garden team at office@infynixsolution.co.uk or request a call to discuss your web design goals."
+        "answer": "Reach out to our Covent Garden team at office@infynixsolutions.co.uk or request a call to discuss your web design goals."
       }
     ],
     "related": [
@@ -1300,7 +1300,7 @@ export const londonPages = [
       },
       {
         "question": "Where is Infynix headquartered in the UK?",
-        "answer": "Our UK office is located at 1-75 Shelton Street, Covent Garden, London, WC2H 9JQ. We conduct strategy sessions in person and remotely for clients throughout Leeds. Contact us at office@infynixsolution.co.uk."
+        "answer": "Our UK office is located at 1-75 Shelton Street, Covent Garden, London, WC2H 9JQ. We conduct strategy sessions in person and remotely for clients throughout Leeds. Contact us at office@infynixsolutions.co.uk."
       }
     ],
     "related": [
@@ -1377,7 +1377,7 @@ export const londonPages = [
       },
       {
         "question": "How can we start a software project with Infynix in Leeds?",
-        "answer": "You can email our UK team at office@infynixsolution.co.uk or call our Covent Garden office to schedule an initial technical discovery session."
+        "answer": "You can email our UK team at office@infynixsolutions.co.uk or call our Covent Garden office to schedule an initial technical discovery session."
       }
     ],
     "related": [
@@ -1531,7 +1531,7 @@ export const londonPages = [
       },
       {
         "question": "How do we get started?",
-        "answer": "Reach out to our Covent Garden team at office@infynixsolution.co.uk or request a call to discuss your web design goals."
+        "answer": "Reach out to our Covent Garden team at office@infynixsolutions.co.uk or request a call to discuss your web design goals."
       }
     ],
     "related": [

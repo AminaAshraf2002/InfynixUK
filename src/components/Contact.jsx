@@ -66,7 +66,7 @@ export default function Contact() {
         <div className="contact-page">
             <Seo
                 title="Contact Infynix Solutions | Offices in London, UAE & Kochi"
-                description="Talk to Infynix Solutions about digital marketing, software development or AI automation. UAE: +971 54 257 5702, India: +91 99959 11173, UK: +44 7436 670553. Email: office@infynixsolution.co.uk."
+                description="Talk to Infynix Solutions about digital marketing, software development or AI automation. UAE: +971 54 257 5702, India: +91 99959 11173, UK: +44 7436 670553. Email: office@infynixsolutions.co.uk."
                 path="/contact"
                 schema={[
                     organizationSchema(),
@@ -176,7 +176,7 @@ export default function Contact() {
                         <div className="sidebar-card">
                             <div className="sidebar-query-block">
                                 <p className="sidebar-query-title">Sales &amp; Partnerships</p>
-                                <a href="mailto:office@infynixsolution.co.uk" className="sidebar-query-val">office@infynixsolution.co.uk</a>
+                                <a href="mailto:office@infynixsolutions.co.uk" className="sidebar-query-val">office@infynixsolutions.co.uk</a>
                             </div>
                             <div className="sidebar-divider" />
                             <div className="sidebar-query-block">
@@ -197,7 +197,7 @@ export default function Contact() {
                             <div className="sidebar-divider" />
                             <div className="sidebar-query-block">
                                 <p className="sidebar-query-title">General Queries &amp; Support</p>
-                                <a href="mailto:office@infynixsolution.co.uk" className="sidebar-query-val">office@infynixsolution.co.uk</a>
+                                <a href="mailto:office@infynixsolutions.co.uk" className="sidebar-query-val">office@infynixsolutions.co.uk</a>
                                 <a href="#" className="sidebar-careers-btn">
                                     Careers <ArrowIcon />
                                 </a>

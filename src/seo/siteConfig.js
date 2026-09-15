@@ -21,7 +21,7 @@ export const DEFAULT_OG_IMAGE = `${SITE_URL}/logo.png`;
 // Profile and every external citation, inconsistent NAP suppresses local ranking.
 export const BUSINESS = {
   legalName: 'Infynix Solutions',
-  email: 'office@infynixsolution.co.uk',
+  email: 'office@infynixsolutions.co.uk',
   telephone: '+44 7436 670553',
   uaeTelephone: '+971 54 257 5702',
   indiaTelephone: '+91 99959 11173',
