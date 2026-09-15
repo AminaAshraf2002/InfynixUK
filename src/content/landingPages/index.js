@@ -8,8 +8,10 @@
 // hreflang cannot fix that, because those pages are duplicates rather than
 // locale equivalents. India pages belong on the India domain.
 import { londonPages } from './london.js';
+// Deep post-production page, built to the depth the ranking field carries.
+import { postProductionPages } from './post-production.js';
 
-export const landingPages = [...londonPages];
+export const landingPages = [...londonPages, ...postProductionPages];
 
 export const landingPageBySlug = Object.fromEntries(
   landingPages.map((page) => [page.slug, page])
