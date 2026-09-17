@@ -199,7 +199,7 @@ export const londonPages = [
     ],
 
     faqs: [
-      { question: "How much does digital marketing cost in London?", answer: "Retainers for London businesses typically run from £1,500 to £3,500 per month for a focused scope, rising with the number of channels, sectors and the amount of creative production involved. Ad spend is separate and paid directly to the platforms. We scope from your target cost per acquisition rather than a fixed package, and we will say if the budget is too small to produce a usable signal." },
+      { question: "How much does digital marketing cost in London?", answer: "Ad spend is separate and paid directly to the platforms. We scope from your target cost per acquisition rather than a fixed package, and we will say if the budget is too small to produce a usable signal." },
       { question: "How long before we see results from SEO in London?", answer: "Local search and map pack improvements usually appear within 8 to 12 weeks of the technical fixes, Business Profile work and citation cleanup. Competitive London-wide terms need 6 to 12 months of consistent content and authority building. Paid search produces enquiries in the first fortnight, which is why most clients run both." },
       { question: "Do you handle UK GDPR and PECR compliance for tracking and email?", answer: "Yes. Consent management, cookie handling, server-side tagging with consent mode, and email and SMS marketing consent are configured to UK GDPR and PECR as part of the foundations, so measurement works without putting the business at risk." },
       { question: "Can you connect campaigns to our existing CRM?", answer: "Yes. We regularly wire Google, Meta and LinkedIn lead flows into HubSpot, Zoho, Salesforce, Pipedrive and custom systems, with source and campaign data carried through so revenue reporting works end to end." },
@@ -268,16 +268,16 @@ export const londonPages = [
       { name: "Full handover", desc: "Source code, infrastructure, documentation and credentials in your name. You are never locked to us." },
     ],
 
-    specsHeading: "Typical scope, timeline and investment",
-    specsColumns: ["Engagement", "Typical timeline", "Indicative investment"],
+    specsHeading: "Typical scope and timeline",
+    specsColumns: ["Engagement", "Typical timeline"],
     specs: [
-      ["Discovery and technical specification", "2 to 3 weeks", "£3,000 to £8,000"],
-      ["Focused web tool or integration", "4 to 8 weeks", "£8,000 to £20,000"],
-      ["MVP web or mobile application", "8 to 12 weeks", "£20,000 to £45,000"],
-      ["Odoo or business system implementation", "10 to 20 weeks", "£15,000 to £60,000"],
-      ["CRM implementation and integration", "4 to 10 weeks", "£6,000 to £25,000"],
-      ["Enterprise platform", "4 to 8 months", "£60,000 and above, scoped individually"],
-      ["Support and maintenance", "Monthly", "From £900 per month"],
+      ["Discovery and technical specification", "2 to 3 weeks"],
+      ["Focused web tool or integration", "4 to 8 weeks"],
+      ["MVP web or mobile application", "8 to 12 weeks"],
+      ["Odoo or business system implementation", "10 to 20 weeks"],
+      ["CRM implementation and integration", "4 to 10 weeks"],
+      ["Enterprise platform", "4 to 8 months"],
+      ["Support and maintenance", "Monthly"],
     ],
 
     useCasesHeading: "Systems we build most often in London",
@@ -425,7 +425,7 @@ export const londonPages = [
     ],
 
     faqs: [
-      { question: "How much does custom software development cost in London?", answer: "Focused tools and integrations run from £8,000. MVPs and single-purpose applications run £20,000 to £45,000. Business system and CRM implementations sit between £6,000 and £60,000 depending on modules and migration. Enterprise platforms run from £60,000 and are scoped individually. Every project is scoped from a paid discovery so the estimate reflects your requirements rather than a package." },
+      { question: "How much does custom software development cost in London?", answer: "Scope drives the number, so the honest answer comes after a short discovery rather than before it. What we commit to in advance is that the quote is fixed for the agreed scope, that there are no surprise extras, and that we tell you when a cheaper route would serve you better." },
       { question: "How long does a typical software project take?", answer: "A focused tool takes 4 to 8 weeks. An MVP takes 8 to 12 weeks. A business system implementation runs 10 to 20 weeks depending on scope and data migration. Enterprise platforms take 4 to 8 months, delivered in releases so value arrives before the final milestone." },
       { question: "Do you build systems that comply with UK GDPR?", answer: "Yes. Consent, lawful basis, retention and data subject rights workflows are designed into the product, hosting is in UK regions, and the data map is documented so a compliance review or a client due diligence finds the reasoning rather than a gap." },
       { question: "Can you build for Making Tax Digital?", answer: "Yes. Digital records with preserved digital links, correct VAT handling and integration with Xero, Sage, QuickBooks or FreeAgent for filing are part of the standard data model, with income tax readiness as the mandate phases in from April 2026." },
@@ -579,7 +579,7 @@ export const londonPages = [
     ],
 
     faqs: [
-      { question: "How much does SEO cost in London?", answer: "SEO retainers for London businesses typically run from £1,200 to £3,500 per month depending on competition, the number of locations and the amount of technical and content work required. A fixed-scope technical audit and fix is quoted separately. We scope from where the site is and where it needs to get to." },
+      { question: "How much does SEO cost in London?", answer: "Every engagement is scoped individually after a discovery session, from the outcome you need and the work involved, and quoted before anything starts. Ad spend, where it applies, is separate and paid directly to the platforms, and we will say plainly if the budget on the table is too small to produce a usable result." },
       { question: "How long does SEO take to show results in London?", answer: "Technical fixes show in Search Console within weeks. Local search and map pack improvements typically appear within 8 to 12 weeks. Competitive London-wide terms need 6 to 12 months of sustained content and authority work. We report leading indicators monthly so progress is visible before rankings move." },
       { question: "Can a local business outrank Checkatrade, Yell or Rightmove?", answer: "For specific local and service terms, yes. Directories win on scale and authority, but a local business can win with first-hand content, a strong Business Profile and genuine reviews on the queries that actually convert. We map the terms where that is realistic and work through them in order." },
       { question: "Do you guarantee first page rankings?", answer: "No. No honest SEO company does, because nobody controls Google. What we commit to is a sound technical foundation, content built from real demand, defensible authority work and transparent monthly reporting on leads as well as rankings." },
@@ -607,7 +607,7 @@ export const londonPages = [
     category: "technology",
     title: "Web Design Company in London | Infynix Solutions",
     description:
-      "Web design company in London: custom, fast, accessible websites and e-commerce stores built to rank and convert, with UK GDPR, cookie consent and UK payments handled, from £2,500.",
+      "Web design company in London: custom, fast, accessible websites and e-commerce stores built to rank and convert, with UK GDPR, cookie consent and UK payments handled.",
     h1: "Web Design Company in London",
     heroSubtitle:
       "Custom, fast, conversion-focused websites designed and built for London businesses, with performance, search, accessibility and UK GDPR treated as part of the design rather than an afterthought.",
@@ -638,15 +638,15 @@ export const londonPages = [
       { name: "UK hosting and security", desc: "Hosting in UK regions, SSL, backups, monitoring and updates handled." },
     ],
 
-    specsHeading: "Typical projects, timelines and investment",
-    specsColumns: ["Project", "Timeline", "Indicative investment"],
+    specsHeading: "Typical projects and timelines",
+    specsColumns: ["Project", "Timeline"],
     specs: [
-      ["Business website, 5 to 10 pages", "4 to 6 weeks", "£2,500 to £6,000"],
-      ["Corporate or multi-location site", "6 to 10 weeks", "£6,000 to £15,000"],
-      ["E-commerce store", "8 to 16 weeks", "£6,000 to £25,000"],
-      ["Campaign landing pages", "1 to 2 weeks", "£600 to £1,800"],
-      ["Redesign and migration", "6 to 12 weeks", "Scoped from the existing site"],
-      ["Hosting, care and updates", "Monthly", "From £120 per month"],
+      ["Business website, 5 to 10 pages", "4 to 6 weeks"],
+      ["Corporate or multi-location site", "6 to 10 weeks"],
+      ["E-commerce store", "8 to 16 weeks"],
+      ["Campaign landing pages", "1 to 2 weeks"],
+      ["Redesign and migration", "6 to 12 weeks"],
+      ["Hosting, care and updates", "Monthly"],
     ],
 
     useCasesHeading: "Who we design for in London",
@@ -714,11 +714,11 @@ export const londonPages = [
     ],
 
     faqs: [
-      { question: "How much does a website cost in London?", answer: "A focused business website typically runs from £2,500 to £6,000. Corporate and multi-location sites sit between £6,000 and £15,000. E-commerce stores run from £6,000 to £25,000 depending on catalogue size, integrations and design complexity. Every project is scoped individually and quoted as a fixed price." },
+      { question: "How much does a website cost in London?", answer: "Every engagement is scoped individually after a discovery session, from the outcome you need and the work involved, and quoted before anything starts. Ad spend, where it applies, is separate and paid directly to the platforms, and we will say plainly if the budget on the table is too small to produce a usable result." },
       { question: "How long does it take to build a website?", answer: "A business website takes 4 to 6 weeks from kickoff to launch. Corporate sites take 6 to 10 weeks. E-commerce and complex platforms take 8 to 16 weeks. Content readiness on the client side is usually the biggest variable." },
       { question: "Will the site rank on Google?", answer: "It will be built to. Prerendered content, clean structure, structured data, performance and metadata are part of every build, so the site is search-ready at launch. Ranking for competitive terms then depends on the content and authority programme that follows, which our SEO team can run." },
       { question: "Do you handle cookie consent and UK GDPR?", answer: "Yes. A consent platform configured to PECR with consent mode, a privacy notice that matches what the site collects, and privacy handling to UK GDPR are part of every build." },
-      { question: "Do you provide hosting and maintenance?", answer: "Yes. Care plans from £120 per month cover hosting in UK regions, SSL, backups, monitoring, updates and a monthly allowance for content changes." },
+      { question: "Do you provide hosting and maintenance?", answer: "Every engagement is scoped individually after a discovery session, from the outcome you need and the work involved, and quoted before anything starts. Ad spend, where it applies, is separate and paid directly to the platforms, and we will say plainly if the budget on the table is too small to produce a usable result." },
       { question: "Can you redesign our site without losing our Google rankings?", answer: "Yes. Redesigns are planned with a redirect map, content migration and tracking continuity so search equity is preserved. We monitor Search Console through and after launch to catch anything that moves." },
       { question: "Which e-commerce platform do you recommend?", answer: "Shopify for most retailers who want a managed platform with UK payment and carrier apps. WooCommerce where content and commerce need to live together on WordPress. Headless builds where the catalogue, integrations or performance demands justify the engineering. We recommend from your requirements, not from a preference." },
       { question: "Do you build accessible websites?", answer: "Yes. WCAG-aligned markup, contrast, keyboard navigation and screen reader support are part of every build, and we can design and test to a stated conformance level where a client or a public sector buyer requires it." },
@@ -745,7 +745,7 @@ export const londonPages = [
     category: "technology",
     title: "Mobile App Development in London | Infynix Solutions",
     description:
-      "Mobile app development in London: iOS and Android apps for customers, field teams and products, with backend, App Store compliance, UK payments and UK GDPR handled, from £15,000.",
+      "Mobile app development in London: iOS and Android apps for customers, field teams and products, with backend, App Store compliance, UK payments and UK GDPR handled.",
     h1: "Mobile App Development in London",
     heroSubtitle:
       "iOS and Android apps designed and built for London businesses and startups, with the backend, store compliance, UK payments and data protection that make an app runnable after launch.",
@@ -776,15 +776,15 @@ export const londonPages = [
       { name: "Full handover", desc: "Source, store accounts, signing keys, backend and documentation in your name." },
     ],
 
-    specsHeading: "Typical scope, timeline and investment",
-    specsColumns: ["Engagement", "Timeline", "Indicative investment"],
+    specsHeading: "Typical scope and timeline",
+    specsColumns: ["Engagement", "Timeline"],
     specs: [
-      ["Discovery and prototype", "2 to 3 weeks", "£3,000 to £7,000"],
-      ["MVP app, iOS and Android", "8 to 12 weeks", "£15,000 to £35,000"],
-      ["Customer app with backend and admin", "12 to 20 weeks", "£35,000 to £80,000"],
-      ["Field or workforce app", "6 to 12 weeks", "£12,000 to £30,000"],
-      ["Ongoing product team", "Monthly", "Scoped by team size"],
-      ["Support and store maintenance", "Monthly", "From £700 per month"],
+      ["Discovery and prototype", "2 to 3 weeks"],
+      ["MVP app, iOS and Android", "8 to 12 weeks"],
+      ["Customer app with backend and admin", "12 to 20 weeks"],
+      ["Field or workforce app", "6 to 12 weeks"],
+      ["Ongoing product team", "Monthly"],
+      ["Support and store maintenance", "Monthly"],
     ],
 
     useCasesHeading: "Apps we build most often in London",
@@ -865,14 +865,14 @@ export const londonPages = [
     ],
 
     faqs: [
-      { question: "How much does app development cost in London?", answer: "An MVP for iOS and Android runs £15,000 to £35,000. A customer app with a full backend and admin panel runs £35,000 to £80,000. Field and workforce apps run £12,000 to £30,000. Every project is scoped from a paid discovery and quoted as a fixed price or a monthly team." },
+      { question: "How much does app development cost in London?", answer: "We do not quote from a rate card. A discovery session establishes the scope, the systems involved and the outcome you are working towards, and the proposal that follows is a fixed price or a monthly retainer for exactly that. If a smaller first phase would answer the question, we say so." },
       { question: "How long does it take to build an app?", answer: "An MVP takes 8 to 12 weeks. A customer app with backend takes 12 to 20 weeks. Store review adds a week or two at the end, which we plan for." },
       { question: "Should we build cross-platform or native?", answer: "Cross-platform in React Native or Flutter for most business and consumer apps. Native where hardware, performance, background location or platform-specific features demand it. We decide in discovery on your requirements and put the reasoning in writing." },
       { question: "Do you handle App Store and Google Play submission?", answer: "Yes. Store accounts, policy compliance, privacy labels, signing and submission are part of delivery, with accounts and keys in your name." },
       { question: "Do you handle UK GDPR for apps?", answer: "Yes. Consent, data minimisation, retention and data subject rights are designed into the app and backend, hosting is in UK regions, and the store privacy declarations are completed accurately." },
       { question: "Who owns the app?", answer: "You do. Source code, store accounts, signing keys, backend and documentation are handed over in your name." },
       { question: "Can you take over an app built by another team?", answer: "Yes, after an assessment of the code, backend and store accounts. We tell you honestly what we find and take it on under a support agreement if it is workable." },
-      { question: "Do you provide support after launch?", answer: "Yes. Support runs from £700 per month covering monitoring, crash triage, OS and store policy updates and a monthly allowance for improvements." },
+      { question: "Do you provide support after launch?", answer: "We do not quote from a rate card. A discovery session establishes the scope, the systems involved and the outcome you are working towards, and the proposal that follows is a fixed price or a monthly retainer for exactly that. If a smaller first phase would answer the question, we say so." },
       { question: "Can you build a field app for our engineers or inspectors?", answer: "Yes. Offline-first field apps with evidence capture, compliance records and billing integration are among our most common London builds for property, facilities and service businesses." },
       { question: "How do you handle app analytics and crash reporting?", answer: "Events, funnels and crash reporting are configured before the first release so the first real users teach you something, and the maintenance plan uses that data to decide what to fix first." },
       { question: "How quickly can you start?", answer: "Discovery can usually begin within two weeks of agreement, and an MVP is typically in the stores eight to twelve weeks after discovery ends." },
@@ -928,15 +928,15 @@ export const londonPages = [
       { name: "Full handover", desc: "Store, code, accounts and documentation in your name." },
     ],
 
-    specsHeading: "Typical projects, timelines and investment",
-    specsColumns: ["Project", "Timeline", "Indicative investment"],
+    specsHeading: "Typical projects and timelines",
+    specsColumns: ["Project", "Timeline"],
     specs: [
-      ["Shopify store", "4 to 8 weeks", "£6,000 to £15,000"],
-      ["WooCommerce store", "5 to 10 weeks", "£7,000 to £18,000"],
-      ["Shopify Plus or headless build", "10 to 16 weeks", "£25,000 to £60,000"],
-      ["Marketplace and 3PL integration", "2 to 5 weeks", "£2,500 to £8,000"],
-      ["Migration from an existing platform", "4 to 10 weeks", "Scoped from the existing store"],
-      ["Care, hosting and growth", "Monthly", "From £250 per month"],
+      ["Shopify store", "4 to 8 weeks"],
+      ["WooCommerce store", "5 to 10 weeks"],
+      ["Shopify Plus or headless build", "10 to 16 weeks"],
+      ["Marketplace and 3PL integration", "2 to 5 weeks"],
+      ["Migration from an existing platform", "4 to 10 weeks"],
+      ["Care, hosting and growth", "Monthly"],
     ],
 
     useCasesHeading: "Who we build stores for in London",
@@ -1017,14 +1017,14 @@ export const londonPages = [
     ],
 
     faqs: [
-      { question: "How much does an e-commerce website cost in London?", answer: "A Shopify store runs £6,000 to £15,000, WooCommerce £7,000 to £18,000, and Shopify Plus or headless builds £25,000 to £60,000, depending on catalogue, integrations and design. Every project is quoted as a fixed price after discovery." },
+      { question: "How much does an e-commerce website cost in London?", answer: "We do not quote from a rate card. A discovery session establishes the scope, the systems involved and the outcome you are working towards, and the proposal that follows is a fixed price or a monthly retainer for exactly that. If a smaller first phase would answer the question, we say so." },
       { question: "Shopify or WooCommerce for a London store?", answer: "Shopify for most retailers who want a managed platform their team can run with UK payment, tax and carrier apps. WooCommerce where content and commerce need to live together on WordPress. We recommend from your catalogue, volumes and team rather than a preference." },
       { question: "Do you integrate Klarna, Clearpay and Apple Pay?", answer: "Yes. Wallets and buy now pay later are configured for conversion, with fees and settlements reconciled into the accounts so you can see what each costs." },
       { question: "Can you connect the store to our accounting and inventory?", answer: "Yes. Orders, refunds and fees post to Xero, Sage or QuickBooks automatically, stock is shared with the warehouse, marketplaces and the till, and customers and consent flow to your CRM and email platform." },
       { question: "Can you help us sell into the EU after Brexit?", answer: "Yes. Duties and taxes calculated at checkout, customs documentation generated from the order, IOSS or destination VAT handled as your setup requires, and carriers configured for the routes." },
       { question: "Do you handle VAT and Making Tax Digital for online orders?", answer: "Yes. VAT rates by product, VAT-inclusive pricing, compliant invoices and digital records that feed your accounting package for Making Tax Digital filing." },
       { question: "Can you migrate our store from another platform without losing rankings?", answer: "Yes. Migrations are planned with a redirect map, product and customer data migration, order history preserved where the platform allows, and Search Console monitored through and after launch." },
-      { question: "Do you provide ongoing support?", answer: "Yes. Care and growth plans from £250 per month cover hosting where applicable, updates, monitoring and a monthly allowance for improvements driven by conversion and search data." },
+      { question: "Do you provide ongoing support?", answer: "We do not quote from a rate card. A discovery session establishes the scope, the systems involved and the outcome you are working towards, and the proposal that follows is a fixed price or a monthly retainer for exactly that. If a smaller first phase would answer the question, we say so." },
     ],
 
     related: [
@@ -1075,14 +1075,14 @@ export const londonPages = [
       { name: "Developer-ready handoff", desc: "Specifications and assets engineers can build from without guessing." },
     ],
 
-    specsHeading: "Typical engagements and investment",
-    specsColumns: ["Engagement", "Timeline", "Indicative investment"],
+    specsHeading: "Typical engagements and timelines",
+    specsColumns: ["Engagement", "Timeline"],
     specs: [
-      ["UX audit of an existing product", "1 to 2 weeks", "£2,000 to £5,000"],
-      ["Research and product definition", "2 to 4 weeks", "£4,000 to £10,000"],
-      ["App or web product design", "4 to 10 weeks", "£8,000 to £30,000"],
-      ["Design system", "3 to 6 weeks", "£6,000 to £18,000"],
-      ["Embedded product designer", "Monthly", "Scoped by capacity"],
+      ["UX audit of an existing product", "1 to 2 weeks"],
+      ["Research and product definition", "2 to 4 weeks"],
+      ["App or web product design", "4 to 10 weeks"],
+      ["Design system", "3 to 6 weeks"],
+      ["Embedded product designer", "Monthly"],
     ],
 
     useCasesHeading: "Who we design for in London",
@@ -1163,7 +1163,7 @@ export const londonPages = [
     ],
 
     faqs: [
-      { question: "How much does UI/UX design cost in London?", answer: "A UX audit runs £2,000 to £5,000. Research and product definition runs £4,000 to £10,000. Full app or web product design runs £8,000 to £30,000, and a design system £6,000 to £18,000. An embedded designer is scoped by capacity." },
+      { question: "How much does UI/UX design cost in London?", answer: "Scope drives the number, so the honest answer comes after a short discovery rather than before it. What we commit to in advance is that the quote is fixed for the agreed scope, that there are no surprise extras, and that we tell you when a cheaper route would serve you better." },
       { question: "Do you test designs with real users?", answer: "Yes. Prototypes are tested with real users of the product or its predecessor, on the devices they own, before engineering begins, and the findings change the design." },
       { question: "Do you build what you design?", answer: "Yes, where the client wants one team. Infynix builds web and mobile software, so design carries through to engineering without a handoff gap and the design system becomes a code library." },
       { question: "Can you design to WCAG accessibility standards?", answer: "Yes. Accessible design is the default, and we can design and test to a stated WCAG conformance level where a client, a regulator or a public sector buyer requires it." },

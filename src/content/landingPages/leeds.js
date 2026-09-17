@@ -138,7 +138,7 @@ export const leedsPages = [
     ],
 
     faqs: [
-      { question: "How much does digital marketing cost in Leeds?", answer: "Retainers for Leeds businesses typically run from £1,500 to £3,500 per month depending on channel mix, production needs and technical complexity. Ad spend is separate. Programmes for professional and regulated firms tend to sit in the upper half because the content and compliance load is higher." },
+      { question: "How much does digital marketing cost in Leeds?", answer: "Ad spend is separate. Programmes for professional and regulated firms tend to sit in the upper half because the content and compliance load is higher." },
       { question: "Do you have an office in Leeds?", answer: "No, and we say so plainly. We serve Leeds from our London office in Dagenham, with on-site sessions in the city as the engagement needs. Your local search work is built around your real address, not ours." },
       { question: "Do you work with law firms and regulated businesses?", answer: "Yes. Legal, financial and healthcare marketing is a large part of our Leeds work, with creative checked against SRA, FCA, CQC and CAP expectations before launch and programmes measured on instructions and pipeline rather than leads." },
       { question: "Can you help a company that sells into the NHS?", answer: "Yes. Programmes for health technology and public sector suppliers focus on capability visibility, framework-aware content and a digital footprint that survives due diligence, measured on qualified opportunities." },
@@ -196,15 +196,15 @@ export const leedsPages = [
       { name: "Full handover", desc: "Code, infrastructure, documentation and credentials in your name." },
     ],
 
-    specsHeading: "Typical scope, timeline and investment",
-    specsColumns: ["Engagement", "Timeline", "Indicative investment"],
+    specsHeading: "Typical scope and timeline",
+    specsColumns: ["Engagement", "Timeline"],
     specs: [
-      ["Discovery and specification", "2 to 3 weeks", "£3,000 to £8,000"],
-      ["Focused tool or integration", "4 to 8 weeks", "£8,000 to £20,000"],
-      ["Client or patient portal", "8 to 14 weeks", "£20,000 to £50,000"],
-      ["Case or practice system", "12 to 24 weeks", "£30,000 to £90,000"],
-      ["Enterprise platform", "4 to 8 months", "£60,000 and above"],
-      ["Support and maintenance", "Monthly", "From £900 per month"],
+      ["Discovery and specification", "2 to 3 weeks"],
+      ["Focused tool or integration", "4 to 8 weeks"],
+      ["Client or patient portal", "8 to 14 weeks"],
+      ["Case or practice system", "12 to 24 weeks"],
+      ["Enterprise platform", "4 to 8 months"],
+      ["Support and maintenance", "Monthly"],
     ],
 
     useCasesHeading: "Systems we build for Leeds",
@@ -286,14 +286,14 @@ export const leedsPages = [
     ],
 
     faqs: [
-      { question: "How much does custom software development cost in Leeds?", answer: "Focused tools and integrations run from £8,000. Client and patient portals run £20,000 to £50,000. Case and practice systems run £30,000 to £90,000. Enterprise platforms run from £60,000 and are scoped individually after a paid discovery." },
+      { question: "How much does custom software development cost in Leeds?", answer: "Scope drives the number, so the honest answer comes after a short discovery rather than before it. What we commit to in advance is that the quote is fixed for the agreed scope, that there are no surprise extras, and that we tell you when a cheaper route would serve you better." },
       { question: "Do you have an office in Leeds?", answer: "No. We serve Leeds from our London office, with discovery, migration and go-live on site and sprint work between visits run remotely with demos every two weeks." },
       { question: "Do you build software for law firms?", answer: "Yes. Client portals, matter workflows, document automation and integration with practice management and accounts, with role and matter access, audit trails and retention designed to the profession's obligations." },
       { question: "Can you build products that can be sold into the NHS?", answer: "Yes. Health technology is built with information governance, clinical safety and interoperability in scope from discovery, hosted in UK regions, with the documentation an NHS review asks for." },
       { question: "Do you provide the security evidence procurement teams ask for?", answer: "Yes. Security practice is built into every system and we produce the artefacts buyers ask for: Cyber Essentials alignment, penetration test reports, access reviews and an incident plan." },
       { question: "Do you handle UK GDPR?", answer: "Yes. Consent, lawful basis, retention and data subject rights are designed into the product, hosting is in UK regions, and the data map is documented for compliance review." },
       { question: "Who owns the code?", answer: "You do. Source, infrastructure, documentation and credentials are handed over in your name." },
-      { question: "Do you provide support after go-live?", answer: "Yes. Support runs on a service level agreement from £900 per month with named response times, monitoring, backups and a monthly allowance for improvements." },
+      { question: "Do you provide support after go-live?", answer: "Scope drives the number, so the honest answer comes after a short discovery rather than before it. What we commit to in advance is that the quote is fixed for the agreed scope, that there are no surprise extras, and that we tell you when a cheaper route would serve you better." },
       { question: "Can you automate document production for our firm?", answer: "Yes. Document automation built on your own precedents, integrated with practice and document management systems, with a professional review step and an audit trail, is a common Leeds build." },
       { question: "Do you integrate with practice management systems?", answer: "Yes. We integrate with the practice, case and document management systems law and advisory firms already run, so data is entered once and the new system fits around the existing one." },
     ],
@@ -434,7 +434,7 @@ export const leedsPages = [
     ],
 
     faqs: [
-      { question: "How much does SEO cost in Leeds?", answer: "SEO retainers for Leeds businesses typically run from £1,200 to £3,500 per month depending on competition, the number of practice areas or locations and the amount of expert content involved. A fixed-scope technical audit is quoted separately." },
+      { question: "How much does SEO cost in Leeds?", answer: "Every engagement is scoped individually after a discovery session, from the outcome you need and the work involved, and quoted before anything starts. Ad spend, where it applies, is separate and paid directly to the platforms, and we will say plainly if the budget on the table is too small to produce a usable result." },
       { question: "How long does SEO take in Leeds?", answer: "Technical fixes show within weeks. Local search improvements usually appear in 8 to 12 weeks. Competitive professional terms take 6 to 12 months of sustained expertise content and authority work." },
       { question: "Do you write legal and healthcare content within the rules?", answer: "Yes. Content is written with your professionals and checked against SRA, FCA, CQC and CAP expectations before publication." },
       { question: "Do you have an office in Leeds?", answer: "No. We serve Leeds from London, and your local search presence is built around your real premises, not ours." },
@@ -496,15 +496,15 @@ export const leedsPages = [
       { name: "UK hosting and care", desc: "Hosting in UK regions, SSL, backups, monitoring and updates." },
     ],
 
-    specsHeading: "Typical projects, timelines and investment",
-    specsColumns: ["Project", "Timeline", "Indicative investment"],
+    specsHeading: "Typical projects and timelines",
+    specsColumns: ["Project", "Timeline"],
     specs: [
-      ["Business website, 5 to 10 pages", "4 to 6 weeks", "£2,500 to £6,000"],
-      ["Professional services or corporate site", "6 to 10 weeks", "£6,000 to £15,000"],
-      ["Institutional site", "8 to 14 weeks", "£12,000 to £35,000"],
-      ["Client or patient portal", "8 to 14 weeks", "Scoped from requirements"],
-      ["Redesign and migration", "6 to 12 weeks", "Scoped from the existing site"],
-      ["Hosting, care and updates", "Monthly", "From £120 per month"],
+      ["Business website, 5 to 10 pages", "4 to 6 weeks"],
+      ["Professional services or corporate site", "6 to 10 weeks"],
+      ["Institutional site", "8 to 14 weeks"],
+      ["Client or patient portal", "8 to 14 weeks"],
+      ["Redesign and migration", "6 to 12 weeks"],
+      ["Hosting, care and updates", "Monthly"],
     ],
 
     useCasesHeading: "Who we design for in Leeds",
@@ -585,7 +585,7 @@ export const leedsPages = [
     ],
 
     faqs: [
-      { question: "How much does a website cost in Leeds?", answer: "A focused business website runs £2,500 to £6,000. Professional services and corporate sites sit between £6,000 and £15,000. Institutional sites run £12,000 to £35,000, and portals are scoped from requirements. Every project is quoted as a fixed price after discovery." },
+      { question: "How much does a website cost in Leeds?", answer: "Every engagement is scoped individually after a discovery session, from the outcome you need and the work involved, and quoted before anything starts. Ad spend, where it applies, is separate and paid directly to the platforms, and we will say plainly if the budget on the table is too small to produce a usable result." },
       { question: "How long does a website take?", answer: "A business site takes 4 to 6 weeks. Professional services sites take 6 to 10 weeks. Institutional sites and portals take 8 to 14 weeks. Content readiness on the client side is usually the biggest variable." },
       { question: "Do you build websites for law firms?", answer: "Yes. Practice area structure, professional profiles, expertise content and enquiry paths that respect how a careful client makes contact, with content written to SRA expectations, are among our most common Leeds projects." },
       { question: "Can you build a client or patient portal integrated with our systems?", answer: "Yes. Portals are built on our software engineering practice, integrated with practice, clinical or student systems, secured with audit trails and designed to WCAG." },
@@ -594,7 +594,7 @@ export const leedsPages = [
       { question: "Do you handle cookie consent and UK GDPR?", answer: "Yes. A consent platform configured to PECR with consent mode, a privacy notice that matches the site, and privacy handling to UK GDPR are part of every build." },
       { question: "Can you redesign our site without losing rankings?", answer: "Yes. Redesigns are planned with a redirect map, content migration and tracking continuity, and Search Console is monitored through and after launch." },
       { question: "Do you build university and college websites?", answer: "Yes. Institutional sites with task-led architecture, editor guardrails that keep accessibility intact, consolidation of existing sprawl and governance documentation are among our Leeds projects." },
-      { question: "Do you provide hosting and maintenance?", answer: "Yes. Care plans from £120 per month cover hosting in UK regions, SSL, backups, monitoring, updates and a monthly allowance for content changes, with larger institutional agreements scoped individually." },
+      { question: "Do you provide hosting and maintenance?", answer: "We do not quote from a rate card. A discovery session establishes the scope, the systems involved and the outcome you are working towards, and the proposal that follows is a fixed price or a monthly retainer for exactly that. If a smaller first phase would answer the question, we say so." },
     ],
 
     related: [

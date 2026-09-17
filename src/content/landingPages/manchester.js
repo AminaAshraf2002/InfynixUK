@@ -137,7 +137,7 @@ export const manchesterPages = [
     ],
 
     faqs: [
-      { question: "How much does digital marketing cost in Manchester?", answer: "Retainers for Manchester businesses typically run from £1,500 to £3,500 per month depending on channel mix, production needs and technical complexity. Ad spend is separate. B2B programmes with LinkedIn and account-based work tend to sit in the upper half because the creative and content load is higher." },
+      { question: "How much does digital marketing cost in Manchester?", answer: "Ad spend is separate. B2B programmes with LinkedIn and account-based work tend to sit in the upper half because the creative and content load is higher." },
       { question: "Do you have an office in Manchester?", answer: "No, and we say so plainly. We serve Manchester from our London office in Dagenham, with on-site sessions in the city as the engagement needs. Your local search work is built around your real address, not ours." },
       { question: "Do you work with e-commerce brands in Manchester?", answer: "Yes. Shopping, Performance Max and social commerce with margin-aware bidding, returns factored into the numbers and creative tested on a cadence, for brands competing in the same auctions as the city's largest online retailers." },
       { question: "Can you run LinkedIn campaigns for B2B companies?", answer: "Yes. Account-based campaigns measured on meetings and pipeline, integrated with your CRM, are a core part of our Manchester work for SaaS, services and professional firms." },
@@ -145,6 +145,7 @@ export const manchesterPages = [
       { question: "How do you report?", answer: "A short weekly note on what changed, a monthly review with spend, leads, qualified leads and revenue by channel, and a live dashboard." },
       { question: "Can you work alongside our in-house team?", answer: "Yes. We take one or more channels, or the measurement layer, and report into your existing tools. Accounts stay in your name." },
       { question: "Do you guarantee results?", answer: "No. We commit to a measured, compliant system, transparent methodology and honest weekly reporting. Results follow from that discipline and show up in your own CRM." },
+      { question: "What do you need from us to start?", answer: "Access to your ad accounts, analytics, website and CRM, a clear picture of margins and the sales process, and someone who can make decisions weekly. The first two to three weeks go on measurement, consent and foundations, and spend begins once the numbers can be trusted." },
     ],
 
     related: [
@@ -195,15 +196,15 @@ export const manchesterPages = [
       { name: "Full handover", desc: "Code, infrastructure, documentation and credentials in your name." },
     ],
 
-    specsHeading: "Typical scope, timeline and investment",
-    specsColumns: ["Engagement", "Timeline", "Indicative investment"],
+    specsHeading: "Typical scope and timeline",
+    specsColumns: ["Engagement", "Timeline"],
     specs: [
-      ["Discovery and specification", "2 to 3 weeks", "£3,000 to £8,000"],
-      ["Focused tool or integration", "4 to 8 weeks", "£8,000 to £20,000"],
-      ["MVP application", "8 to 12 weeks", "£20,000 to £45,000"],
-      ["Business system implementation", "10 to 20 weeks", "£15,000 to £60,000"],
-      ["Enterprise platform", "4 to 8 months", "£60,000 and above"],
-      ["Support and maintenance", "Monthly", "From £900 per month"],
+      ["Discovery and specification", "2 to 3 weeks"],
+      ["Focused tool or integration", "4 to 8 weeks"],
+      ["MVP application", "8 to 12 weeks"],
+      ["Business system implementation", "10 to 20 weeks"],
+      ["Enterprise platform", "4 to 8 months"],
+      ["Support and maintenance", "Monthly"],
     ],
 
     useCasesHeading: "Systems we build for Manchester",
@@ -284,14 +285,14 @@ export const manchesterPages = [
     ],
 
     faqs: [
-      { question: "How much does custom software development cost in Manchester?", answer: "Focused tools and integrations run from £8,000. MVPs run £20,000 to £45,000. Business system implementations sit between £15,000 and £60,000 depending on modules and migration. Enterprise platforms run from £60,000 and are scoped individually after a paid discovery." },
+      { question: "How much does custom software development cost in Manchester?", answer: "Scope drives the number, so the honest answer comes after a short discovery rather than before it. What we commit to in advance is that the quote is fixed for the agreed scope, that there are no surprise extras, and that we tell you when a cheaper route would serve you better." },
       { question: "Do you have an office in Manchester?", answer: "No. We serve Manchester from our London office, with discovery, migration and go-live on site and sprint work between visits run remotely with demos every two weeks." },
       { question: "Can you rebuild an MVP that has become hard to maintain?", answer: "Yes. We assess what exists, stabilise what is fragile, wrap the parts worth keeping in clean APIs and replace the rest module by module while the product keeps running, with the architecture documented for your future team." },
       { question: "Do you build e-commerce operations systems?", answer: "Yes. Order management, inventory across channels and 3PLs, returns handling and accounting integration behind Shopify, WooCommerce and marketplace storefronts are among our most common Manchester builds." },
       { question: "Do you handle UK GDPR and Making Tax Digital?", answer: "Yes. Consent, retention and data subject rights are designed into the product, digital records are held in the form Making Tax Digital requires, and the accounting package is integrated for filing." },
       { question: "Do you implement Odoo?", answer: "Yes. Odoo with UK localisation is our default recommendation for standard business modules, and we build bespoke modules where it does not fit." },
       { question: "Who owns the code?", answer: "You do. Source, infrastructure, documentation and credentials are handed over in your name." },
-      { question: "Do you provide support after launch?", answer: "Yes. Support runs on a service level agreement from £900 per month with named response times, monitoring, backups and a monthly allowance for improvements." },
+      { question: "Do you provide support after launch?", answer: "Scope drives the number, so the honest answer comes after a short discovery rather than before it. What we commit to in advance is that the quote is fixed for the agreed scope, that there are no surprise extras, and that we tell you when a cheaper route would serve you better." },
       { question: "How quickly can you start?", answer: "Discovery can usually begin within two weeks of agreement, and the first working release is typically live within eight to twelve weeks of discovery ending." },
       { question: "Can you take over a system another agency built?", answer: "Yes, after an assessment of the code, infrastructure and documentation. We say honestly what we find and take it on under a support agreement if it is workable." },
       { question: "Do you build mobile apps as well?", answer: "Yes. Customer, field and workforce apps in React Native and Flutter, with the backend, admin panel and store compliance included, are part of the same engineering practice." },
@@ -446,7 +447,7 @@ export const manchesterPages = [
     ],
 
     faqs: [
-      { question: "How much does SEO cost in Manchester?", answer: "SEO retainers for Manchester businesses typically run from £1,200 to £3,500 per month depending on competition, catalogue size and the amount of technical and content work. A fixed-scope technical audit is quoted separately." },
+      { question: "How much does SEO cost in Manchester?", answer: "We do not quote from a rate card. A discovery session establishes the scope, the systems involved and the outcome you are working towards, and the proposal that follows is a fixed price or a monthly retainer for exactly that. If a smaller first phase would answer the question, we say so." },
       { question: "How long does SEO take in Manchester?", answer: "Technical fixes show within weeks. Local search improvements usually appear in 8 to 12 weeks. Competitive terms take 6 to 12 months of sustained content and authority work." },
       { question: "Do you do e-commerce SEO?", answer: "Yes. Facet control, category content, product schema and template performance for stores on Shopify, WooCommerce and headless platforms are a core part of our Manchester work." },
       { question: "Do you have an office in Manchester?", answer: "No. We serve Manchester from London, and your local search presence is built around your real premises, not ours." },
@@ -506,15 +507,15 @@ export const manchesterPages = [
       { name: "UK hosting and care", desc: "Hosting in UK regions, SSL, backups, monitoring and updates." },
     ],
 
-    specsHeading: "Typical projects, timelines and investment",
-    specsColumns: ["Project", "Timeline", "Indicative investment"],
+    specsHeading: "Typical projects and timelines",
+    specsColumns: ["Project", "Timeline"],
     specs: [
-      ["Business website, 5 to 10 pages", "4 to 6 weeks", "£2,500 to £6,000"],
-      ["B2B or corporate site", "6 to 10 weeks", "£6,000 to £15,000"],
-      ["E-commerce store", "8 to 16 weeks", "£6,000 to £25,000"],
-      ["Campaign landing pages", "1 to 2 weeks", "£600 to £1,800"],
-      ["Redesign and migration", "6 to 12 weeks", "Scoped from the existing site"],
-      ["Hosting, care and updates", "Monthly", "From £120 per month"],
+      ["Business website, 5 to 10 pages", "4 to 6 weeks"],
+      ["B2B or corporate site", "6 to 10 weeks"],
+      ["E-commerce store", "8 to 16 weeks"],
+      ["Campaign landing pages", "1 to 2 weeks"],
+      ["Redesign and migration", "6 to 12 weeks"],
+      ["Hosting, care and updates", "Monthly"],
     ],
 
     useCasesHeading: "Who we design for in Manchester",
@@ -608,12 +609,12 @@ export const manchesterPages = [
     ],
 
     faqs: [
-      { question: "How much does a website cost in Manchester?", answer: "A focused business website runs £2,500 to £6,000. B2B and corporate sites sit between £6,000 and £15,000. E-commerce runs £6,000 to £25,000. Every project is quoted as a fixed price after discovery." },
+      { question: "How much does a website cost in Manchester?", answer: "Scope drives the number, so the honest answer comes after a short discovery rather than before it. What we commit to in advance is that the quote is fixed for the agreed scope, that there are no surprise extras, and that we tell you when a cheaper route would serve you better." },
       { question: "How long does a website take?", answer: "A business site takes 4 to 6 weeks. B2B and corporate sites take 6 to 10 weeks. E-commerce takes 8 to 16 weeks. Content readiness is usually the biggest variable." },
       { question: "Do you have an office in Manchester?", answer: "No. We serve Manchester from London, with discovery and review sessions on site where they help and remote where they do not." },
       { question: "Will the site rank on Google?", answer: "It will be built to. Prerendered content, structure, structured data, performance and metadata are part of every build. Competitive rankings then depend on the SEO programme that follows." },
       { question: "Do you handle cookie consent and UK GDPR?", answer: "Yes. A consent platform configured to PECR with consent mode, a privacy notice that matches the site, and privacy handling to UK GDPR are part of every build." },
-      { question: "Do you provide hosting and maintenance?", answer: "Yes. Care plans from £120 per month cover hosting in UK regions, SSL, backups, monitoring, updates and a monthly allowance for content changes." },
+      { question: "Do you provide hosting and maintenance?", answer: "Every engagement is scoped individually after a discovery session, from the outcome you need and the work involved, and quoted before anything starts. Ad spend, where it applies, is separate and paid directly to the platforms, and we will say plainly if the budget on the table is too small to produce a usable result." },
       { question: "Can you redesign our site without losing rankings?", answer: "Yes. Redesigns are planned with a redirect map, content migration and tracking continuity, and Search Console is monitored through and after launch." },
       { question: "Do you build accessible websites?", answer: "Yes. WCAG-aligned markup is part of every build, and we can design and test to a stated conformance level where a client requires it." },
       { question: "Do you build websites for restaurants and bars in Manchester?", answer: "Yes. Venue sites with booking integration, self-managed menus, real imagery and local search structure are a common Manchester project, built to rank on Maps and convert on a phone." },

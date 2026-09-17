@@ -139,7 +139,7 @@ export const birminghamPages = [
     ],
 
     faqs: [
-      { question: "How much does digital marketing cost in Birmingham?", answer: "Retainers for Birmingham businesses typically run from £1,500 to £3,500 per month depending on channel mix, production needs and technical complexity. Ad spend is separate. B2B programmes with LinkedIn and account-based work tend to sit in the upper half because the content load is higher." },
+      { question: "How much does digital marketing cost in Birmingham?", answer: "Scope drives the number, so the honest answer comes after a short discovery rather than before it. What we commit to in advance is that the quote is fixed for the agreed scope, that there are no surprise extras, and that we tell you when a cheaper route would serve you better." },
       { question: "Do you have an office in Birmingham?", answer: "No, and we say so plainly. We serve Birmingham from our London office in Dagenham, with on-site sessions in the city as the engagement needs. Your local search work is built around your real address, not ours." },
       { question: "Do you work with manufacturers and engineering companies?", answer: "Yes. B2B programmes for the West Midlands supply chain run on search for specification terms, LinkedIn for named accounts and capability content, measured on meetings and pipeline rather than leads." },
       { question: "Can you run campaigns in languages other than English?", answer: "Yes, where the audience and the business justify it. Birmingham is one of the most diverse cities in the UK, and campaigns and pages in the languages customers use are part of our consumer work here." },
@@ -197,15 +197,15 @@ export const birminghamPages = [
       { name: "Full handover", desc: "Code, infrastructure, documentation and credentials in your name." },
     ],
 
-    specsHeading: "Typical scope, timeline and investment",
-    specsColumns: ["Engagement", "Timeline", "Indicative investment"],
+    specsHeading: "Typical scope and timeline",
+    specsColumns: ["Engagement", "Timeline"],
     specs: [
-      ["Discovery and specification", "2 to 3 weeks", "£3,000 to £8,000"],
-      ["Focused tool or integration", "4 to 8 weeks", "£8,000 to £20,000"],
-      ["Production or inventory system", "10 to 20 weeks", "£15,000 to £60,000"],
-      ["Quoting and CRM system", "4 to 10 weeks", "£6,000 to £25,000"],
-      ["Enterprise platform", "4 to 8 months", "£60,000 and above"],
-      ["Support and maintenance", "Monthly", "From £900 per month"],
+      ["Discovery and specification", "2 to 3 weeks"],
+      ["Focused tool or integration", "4 to 8 weeks"],
+      ["Production or inventory system", "10 to 20 weeks"],
+      ["Quoting and CRM system", "4 to 10 weeks"],
+      ["Enterprise platform", "4 to 8 months"],
+      ["Support and maintenance", "Monthly"],
     ],
 
     useCasesHeading: "Systems we build for Birmingham and the West Midlands",
@@ -287,14 +287,14 @@ export const birminghamPages = [
     ],
 
     faqs: [
-      { question: "How much does a production or inventory system cost in Birmingham?", answer: "Production and inventory systems typically run £15,000 to £60,000 depending on modules, sites and data migration. Quoting and CRM systems run £6,000 to £25,000. Focused tools and integrations run from £8,000. Every project is scoped from a paid discovery." },
+      { question: "How much does a production or inventory system cost in Birmingham?", answer: "We do not quote from a rate card. A discovery session establishes the scope, the systems involved and the outcome you are working towards, and the proposal that follows is a fixed price or a monthly retainer for exactly that. If a smaller first phase would answer the question, we say so." },
       { question: "Do you have an office in Birmingham?", answer: "No. We serve Birmingham from our London office, with discovery, migration and go-live on site and sprint work between visits run remotely with demos every two weeks." },
       { question: "Do you implement Odoo for manufacturers?", answer: "Yes. Odoo with UK localisation is our default recommendation for standard manufacturing, inventory and accounting modules, and we build bespoke modules where it does not fit, which is often the quoting and traceability logic." },
       { question: "Can the system hold the records our automotive customers audit?", answer: "Yes. Traceability from goods in to dispatch, certificates held against the batch, expiry alerts and reports in your customers' formats are built into the operational system rather than beside it." },
       { question: "Will it work on the shop floor?", answer: "Yes. Barcode, scanner and tablet screens are designed for the floor and work offline where signal drops, syncing when it returns." },
       { question: "Do you handle UK GDPR and Making Tax Digital?", answer: "Yes. Consent, retention and data subject rights are designed into the product, digital records are held in the form Making Tax Digital requires, and the accounting package is integrated for filing." },
       { question: "Who owns the code?", answer: "You do. Source, infrastructure, documentation and credentials are handed over in your name." },
-      { question: "Do you provide support after go-live?", answer: "Yes. Support runs on a service level agreement from £900 per month with named response times, monitoring, backups and a monthly allowance for improvements." },
+      { question: "Do you provide support after go-live?", answer: "Scope drives the number, so the honest answer comes after a short discovery rather than before it. What we commit to in advance is that the quote is fixed for the agreed scope, that there are no surprise extras, and that we tell you when a cheaper route would serve you better." },
       { question: "Can you build a quoting system for bespoke engineering work?", answer: "Yes. Quoting built on your own cost model with material prices, process rates and job history, integrated so the quote becomes the works order and the invoice, is a common West Midlands build." },
       { question: "Can you take over a system built by a previous supplier?", answer: "Yes, after an assessment. We review the code, infrastructure and documentation, tell you honestly what we find, and take it on under a support agreement if it is workable." },
     ],
@@ -435,7 +435,7 @@ export const birminghamPages = [
     ],
 
     faqs: [
-      { question: "How much does SEO cost in Birmingham?", answer: "SEO retainers for Birmingham businesses typically run from £1,200 to £3,500 per month depending on competition, locations and the amount of technical and content work. A fixed-scope technical audit is quoted separately." },
+      { question: "How much does SEO cost in Birmingham?", answer: "Every engagement is scoped individually after a discovery session, from the outcome you need and the work involved, and quoted before anything starts. Ad spend, where it applies, is separate and paid directly to the platforms, and we will say plainly if the budget on the table is too small to produce a usable result." },
       { question: "How long does SEO take in Birmingham?", answer: "Technical fixes show within weeks. Local search improvements usually appear in 8 to 12 weeks. Competitive terms take 6 to 12 months, though in less contested West Midlands sectors positions can move faster than in London." },
       { question: "Can you help a manufacturer rank for specification searches?", answer: "Yes. Capability and specification term coverage, product and service schema and content a buyer can forward are a core part of our Birmingham work for the region's suppliers." },
       { question: "Do you have an office in Birmingham?", answer: "No. We serve Birmingham from London, and your local search presence is built around your real premises, not ours." },
@@ -497,15 +497,15 @@ export const birminghamPages = [
       { name: "UK hosting and care", desc: "Hosting in UK regions, SSL, backups, monitoring and updates." },
     ],
 
-    specsHeading: "Typical projects, timelines and investment",
-    specsColumns: ["Project", "Timeline", "Indicative investment"],
+    specsHeading: "Typical projects and timelines",
+    specsColumns: ["Project", "Timeline"],
     specs: [
-      ["Business website, 5 to 10 pages", "4 to 6 weeks", "£2,500 to £6,000"],
-      ["Capability or corporate site", "6 to 10 weeks", "£6,000 to £15,000"],
-      ["E-commerce store", "8 to 16 weeks", "£6,000 to £25,000"],
-      ["Campaign landing pages", "1 to 2 weeks", "£600 to £1,800"],
-      ["Redesign and migration", "6 to 12 weeks", "Scoped from the existing site"],
-      ["Hosting, care and updates", "Monthly", "From £120 per month"],
+      ["Business website, 5 to 10 pages", "4 to 6 weeks"],
+      ["Capability or corporate site", "6 to 10 weeks"],
+      ["E-commerce store", "8 to 16 weeks"],
+      ["Campaign landing pages", "1 to 2 weeks"],
+      ["Redesign and migration", "6 to 12 weeks"],
+      ["Hosting, care and updates", "Monthly"],
     ],
 
     useCasesHeading: "Who we design for in Birmingham",
@@ -599,13 +599,13 @@ export const birminghamPages = [
     ],
 
     faqs: [
-      { question: "How much does a website cost in Birmingham?", answer: "A focused business website runs £2,500 to £6,000. Capability and corporate sites sit between £6,000 and £15,000. E-commerce runs £6,000 to £25,000. Every project is quoted as a fixed price after discovery." },
+      { question: "How much does a website cost in Birmingham?", answer: "Every engagement is scoped individually after a discovery session, from the outcome you need and the work involved, and quoted before anything starts. Ad spend, where it applies, is separate and paid directly to the platforms, and we will say plainly if the budget on the table is too small to produce a usable result." },
       { question: "How long does a website take?", answer: "A business site takes 4 to 6 weeks. Capability and corporate sites take 6 to 10 weeks. E-commerce takes 8 to 16 weeks. Content readiness is usually the biggest variable." },
       { question: "Do you build capability websites for manufacturers?", answer: "Yes. Capability sites with specifications, certifications, downloads and quote requests are among our most common projects for West Midlands suppliers." },
       { question: "Do you have an office in Birmingham?", answer: "No. We serve Birmingham from London, with discovery and review sessions on site where they help and remote where they do not." },
       { question: "Will the site rank on Google?", answer: "It will be built to. Prerendered content, structure, structured data, performance and metadata are part of every build. Competitive rankings then depend on the SEO programme that follows." },
       { question: "Do you handle cookie consent and UK GDPR?", answer: "Yes. A consent platform configured to PECR with consent mode, a privacy notice that matches the site, and privacy handling to UK GDPR are part of every build." },
-      { question: "Do you provide hosting and maintenance?", answer: "Yes. Care plans from £120 per month cover hosting in UK regions, SSL, backups, monitoring, updates and a monthly allowance for content changes." },
+      { question: "Do you provide hosting and maintenance?", answer: "Every engagement is scoped individually after a discovery session, from the outcome you need and the work involved, and quoted before anything starts. Ad spend, where it applies, is separate and paid directly to the platforms, and we will say plainly if the budget on the table is too small to produce a usable result." },
       { question: "Can you redesign our site without losing rankings?", answer: "Yes. Redesigns are planned with a redirect map, content migration and tracking continuity, and Search Console is monitored through and after launch." },
       { question: "Do you build websites for law and accountancy firms in Birmingham?", answer: "Yes. Professional services sites with practice area structure, professional profiles, expertise content written to SRA and FCA expectations, and a restrained visual system are a common project for firms in the Colmore Row district." },
       { question: "Can you build a multilingual website?", answer: "Yes, where the audience justifies it. Content in the languages customers use is designed together with the English version, with correct language markup for search and a workflow that keeps both current." },
