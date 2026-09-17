@@ -62,16 +62,21 @@ export default function LandingPage({ slug: slugProp }) {
   if (!page) return <NotFoundPage />;
 
   const path = `/${page.slug}`;
-  const isKochi = page.city === 'Kochi';
+  // A page carries LocalBusiness only when its city is the one this entity
+  // actually occupies (Kochi for India, Dagenham / Greater London for the UK,
+  // Ajman for the UAE). Asserting a physical presence elsewhere is what gets
+  // Google Business Profiles suspended.
+  const office = BUSINESS.address;
+  const hasOffice =
+    page.city === office.locality ||
+    page.city === office.region ||
+    (office.region || '').endsWith(` ${page.city}`);
   const heroImage = heroImageFor(page);
   const localImage = localImageFor(page);
 
   const schema = [
     organizationSchema(),
-    // Only the Kochi pages carry LocalBusiness. That is the one address Infynix
-    // actually occupies. Asserting a physical presence elsewhere is what gets
-    // Google Business Profiles suspended.
-    isKochi ? localBusinessSchema() : null,
+    hasOffice ? localBusinessSchema() : null,
     serviceSchema({
       name: `${page.service} in ${page.city}`,
       description: page.description,
