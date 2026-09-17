@@ -39,7 +39,7 @@ export default function Seo({
 
   return (
     <Helmet prioritizeSeoTags>
-      <html lang="en-IN" />
+      <html lang="en-GB" />
       <title>{resolvedTitle}</title>
       <meta name="description" content={resolvedDescription} />
       <link rel="canonical" href={canonical} />
@@ -69,7 +69,7 @@ export default function Seo({
       />
 
       <meta property="og:site_name" content={SITE_NAME} />
-      <meta property="og:locale" content="en_IN" />
+      <meta property="og:locale" content="en_GB" />
       <meta property="og:type" content={ogType} />
       <meta property="og:title" content={resolvedTitle} />
       <meta property="og:description" content={resolvedDescription} />
