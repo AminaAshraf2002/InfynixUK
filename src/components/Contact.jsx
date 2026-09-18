@@ -22,9 +22,15 @@ const offices = [
     {
         city: "London",
         label: "UK Headquarters",
+<<<<<<< HEAD
         desc: "39 Becontree Avenue, Dagenham, London RM8 2UH. Our global executive headquarters directing international operations, technology consulting, and enterprise client strategy across European and American regions.",
         image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=900&q=80",
         mapUrl: "https://share.google/nr3IR1BycI55dDqUs"
+=======
+        desc: "39 Becontree Avenue, Dagenham, Greater London RM8 2UH. Our global executive headquarters directing international operations, technology consulting, and enterprise client strategy across European and American regions.",
+        image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=900&q=80",
+        mapUrl: "https://maps.google.com/?q=39+Becontree+Avenue,+Dagenham,+Greater+London+RM8+2UH"
+>>>>>>> d73415e (Update UK address to 39 Becontree Avenue, Dagenham and add UK WhatsApp contact button and icons)
     },
     {
         city: "UAE",
@@ -190,9 +196,19 @@ export default function Contact() {
                                     <span style={{ color: '#888', fontSize: '0.8rem', marginRight: '6px' }}>India:</span>
                                     <a href="tel:+919995911173" style={{ color: 'inherit', textDecoration: 'none' }}>+91 99959 11173</a>
                                 </p>
-                                <p className="sidebar-query-val" style={{ margin: '2px 0' }}>
+                                <p className="sidebar-query-val" style={{ margin: '2px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
                                     <span style={{ color: '#888', fontSize: '0.8rem', marginRight: '6px' }}>UK:</span>
                                     <a href="tel:+447436670553" style={{ color: 'inherit', textDecoration: 'none' }}>+44 7436 670553</a>
+                                    <a
+                                        href="https://wa.me/447436670553"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Chat on WhatsApp"
+                                        style={{ color: '#25D366', display: 'inline-flex', alignItems: 'center' }}
+                                        title="Chat on WhatsApp"
+                                    >
+                                        <i className="fa-brands fa-whatsapp" style={{ fontSize: '1.2rem' }}></i>
+                                    </a>
                                 </p>
                             </div>
                             <div className="sidebar-divider" />
@@ -206,7 +222,48 @@ export default function Contact() {
                             <div className="sidebar-divider" />
                             <div className="sidebar-query-block">
                                 <p className="sidebar-query-title">Follow Us</p>
+<<<<<<< HEAD
                                 <SocialLinks className="contact-social-links" linkClassName="contact-social-btn" />
+=======
+                                <div className="contact-socials" style={{ display: 'flex', gap: '10px', marginTop: '10px' }}>
+                                    <a
+                                        href="https://wa.me/447436670553"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Infynix Solutions WhatsApp"
+                                        className="contact-social-btn"
+                                    >
+                                        <i className="fa-brands fa-whatsapp"></i>
+                                    </a>
+                                    <a
+                                        href="https://www.linkedin.com/company/infynix-solutionglobal/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Infynix Solutions LinkedIn"
+                                        className="contact-social-btn"
+                                    >
+                                        <i className="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                    <a
+                                        href="https://www.instagram.com/infynix_growth_solutions/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Infynix Solutions Instagram"
+                                        className="contact-social-btn"
+                                    >
+                                        <i className="fa-brands fa-instagram"></i>
+                                    </a>
+                                    <a
+                                        href="https://www.facebook.com/people/Infynix-Solutions/61584250757142/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Infynix Solutions Facebook"
+                                        className="contact-social-btn"
+                                    >
+                                        <i className="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </div>
+>>>>>>> d73415e (Update UK address to 39 Becontree Avenue, Dagenham and add UK WhatsApp contact button and icons)
                             </div>
                         </div>
 

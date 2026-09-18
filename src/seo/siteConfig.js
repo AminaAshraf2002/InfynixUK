@@ -25,6 +25,7 @@ export const BUSINESS = {
   telephone: '+44 7436 670553',
   uaeTelephone: '+971 54 257 5702',
   indiaTelephone: '+91 99959 11173',
+  whatsapp: 'https://wa.me/447436670553',
   address: {
     street: '39 Becontree Avenue',
     locality: 'Dagenham',
@@ -38,7 +39,7 @@ export const BUSINESS = {
     region: 'Ajman',
     country: 'AE',
   },
-  geo: { latitude: 51.5149, longitude: -0.1236 },
+  geo: { latitude: 51.5583, longitude: 0.1332 },
   openingHours: {
     days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
     opens: '09:00',

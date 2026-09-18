@@ -146,12 +146,20 @@ const ClientsSection = () => {
             </div>
 
             <div className="footer-location-card">
+<<<<<<< HEAD
               <a href="https://share.google/nr3IR1BycI55dDqUs" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+=======
+              <a href="https://maps.google.com/?q=39+Becontree+Avenue,+Dagenham,+Greater+London+RM8+2UH" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+>>>>>>> d73415e (Update UK address to 39 Becontree Avenue, Dagenham and add UK WhatsApp contact button and icons)
                 <img loading="lazy" decoding="async" src={ukLImage} alt="UK London Office" className="footer-location-svg" />
                 <div className="footer-location-title">UK - LONDON ↗</div>
                 <div className="footer-location-addr">
                   39 Becontree Avenue,<br />
+<<<<<<< HEAD
                   Dagenham, London RM8 2UH
+=======
+                  Dagenham, Greater London RM8 2UH
+>>>>>>> d73415e (Update UK address to 39 Becontree Avenue, Dagenham and add UK WhatsApp contact button and icons)
                 </div>
               </a>
             </div>
@@ -214,7 +222,45 @@ const ClientsSection = () => {
           </div>
 
           <div className="footer-bottom" style={{ borderTop: '1px solid rgba(255, 255, 255, 0.05)', marginTop: '40px', paddingTop: '30px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '20px' }}>
+<<<<<<< HEAD
             <p style={{ fontSize: '0.8rem', color: '#ffffff' }}>© 2026 Infynix Solutions UK. Engineered for Excellence.</p>
+=======
+            <p style={{ fontSize: '0.8rem', color: '#ffffff', margin: 0 }}>© 2026 Infynix Solutions UK. Engineered for Excellence.</p>
+            <div className="footer-socials">
+              <a
+                href="https://wa.me/447436670553"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Infynix Solutions WhatsApp"
+              >
+                <i className="fa-brands fa-whatsapp"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/infynix-solutionglobal/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Infynix Solutions LinkedIn"
+              >
+                <i className="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/infynix_growth_solutions/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Infynix Solutions Instagram"
+              >
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/people/Infynix-Solutions/61584250757142/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Infynix Solutions Facebook"
+              >
+                <i className="fa-brands fa-facebook-f"></i>
+              </a>
+            </div>
+>>>>>>> d73415e (Update UK address to 39 Becontree Avenue, Dagenham and add UK WhatsApp contact button and icons)
           </div>
         </div>
       </footer>

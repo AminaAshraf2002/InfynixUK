@@ -26,6 +26,7 @@ import FutureOfRetail from './components/FutureOfRetail';
 import Footer from './components/Footer';
 import News from './components/News';
 import Contact from './components/Contact';
+import WhatsAppButton from './components/WhatsAppButton';
 
 
 // Strategy v2.0 Page Imports
@@ -149,6 +150,8 @@ function AppContent() {
           </Routes>
         </div>
       </main>
+      {/* Floating WhatsApp Contact Button */}
+      <WhatsAppButton />
       {/* Shared footer only on non-homepage routes */}
       {!isHomePage && <Footer />}
     </>
