@@ -4,6 +4,8 @@ import { SOCIAL_PROFILES, GOOGLE_BUSINESS_PROFILE } from '../seo/siteConfig';
 // Organization sameAs graph, so the footer, the contact page and the schema
 // can never disagree about which profiles are ours.
 const ICONS = [
+  ['wa.me', 'fa-brands fa-whatsapp', 'WhatsApp'],
+  ['whatsapp.com', 'fa-brands fa-whatsapp', 'WhatsApp'],
   ['linkedin.com', 'fa-brands fa-linkedin-in', 'LinkedIn'],
   ['instagram.com', 'fa-brands fa-instagram', 'Instagram'],
   ['facebook.com', 'fa-brands fa-facebook-f', 'Facebook'],

@@ -96,7 +96,7 @@ export default function WhoWeAre() {
             A Growth Engineering Agency Built for UK Businesses
           </h1>
           <p style={{ fontFamily: 'var(--ix-font-body)', fontSize: '1.05rem', color: '#333', lineHeight: 1.6, marginBottom: '1.5rem', maxWidth: '580px' }}>
-            Infynix operates from our London office at 39 Becontree Avenue, Dagenham, working directly with UK businesses on growth engineering, web development, and AI automation.
+            Infynix operates from our UK office at 39 Becontree Avenue, Dagenham, working directly with UK businesses on growth engineering, web development, and AI automation.
           </p>
           <p style={{ fontFamily: 'var(--ix-font-body)', fontSize: '1rem', color: '#555', lineHeight: 1.6, marginBottom: '2.5rem', maxWidth: '580px' }}>
             Our client-facing and strategy work is based in the UK, supported by dedicated delivery teams in UAE and Kochi (India), giving UK clients local accessibility with efficient, high-quality engineering behind it.

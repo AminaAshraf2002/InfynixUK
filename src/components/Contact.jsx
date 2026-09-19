@@ -22,9 +22,9 @@ const offices = [
     {
         city: "London",
         label: "UK Headquarters",
-        desc: "39 Becontree Avenue, Dagenham, London RM8 2UH. Our global executive headquarters directing international operations, technology consulting, and enterprise client strategy across European and American regions.",
+        desc: "39 Becontree Avenue, Dagenham, Greater London RM8 2UH. Our global executive headquarters directing international operations, technology consulting, and enterprise client strategy across European and American regions.",
         image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=900&q=80",
-        mapUrl: "https://share.google/nr3IR1BycI55dDqUs"
+        mapUrl: "https://maps.google.com/?q=39+Becontree+Avenue,+Dagenham,+Greater+London+RM8+2UH"
     },
     {
         city: "UAE",
@@ -190,9 +190,19 @@ export default function Contact() {
                                     <span style={{ color: '#888', fontSize: '0.8rem', marginRight: '6px' }}>India:</span>
                                     <a href="tel:+919995911173" style={{ color: 'inherit', textDecoration: 'none' }}>+91 99959 11173</a>
                                 </p>
-                                <p className="sidebar-query-val" style={{ margin: '2px 0' }}>
+                                <p className="sidebar-query-val" style={{ margin: '2px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
                                     <span style={{ color: '#888', fontSize: '0.8rem', marginRight: '6px' }}>UK:</span>
                                     <a href="tel:+447436670553" style={{ color: 'inherit', textDecoration: 'none' }}>+44 7436 670553</a>
+                                    <a
+                                        href="https://wa.me/447436670553"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Chat on WhatsApp"
+                                        style={{ color: '#25D366', display: 'inline-flex', alignItems: 'center' }}
+                                        title="Chat on WhatsApp"
+                                    >
+                                        <i className="fa-brands fa-whatsapp" style={{ fontSize: '1.2rem' }}></i>
+                                    </a>
                                 </p>
                             </div>
                             <div className="sidebar-divider" />

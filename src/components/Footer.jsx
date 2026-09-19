@@ -27,12 +27,12 @@ const Footer = () => {
           </div>
 
           <div className="footer-location-card">
-            <a href="https://share.google/nr3IR1BycI55dDqUs" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <a href="https://maps.google.com/?q=39+Becontree+Avenue,+Dagenham,+Greater+London+RM8+2UH" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
               <img loading="lazy" decoding="async" src={ukLImage} alt="UK London Office" className="footer-location-svg" />
               <div className="footer-location-title">UK - LONDON ↗</div>
               <div className="footer-location-addr">
                 39 Becontree Avenue,<br />
-                Dagenham, London RM8 2UH
+                Dagenham, Greater London RM8 2UH
               </div>
             </a>
           </div>
@@ -157,7 +157,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom" style={{ borderTop: '1px solid rgba(204, 191, 191, 0.28)', marginTop: '40px', paddingTop: '30px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '20px' }}>
-          <p style={{ fontSize: '0.8rem', color: '#ffffff' }}>© 2026 Infynix Solutions. All Rights Reserved.</p>
+          <p style={{ fontSize: '0.8rem', color: '#ffffff', margin: 0 }}>© 2026 Infynix Solutions. All Rights Reserved.</p>
           <SocialLinks />
         </div>
       </div>
