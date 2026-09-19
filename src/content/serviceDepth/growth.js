@@ -1,0 +1,812 @@
+// Infynix Growth Solutions, UK: depth content for the software, ERP, CRM,
+// automation, cloud and AI service pages (first half).
+//
+// Written for UK businesses from the Dagenham office: Making Tax Digital,
+// Xero, Sage and QuickBooks, HMRC and Companies House APIs, UK GDPR and the
+// ICO, Cyber Essentials, WCAG 2.2, Open Banking, UK cloud regions and the
+// carriers, marketplaces and payment methods a British business actually
+// uses. Keyed by service slug, merged in index.js.
+
+export const growthDepth = {
+  'infynix-growth-solutions': {
+    overview: [
+      'Infynix Growth Solutions is the engineering division of Infynix Solutions in the UK: custom web and mobile applications, CRM and ERP systems, business automation, data platforms, integrations, cloud infrastructure and applied AI, built for businesses across London, the Home Counties, the Midlands and the North. The brief is nearly always the same underneath the vocabulary: the company has outgrown a mix of spreadsheets, an accounting package and three subscriptions that do not talk to each other, and somebody is re-keying data between them every day.',
+      'We build the system that sits in the middle. That means software designed around how the business actually runs, connected to Xero, Sage or QuickBooks so the accounts are never a second copy of the truth, to the carriers, marketplaces and payment providers the business already uses, and to HMRC and Companies House where the process touches them. Making Tax Digital, UK GDPR, PECR, Cyber Essentials and, where it applies, WCAG 2.2 are designed in from the first sprint rather than bolted on before an audit.',
+      'The work is scoped in plain English with the people who will use it, delivered in short releases so the business sees working software within weeks, hosted in UK regions on infrastructure the client owns, and documented and handed over so nobody is locked to us. When the marketing division or Infynix Media is on the same account, the systems are built with the funnel and the content in view, which is the point of a growth engineering company.',
+      'Manufacturers and distributors, construction and trades businesses, professional services firms, e-commerce and D2C brands, healthcare providers, education and training organisations, property businesses, logistics operators and SaaS companies that need a product built or rescued.',
+    ],
+    capabilitiesHeading: 'What the division builds',
+    capabilities: [
+      { name: 'Custom web applications', desc: 'Portals, marketplaces, internal tools and SaaS products built on modern frameworks, with SSO, roles and audit trails.' },
+      { name: 'Mobile applications', desc: 'iOS and Android apps for customers, field teams and members, published under the client’s own developer accounts.' },
+      { name: 'CRM and ERP', desc: 'Sales, operations, stock, jobs and finance in one system, integrated with Xero, Sage or QuickBooks and HMRC.' },
+      { name: 'Business automation', desc: 'Invoice processing, approvals, onboarding, reconciliation and reporting run automatically with exceptions routed to people.' },
+      { name: 'Integration and APIs', desc: 'Accounting, Open Banking, carriers, marketplaces, Microsoft 365 and legacy systems connected with monitored, documented interfaces.' },
+      { name: 'Data platforms and dashboards', desc: 'A warehouse in a UK region and Power BI or Looker Studio reporting that reconciles to the accounts.' },
+      { name: 'Cloud infrastructure', desc: 'AWS London, Azure UK South and Google London regions, with backups, security and cost governance the client can inspect.' },
+      { name: 'Applied AI', desc: 'Document processing, assistants and vision systems built on real data under UK GDPR and ICO guidance.' },
+    ],
+    specsHeading: 'Typical engagements and timelines',
+    specsColumns: ['Engagement', 'Typical duration', 'What you receive'],
+    specs: [
+      ['Discovery and specification', '2 to 4 weeks', 'Process maps, written specification, architecture, delivery plan'],
+      ['Web or mobile application', '10 to 24 weeks', 'Working software in releases, documentation, handover'],
+      ['CRM or ERP implementation', '10 to 20 weeks', 'Configured system, integrations, migrated data, trained team'],
+      ['Automation programme', '4 to 12 weeks', 'Live workflows with exception handling and monitoring'],
+      ['Data platform', '6 to 12 weeks', 'Warehouse, pipelines, governed dashboards'],
+      ['Managed support', 'Monthly', 'Monitoring, patching, backups, agreed response times, a roadmap'],
+    ],
+    useCasesHeading: 'Who the division works with',
+    useCases: [
+      { name: 'Manufacturing and distribution', desc: 'Stock, works orders, purchasing and despatch in one system, linked to the accounts and the carriers.' },
+      { name: 'Construction and trades', desc: 'Job costing, quoting, CIS deductions, scheduling and site data from a phone.' },
+      { name: 'Professional services', desc: 'Client onboarding, engagement tracking, time and billing, with the data governance a regulated firm needs.' },
+      { name: 'E-commerce and D2C', desc: 'Shopify or custom storefronts connected to warehouse, carriers, marketplaces and finance.' },
+      { name: 'Healthcare and care', desc: 'Patient and resident systems built with the data protection and access controls the sector expects.' },
+      { name: 'SaaS founders', desc: 'A product built to be sold, with evals, billing, multi-tenancy and security done properly from the start.' },
+    ],
+    engagementsHeading: 'How we work together',
+    engagements: [
+      { name: 'Fixed-scope build', desc: 'A written specification, a fixed team and a delivery plan, released in sprints with acceptance at each one.' },
+      { name: 'Product team', desc: 'A dedicated team on a monthly basis, building and improving continuously with a shared backlog.' },
+      { name: 'Systems rescue', desc: 'Taking over a stalled or unsupported system, stabilising it, documenting it and planning the way forward.' },
+      { name: 'Managed support', desc: 'Monitoring, patching, backups and a response commitment, with a quarterly roadmap review.' },
+    ],
+    detail: [
+      {
+        heading: 'The accounts are never a second copy',
+        body: [
+          'Most UK small and mid-sized businesses run their finances in Xero, Sage or QuickBooks, and most operational systems we replace were keeping their own private version of customers, invoices and payments alongside. The two drift within a quarter, month end becomes a reconciliation exercise, and the finance team stops trusting either. Since Making Tax Digital made the accounting package the system of record for VAT, the drift is not just inconvenient, it is a compliance risk.',
+          'Everything we build treats the accounting package as the ledger. Invoices, credit notes, payments and purchase bills are posted to it through its API with the right tax codes and tracking categories, bank feeds and GoCardless or Stripe payouts reconcile against it, and the operational system holds the detail the ledger does not need. The finance team sees one set of numbers and the MTD submission is built from data that was correct at source.',
+        ],
+        points: [
+          { name: 'Ledger is the ledger', desc: 'Xero, Sage or QuickBooks stays the system of record for money.' },
+          { name: 'Posted correctly', desc: 'Tax codes, tracking categories and contacts mapped, not guessed.' },
+          { name: 'Payments reconciled', desc: 'Stripe, GoCardless and bank feeds matched automatically.' },
+          { name: 'MTD ready', desc: 'VAT figures built from source data, submitted through compatible software.' },
+        ],
+      },
+      {
+        heading: 'Security and data protection as design decisions',
+        body: [
+          'UK GDPR sets the rules for personal data, the ICO enforces them, and increasingly a company’s larger customers, insurers and public sector buyers ask for Cyber Essentials before they will sign. A system that handles personal data without a record of what is stored, why, for how long and who can see it is a liability the moment a subject access request or a breach arrives. Bolting that on afterwards is slow and expensive.',
+          'We design the data model with the lawful basis and retention in mind, build role-based access and audit logging into every system, host in UK regions with encryption at rest and in transit, and supply the documentation the client needs for a DPIA, a Cyber Essentials assessment or a supplier questionnaire. For healthcare and public sector work, the additional controls those buyers expect are scoped in at the start.',
+        ],
+        points: [
+          { name: 'Data map', desc: 'What is stored, on what basis, for how long, documented.' },
+          { name: 'Access and audit', desc: 'Roles, least privilege and a log of who did what.' },
+          { name: 'UK hosting', desc: 'London and UK South regions, encrypted throughout.' },
+          { name: 'Assessment ready', desc: 'Evidence for Cyber Essentials, DPIAs and supplier questionnaires.' },
+        ],
+      },
+      {
+        heading: 'Working software in weeks, not a launch in a year',
+        body: [
+          'A specification that takes six months to write and a system that appears a year later has usually been overtaken by the business. We run discovery in two to four weeks, producing process maps and a specification the operations team has signed, then deliver in fortnightly releases against a visible backlog. The first release is chosen to remove a real pain, typically the re-keying or the spreadsheet everyone dreads, so the team is using the system and shaping it long before it is finished.',
+          'Each release is tested with the people who will use it, and acceptance is written down, so scope changes are decisions rather than surprises. The whole system is documented as it is built, which is what makes the handover real.',
+        ],
+        points: [
+          { name: 'Short discovery', desc: 'Two to four weeks to a signed specification.' },
+          { name: 'Fortnightly releases', desc: 'Working software from the first sprint.' },
+          { name: 'First release removes pain', desc: 'The worst manual process goes first.' },
+          { name: 'Written acceptance', desc: 'Every release signed off against the specification.' },
+        ],
+      },
+      {
+        heading: 'Owned by the client, supported by us',
+        body: [
+          'Source code, cloud accounts, domains, app store listings and third-party subscriptions are held in the client’s name from day one. Documentation covers architecture, deployment, integrations and the runbook for common issues. Any competent developer could take the system on, which is the honest test of a handover, and clients who stay with us do so because the support is good rather than because leaving is hard.',
+          'Managed support covers monitoring, patching, backups and response times in writing, with a quarterly review of what the business needs next.',
+        ],
+        points: [
+          { name: 'Everything in your name', desc: 'Code, cloud, domains, stores, subscriptions.' },
+          { name: 'Full documentation', desc: 'Architecture, deployment, integrations and runbook.' },
+          { name: 'Handover tested', desc: 'A system a competent third party could run.' },
+          { name: 'Support in writing', desc: 'Monitoring, patching, backups, response times, roadmap.' },
+        ],
+      },
+    ],
+    extraFaqs: [
+      { question: 'What does Infynix Growth Solutions actually build?', answer: 'Custom web and mobile applications, CRM and ERP systems, business automation, integrations, data platforms, cloud infrastructure and applied AI for UK businesses, connected to Xero, Sage or QuickBooks and the carriers, marketplaces and payment providers you already use.' },
+      { question: 'Do you work with businesses outside London?', answer: 'Yes. Our office is in Dagenham and we work with clients across London, the Midlands, the North and the rest of the UK, mostly remotely with on-site sessions for discovery, go-live and training where they help.' },
+      { question: 'Will the system work with Making Tax Digital?', answer: 'Yes. The accounting package remains the system of record for VAT, the operational system posts to it correctly through its API, and MTD submissions are made through compatible software from data that was right at source.' },
+      { question: 'Can you help us get Cyber Essentials?', answer: 'The systems we build are designed to meet the controls, and we supply the technical evidence and documentation for the assessment. Certification itself is done through an accredited body, and we work with your assessor.' },
+      { question: 'Who owns the code and the cloud accounts?', answer: 'You do, from the first day. Source code, cloud accounts, domains, app store accounts and subscriptions are held in your name and documented so any competent developer could take them on.' },
+      { question: 'How long does a typical project take?', answer: 'Discovery takes two to four weeks. Automation programmes run four to twelve weeks, CRM or ERP implementations ten to twenty, and custom applications ten to twenty-four, delivered in fortnightly releases so you are using the system well before the end.' },
+      { question: 'Do you take over systems built by other developers?', answer: 'Yes. Systems rescue is a standing engagement: we audit, stabilise, document and then plan the way forward, whether that is continued development or a managed replacement.' },
+      { question: 'What happens after go-live?', answer: 'Managed support with monitoring, patching, backups and response times in writing, and a quarterly roadmap review, so the system keeps pace with the business.' },
+    ],
+  },
+
+  'website-development': {
+    overview: [
+      'Website development for UK businesses that need the site to do a job: win the enquiry, take the order, book the appointment, and satisfy the rules that apply to a British company online. We build marketing sites, e-commerce stores, booking systems and portals from our office in Dagenham for clients across London and the rest of the country, on foundations that search engines can read, screen readers can navigate and a phone on a patchy connection can load.',
+      'A UK site carries obligations that many templates ignore: cookie consent that meets PECR and the ICO’s guidance, a privacy notice that reflects what actually happens to data, accessibility that satisfies the Equality Act and, for public bodies and their suppliers, WCAG 2.2 AA, company details that the Companies Act requires on the site, and pricing shown inclusive of VAT to consumers. None of that is difficult when it is designed in, and all of it is painful when it is retrofitted.',
+      'Under that sits the engineering: server-rendered or pre-rendered pages so Google indexes the content rather than a loading spinner, Core Web Vitals treated as acceptance criteria, structured data for the organisation, products, services and locations, and a content system the client’s own team can use without a developer. For stores, Shopify or WooCommerce where they fit and custom storefronts where they do not, connected to Klarna or Clearpay, Royal Mail, DPD or Evri, and the accounts.',
+      'Clinics, law and accountancy firms, trades and construction businesses, e-commerce and D2C brands, hospitality groups, schools and training providers, property agents, charities and B2B companies selling from the UK into Europe.',
+    ],
+    capabilitiesHeading: 'What we build',
+    capabilities: [
+      { name: 'Marketing and lead generation sites', desc: 'Service, location and sector pages built for search, with tracked forms and calls feeding the CRM.' },
+      { name: 'E-commerce', desc: 'Shopify, WooCommerce or custom storefronts with UK payments, carriers, VAT handling and returns flows.' },
+      { name: 'Booking and appointment systems', desc: 'Clinic, salon, studio, tutor and venue bookings with deposits, reminders and calendar sync.' },
+      { name: 'Portals and member sites', desc: 'Client, patient, parent and member areas behind secure login with documents and payments.' },
+      { name: 'Technical SEO foundations', desc: 'Rendered HTML, clean URLs, schema, sitemaps, redirects and Core Web Vitals within Google’s thresholds.' },
+      { name: 'Accessibility', desc: 'WCAG 2.2 AA where required and sensible accessibility everywhere, tested with real assistive technology.' },
+      { name: 'Consent and privacy', desc: 'Cookie consent to PECR with consent mode so analytics survive, and privacy notices that match the build.' },
+      { name: 'Content systems', desc: 'A CMS the team can run: pages, blog, case studies, products and locations without calling a developer.' },
+    ],
+    specsHeading: 'Build types and timelines',
+    specsColumns: ['Build', 'Typical timeline', 'Included'],
+    specs: [
+      ['Brochure and lead generation site', '4 to 8 weeks', 'Design, build, SEO foundations, consent, CMS, tracking'],
+      ['Multi-location or multi-service site', '6 to 12 weeks', 'Page templates, location schema, Business Profile alignment'],
+      ['E-commerce store', '8 to 16 weeks', 'Catalogue, payments, carriers, VAT, returns, marketplace feeds'],
+      ['Booking system', '4 to 10 weeks', 'Availability, deposits, reminders, calendar and CRM sync'],
+      ['Portal or member site', '8 to 16 weeks', 'Secure login, documents, payments, roles, audit trail'],
+      ['Rebuild or migration', '4 to 12 weeks', 'Redirect map, content migration, ranking preservation'],
+    ],
+    useCasesHeading: 'Who it is for',
+    useCases: [
+      { name: 'Clinics and practices', desc: 'Treatment pages, online booking, CQC-conscious content and enquiry tracking.' },
+      { name: 'Professional services', desc: 'Firms whose site must reassure a client worth thousands before they pick up the phone.' },
+      { name: 'Trades and construction', desc: 'Area pages, quote requests and reviews that win local jobs across the boroughs and counties.' },
+      { name: 'Retail and D2C', desc: 'Stores with UK payment methods, next-day delivery options and returns that do not cost the margin.' },
+      { name: 'Education and training', desc: 'Course catalogues, applications and parent or learner portals.' },
+      { name: 'Charities and membership bodies', desc: 'Donations, membership, events and accessibility done properly.' },
+    ],
+    engagementsHeading: 'Ways of working',
+    engagements: [
+      { name: 'Fixed-scope build', desc: 'A defined site, a fixed timeline and a price agreed after scoping.' },
+      { name: 'Design and build with SEO', desc: 'The site and the search programme planned together with Infynix Agency.' },
+      { name: 'Rebuild and migrate', desc: 'Replacing an old site without losing the rankings it earned.' },
+      { name: 'Ongoing development', desc: 'A monthly allocation for new pages, features and improvements.' },
+    ],
+    detail: [
+      {
+        heading: 'Consent that keeps your analytics',
+        body: [
+          'PECR requires consent before non-essential cookies are set, and the ICO has been clear that a banner with only an accept button or a reject option buried three clicks deep does not count. Many UK sites either ignore the rule and carry the risk, or implement it so badly that half their measurement disappears and the marketing team cannot see what is working.',
+          'We implement a consent platform with a genuine choice, configure Google consent mode so conversions are modelled where consent is withheld, run tagging server-side where it helps, and write the cookie and privacy notices to match what the site actually does. The result is compliant and still measurable.',
+        ],
+        points: [
+          { name: 'Real choice', desc: 'Reject is as easy as accept, as the ICO expects.' },
+          { name: 'Consent mode', desc: 'Modelled conversions so the platforms keep learning.' },
+          { name: 'Server-side tagging', desc: 'Where it improves accuracy and performance.' },
+          { name: 'Notices that match', desc: 'Cookie and privacy text written from the build, not a template.' },
+        ],
+      },
+      {
+        heading: 'Accessibility is a legal duty and a bigger audience',
+        body: [
+          'The Equality Act requires reasonable adjustments for disabled users, public sector bodies must meet WCAG 2.2 AA under their own regulations, and their suppliers increasingly have to show the same. Beyond the law, an accessible site works better for everyone: clearer structure, readable contrast, keyboard navigation and forms that explain their errors are also what converts on a phone in daylight.',
+          'We build to WCAG 2.2 AA where it is required and to its principles everywhere, test with screen readers and keyboard-only navigation rather than relying on an automated score, and supply an accessibility statement where the client needs to publish one.',
+        ],
+        points: [
+          { name: 'WCAG 2.2 AA', desc: 'Where required, and its principles on every build.' },
+          { name: 'Real testing', desc: 'Screen readers and keyboard navigation, not just a scanner.' },
+          { name: 'Accessible forms', desc: 'Labels, errors and focus handled properly.' },
+          { name: 'Statement supplied', desc: 'An accessibility statement for clients who must publish one.' },
+        ],
+      },
+      {
+        heading: 'A store built for UK checkout habits',
+        body: [
+          'British shoppers expect Apple Pay and Google Pay, buy-now-pay-later through Klarna or Clearpay on the right products, prices including VAT, clear delivery promises with Royal Mail, DPD or Evri options, and a returns process that does not require an email. Behind the checkout, stock must be right across the store, marketplaces and the warehouse, and every order has to land in the accounts with the correct VAT treatment, including the zero-rated and reduced-rate lines many catalogues carry.',
+          'We build on Shopify or WooCommerce where they fit and custom where they do not, connect the carriers for labels and tracking, integrate Amazon and eBay feeds where they are part of the business, and post orders to Xero, Sage or QuickBooks correctly.',
+        ],
+        points: [
+          { name: 'UK payment methods', desc: 'Apple Pay, Google Pay, Klarna, Clearpay, cards.' },
+          { name: 'Carrier integration', desc: 'Royal Mail, DPD, Evri labels and tracking from the order.' },
+          { name: 'VAT done right', desc: 'Standard, reduced and zero-rated lines posted correctly.' },
+          { name: 'Marketplace sync', desc: 'Amazon and eBay stock and orders in one place.' },
+        ],
+      },
+      {
+        heading: 'Rebuilding without losing what you earned',
+        body: [
+          'Most rebuilds we take on follow a site that lost its rankings when the previous agency launched a new one without a redirect map. Every URL that had traffic or links needs a one-to-one redirect, the content that was ranking needs to survive in improved form, and titles, headings and schema need to be at least as good as before on launch day.',
+          'We crawl the existing site, map every URL, migrate and improve the content, launch with redirects and monitoring in place, and watch Search Console for the weeks after so any drop is caught and corrected.',
+        ],
+        points: [
+          { name: 'Full crawl', desc: 'Every URL with traffic or links identified.' },
+          { name: 'Redirect map', desc: 'One-to-one redirects, tested before launch.' },
+          { name: 'Content carried', desc: 'Ranking pages migrated and improved, not dropped.' },
+          { name: 'Post-launch watch', desc: 'Search Console monitored for weeks after go-live.' },
+        ],
+      },
+    ],
+    extraFaqs: [
+      { question: 'Do you build on WordPress, Shopify or custom code?', answer: 'All three, chosen for the job. Content-led sites are often WordPress or a headless CMS, stores are Shopify or WooCommerce where they fit, and portals, booking systems and anything with complex logic are built custom on modern frameworks.' },
+      { question: 'Will the site meet UK cookie and privacy rules?', answer: 'Yes. Consent is implemented to PECR with a genuine choice, consent mode keeps analytics usable, and the cookie and privacy notices are written to match what the site does.' },
+      { question: 'Do you handle accessibility?', answer: 'Yes. WCAG 2.2 AA where it is required, its principles on every build, testing with screen readers and keyboards, and an accessibility statement where you need to publish one.' },
+      { question: 'Can you integrate Klarna, Clearpay and UK carriers?', answer: 'Yes. Buy-now-pay-later, Apple Pay and Google Pay at checkout, and Royal Mail, DPD and Evri for labels and tracking, with orders posted to your accounting package with the correct VAT.' },
+      { question: 'Will we lose rankings when we move to the new site?', answer: 'Not if it is done properly. We crawl the old site, build a one-to-one redirect map, carry the ranking content across and monitor Search Console after launch so any movement is caught early.' },
+      { question: 'Can our own team update the site?', answer: 'Yes. Pages, posts, products and locations are managed in a CMS your team is trained on, with the structure protected so edits do not break the design or the SEO.' },
+      { question: 'Do you also do the SEO and advertising?', answer: 'Through Infynix Agency, yes. Sites are often planned with the search and paid programme so the pages that need to rank exist from launch.' },
+      { question: 'How long does a site take?', answer: 'Brochure and lead generation sites take four to eight weeks, stores eight to sixteen, and portals or booking systems four to sixteen depending on scope, agreed in writing after a short discovery.' },
+    ],
+  },
+
+  'mobile-app-development': {
+    overview: [
+      'Mobile app development for UK businesses that need an app to serve customers, members, patients or their own field teams: iOS and Android, built from our office in Dagenham and published under the client’s own App Store and Google Play accounts. The apps that succeed are the ones with a clear job, a reason to be opened again, and a backend that keeps them in step with the systems the business already runs.',
+      'For a British audience the details are specific: Apple Pay and Google Pay at checkout, Open Banking where an app takes payments or reads accounts, push notifications that respect PECR, a privacy notice and data handling that satisfy UK GDPR and the app stores’ own reviewers, and accessibility that meets the Equality Act. Apps that touch health data carry more, and apps for children must be built with the ICO’s children’s code in mind.',
+      'We build customer apps for retailers, restaurants, gyms and clinics, loyalty and ordering apps, member apps for clubs and associations, field apps for engineers, carers and inspectors that work offline on a site with no signal, and driver and delivery apps that sit on top of the operational system. Where a native app is not justified, we say so and build a progressive web app instead.',
+      'Retail and hospitality groups, gyms and studios, clinics and care providers, trades and field service companies, logistics operators, schools and clubs, and startups building a product for the UK market.',
+    ],
+    capabilitiesHeading: 'What we build',
+    capabilities: [
+      { name: 'Customer and loyalty apps', desc: 'Ordering, booking, rewards and payments for retail, hospitality, fitness and clinics.' },
+      { name: 'Field and workforce apps', desc: 'Job sheets, checklists, photos, signatures and forms that work offline and sync when back in signal.' },
+      { name: 'Driver and delivery apps', desc: 'Routes, proof of delivery, live tracking and customer notifications tied to the back office.' },
+      { name: 'Member and community apps', desc: 'Clubs, associations, schools and membership bodies with content, events and payments.' },
+      { name: 'Payments and Open Banking', desc: 'Apple Pay, Google Pay, cards and account-to-account payments through FCA-regulated providers.' },
+      { name: 'Backend and APIs', desc: 'A secure backend in a UK region, connected to CRM, ERP, accounting and third parties.' },
+      { name: 'Store publishing', desc: 'Listings, screenshots, review responses and release management under your accounts.' },
+      { name: 'Progressive web apps', desc: 'App-like experiences without the store when installation is not worth the friction.' },
+    ],
+    specsHeading: 'App types and what they involve',
+    specsColumns: ['App type', 'Typical timeline', 'Backend'],
+    specs: [
+      ['Ordering or loyalty app', '10 to 16 weeks', 'Menu or catalogue, payments, CRM and POS links'],
+      ['Booking app', '8 to 14 weeks', 'Availability, deposits, reminders, calendar sync'],
+      ['Field service app', '10 to 18 weeks', 'Offline sync, job system, photos and forms, reporting'],
+      ['Driver app', '8 to 14 weeks', 'Routing, proof of delivery, tracking, notifications'],
+      ['Member app', '10 to 16 weeks', 'Membership, content, events, payments, messaging'],
+      ['Progressive web app', '6 to 12 weeks', 'Shared backend, installable, push where supported'],
+    ],
+    useCasesHeading: 'Who it is for',
+    useCases: [
+      { name: 'Restaurants and retail', desc: 'Order ahead, click and collect, loyalty and offers that bring people back.' },
+      { name: 'Gyms and studios', desc: 'Class booking, memberships, check-in and retention prompts.' },
+      { name: 'Clinics and care providers', desc: 'Appointments, reminders, forms and secure messaging built for health data.' },
+      { name: 'Field service and trades', desc: 'Engineers and inspectors capturing evidence on site without a signal.' },
+      { name: 'Logistics and delivery', desc: 'Drivers, proof of delivery and customer tracking from one system.' },
+      { name: 'Startups', desc: 'A first version scoped tightly enough to ship and learn.' },
+    ],
+    engagementsHeading: 'Ways of working',
+    engagements: [
+      { name: 'Design and build', desc: 'Discovery, prototype, build and launch as a fixed-scope project.' },
+      { name: 'Product team', desc: 'A dedicated team improving the app month by month.' },
+      { name: 'App rescue', desc: 'Taking over an app another supplier built, stabilising and documenting it.' },
+      { name: 'Support and releases', desc: 'Monitoring, OS updates, store compliance and regular releases.' },
+    ],
+    detail: [
+      {
+        heading: 'Getting through App Store and Play review',
+        body: [
+          'Apple and Google reject apps for reasons that have nothing to do with code quality: a missing privacy nutrition label, a login that cannot be deleted from inside the app, a subscription that is not clearly described, a payment that should have used in-app purchase, or a screenshot that does not match the build. In the UK, the app stores’ rules sit alongside UK GDPR and the ICO’s expectations, and both reviewers and regulators read the privacy notice.',
+          'We prepare the listings, privacy declarations, account deletion, subscription terms and test accounts as part of the build rather than at the end, and handle the review conversation under the client’s developer accounts so the app ships when it is ready.',
+        ],
+        points: [
+          { name: 'Privacy declarations', desc: 'App privacy details and notices written from the build.' },
+          { name: 'Account deletion', desc: 'Built in, as both stores require.' },
+          { name: 'Payment rules', desc: 'In-app purchase where it must be, cards or Open Banking where it may be.' },
+          { name: 'Your accounts', desc: 'Published under your developer accounts, never ours.' },
+        ],
+      },
+      {
+        heading: 'Field apps that work where there is no signal',
+        body: [
+          'Engineers in plant rooms, carers in rural homes, surveyors on building sites and inspectors in basements do not have reliable data. A field app that needs a connection to open a job sheet gets abandoned in the first week and the paper comes back. The app has to hold the day’s work locally, capture photos, forms, signatures and readings offline, and sync cleanly when the signal returns without duplicating or losing anything.',
+          'We build offline-first with conflict handling, compress and queue photos, and design the screens for gloves, sunlight and a hurry. The office sees jobs update as devices come back online and the reports build themselves.',
+        ],
+        points: [
+          { name: 'Offline first', desc: 'Jobs, forms and photos held locally and synced later.' },
+          { name: 'Conflict handling', desc: 'Nothing lost or duplicated when two people touch one job.' },
+          { name: 'Built for site', desc: 'Large targets, high contrast, minimal typing.' },
+          { name: 'Evidence captured', desc: 'Photos, signatures, timestamps and locations for the record.' },
+        ],
+      },
+      {
+        heading: 'Payments the way British customers pay',
+        body: [
+          'Apple Pay and Google Pay are the default in the UK for anything under a hundred pounds, cards remain essential, and account-to-account payment through Open Banking is now common for larger amounts and for anything that needs to avoid card fees. Where an app reads bank data or initiates payments, the provider must be FCA-regulated and the consent flow has to be exact.',
+          'We integrate Stripe, Adyen or the client’s existing acquirer for cards and wallets, and FCA-regulated Open Banking providers where account-to-account payments make sense, with receipts and refunds handled inside the app and every transaction posted to the accounts.',
+        ],
+        points: [
+          { name: 'Wallets first', desc: 'Apple Pay and Google Pay where customers expect them.' },
+          { name: 'Open Banking', desc: 'Account-to-account payments through regulated providers.' },
+          { name: 'Refunds in app', desc: 'Customers and staff resolve issues without a phone call.' },
+          { name: 'Posted to accounts', desc: 'Every transaction reconciled in the accounting package.' },
+        ],
+      },
+      {
+        heading: 'An app is a product, not a launch',
+        body: [
+          'Apple and Google ship operating system changes every year, devices change, libraries deprecate, and an app that is not maintained starts failing review or crashing within eighteen months. The apps that keep users are the ones that keep improving on the evidence of how people actually use them.',
+          'Every app we ship comes with analytics and crash reporting, a release calendar aligned to the OS cycle, and a support arrangement that covers updates, store compliance and improvements, so the app the business paid for is still working and still relevant two years on.',
+        ],
+        points: [
+          { name: 'Analytics and crash reporting', desc: 'Know what is used and what is failing.' },
+          { name: 'OS release cadence', desc: 'Updated ahead of each iOS and Android version.' },
+          { name: 'Store compliance', desc: 'Policy changes handled before they become rejections.' },
+          { name: 'Improvement backlog', desc: 'Features prioritised on evidence, released regularly.' },
+        ],
+      },
+    ],
+    extraFaqs: [
+      { question: 'Do you build native or cross-platform apps?', answer: 'Both. Most business apps are built cross-platform so iOS and Android ship together from one codebase; native is used where the app depends on hardware, performance or platform features that justify it. We recommend from the brief.' },
+      { question: 'Will the app be published under our account?', answer: 'Yes. Apple Developer and Google Play accounts are in your name, we publish under them, and every listing, certificate and key is yours.' },
+      { question: 'Can the app work offline?', answer: 'Yes. Field, care and inspection apps are built offline-first, holding the day’s work locally and syncing safely when the device is back in signal.' },
+      { question: 'Can you integrate Apple Pay, Google Pay and Open Banking?', answer: 'Yes. Cards and wallets through Stripe, Adyen or your existing acquirer, and account-to-account payments through FCA-regulated Open Banking providers, with every transaction posted to your accounts.' },
+      { question: 'How do you handle UK GDPR in an app?', answer: 'Data is held in UK regions, the privacy notice and app store privacy declarations are written from what the app does, account deletion is built in, and health or children’s data carries the additional controls the ICO expects.' },
+      { question: 'What happens after launch?', answer: 'A support arrangement covering monitoring, crash fixes, OS updates, store policy changes and a regular release of improvements, so the app stays working and relevant.' },
+      { question: 'How long does an app take?', answer: 'Eight to eighteen weeks depending on type, after a short discovery that fixes the scope of the first release. A progressive web app can be quicker.' },
+      { question: 'Can you take over an app someone else built?', answer: 'Yes. We audit the code and the store accounts, stabilise anything failing, document it and agree a plan for continued development.' },
+      { question: 'Can the app integrate with our existing systems?', answer: 'Yes. A secure backend connects the app to CRM, ERP, accounting, booking and job systems, so the app is a window onto the business rather than a separate data store.' },
+      { question: 'Do you build apps that handle health data?', answer: 'Yes, with the additional controls the sector expects: UK hosting, encryption, access logging, a DPIA and alignment with NHS and care standards where the app is used in those settings.' },
+    ],
+  },
+
+  'crm-erp-development': {
+    overview: [
+      'Custom CRM and ERP development for UK businesses that have outgrown spreadsheets, an accounting package and a handful of disconnected apps, and cannot make a generic system fit how they actually work. We design and build sales, operations, stock, jobs, projects and finance workflows in one system, integrated with Xero, Sage or QuickBooks, HMRC and the tools the team already uses, from our office in Dagenham for clients across the country.',
+      'The British version of the problem has its own shape. VAT has to be right for Making Tax Digital, construction businesses have CIS deductions on every subcontractor payment, payroll reports to HMRC in real time, distributors trade with retailers over EDI, and the accountant expects the ledger to reconcile without a manual journal. An ERP that ignores any of those creates work in the finance team that the operations gains do not cover.',
+      'So the accounting package stays the ledger, the operational system holds the detail, and the two are connected by a tested integration rather than a monthly export. Quotes become orders become works orders, purchase orders and despatches, and every step posts to the accounts correctly. CRM sits on the same data so sales sees stock and delivery dates, and management sees margin by job, product and customer without a spreadsheet.',
+      'Manufacturers and distributors, construction and trades businesses, professional services firms, wholesalers supplying UK retailers, property and facilities companies, logistics operators and any business whose current system is a set of spreadsheets that one person understands.',
+    ],
+    capabilitiesHeading: 'What we build',
+    capabilities: [
+      { name: 'CRM', desc: 'Leads, accounts, pipeline, quotes, activity and forecasting with UK phone and email capture, built around how the sales team sells.' },
+      { name: 'Sales and order management', desc: 'Quotes to orders to invoices with pricing rules, approvals, credit control and Xero, Sage or QuickBooks posting.' },
+      { name: 'Stock and warehouse', desc: 'Multi-location stock, batch and serial tracking, barcode scanning and despatch through UK carriers.' },
+      { name: 'Manufacturing', desc: 'Bills of materials, works orders, routing, capacity and costing for make-to-order and make-to-stock.' },
+      { name: 'Jobs and projects', desc: 'Job costing, scheduling, timesheets, CIS handling and site data from mobile.' },
+      { name: 'Purchasing and suppliers', desc: 'Requisitions, purchase orders, goods receipt, three-way matching and supplier performance.' },
+      { name: 'Finance integration', desc: 'The accounting package as ledger, MTD-compatible VAT, payment reconciliation and management reporting.' },
+      { name: 'Reporting', desc: 'Margin by job, product and customer, live dashboards, and exports the accountant can use.' },
+    ],
+    specsHeading: 'Implementation stages',
+    specsColumns: ['Stage', 'Typical duration', 'Output'],
+    specs: [
+      ['Process discovery', '2 to 4 weeks', 'Process maps, data audit, written specification'],
+      ['Core build', '6 to 12 weeks', 'The main workflows live with the pilot team'],
+      ['Integrations', '2 to 6 weeks', 'Accounting, HMRC, carriers, EDI, marketplaces connected'],
+      ['Data migration', '2 to 4 weeks', 'Customers, products, stock and open transactions cleaned and loaded'],
+      ['Training and go-live', '2 to 3 weeks', 'Role-based training, cutover plan, hypercare'],
+      ['Continuous improvement', 'Monthly', 'Backlog releases, new modules, support'],
+    ],
+    useCasesHeading: 'Who it is for',
+    useCases: [
+      { name: 'Manufacturers', desc: 'Works orders, materials, capacity and true product costing in one place.' },
+      { name: 'Distributors and wholesalers', desc: 'Stock across locations, retailer EDI, carrier despatch and margin by line.' },
+      { name: 'Construction and trades', desc: 'Job costing, CIS, scheduling and site evidence from a phone.' },
+      { name: 'Professional services', desc: 'Client onboarding, engagements, time and billing with the records a regulated firm needs.' },
+      { name: 'Facilities and property', desc: 'Assets, planned maintenance, contractors and compliance certificates.' },
+      { name: 'Growing e-commerce brands', desc: 'Orders, warehouse, marketplaces and finance connected as volume rises.' },
+    ],
+    engagementsHeading: 'Ways of working',
+    engagements: [
+      { name: 'Full implementation', desc: 'Discovery to go-live as a fixed-scope project with named stages.' },
+      { name: 'Modular rollout', desc: 'Sales, then stock, then manufacturing, each live before the next begins.' },
+      { name: 'Platform build-out', desc: 'Extending HubSpot, Odoo or Dynamics where a platform fits, custom where it does not.' },
+      { name: 'Support and roadmap', desc: 'Managed support, releases and a quarterly review after go-live.' },
+    ],
+    detail: [
+      {
+        heading: 'VAT, CIS and RTI without the month-end panic',
+        body: [
+          'Three HMRC obligations decide whether a UK ERP is helping or hurting. VAT has to be calculated correctly on every line and submitted under Making Tax Digital from digital records. Construction businesses must apply CIS deductions to subcontractor payments and report them monthly. Payroll must be reported in real time on or before each payday. When the operational system gets any of these wrong, the finance team corrects them by hand and the business is exposed if HMRC asks.',
+          'We build the tax logic into the workflows: VAT codes on products, customers and lines, CIS status on subcontractors with deductions calculated at payment, and payroll data flowing to whichever RTI-compliant payroll the business uses. Submissions go through the accounting package or compatible software, from data that was right when it was entered.',
+        ],
+        points: [
+          { name: 'MTD compatible', desc: 'Digital records, VAT posted correctly, submitted through compatible software.' },
+          { name: 'CIS built in', desc: 'Subcontractor status, deductions and monthly returns from the job data.' },
+          { name: 'Payroll connected', desc: 'Timesheets and rates feeding an RTI-compliant payroll.' },
+          { name: 'Audit trail', desc: 'Every figure traceable to the transaction that produced it.' },
+        ],
+      },
+      {
+        heading: 'Trading with UK retailers over EDI',
+        body: [
+          'Suppliers to the supermarkets, DIY chains and department stores are expected to receive orders, send despatch advices and invoice electronically, in the retailer’s format, with the right barcodes and delivery windows. Doing that from a spreadsheet and a portal login for each retailer is slow and error-prone, and chargebacks for late or wrong deliveries come straight off the margin.',
+          'We integrate EDI into the order and despatch flow so retailer orders arrive as orders, picking and labelling follow the retailer’s requirements, advices and invoices go back automatically, and the accounts reflect what was actually shipped and accepted.',
+        ],
+        points: [
+          { name: 'Orders received automatically', desc: 'Retailer EDI orders land in the system as orders.' },
+          { name: 'Retailer compliance', desc: 'Labels, barcodes and windows handled in picking and despatch.' },
+          { name: 'Advices and invoices sent', desc: 'ASNs and invoices generated from the despatch.' },
+          { name: 'Chargebacks visible', desc: 'Disputes matched to the delivery record.' },
+        ],
+      },
+      {
+        heading: 'Job costing that shows the real margin',
+        body: [
+          'Construction, engineering and installation businesses quote on estimates and find out months later whether the job made money. Labour from timesheets, materials from purchase orders, subcontractor invoices, plant hire and travel all need to land on the job as they happen, so the manager can see the margin moving while there is still time to act.',
+          'We build job costing that captures each cost at source, from mobile timesheets, supplier invoices and stock issues, compares it to the estimate line by line, and reports margin by job, phase and customer. Applications for payment and retentions are handled where the sector needs them.',
+        ],
+        points: [
+          { name: 'Costs at source', desc: 'Timesheets, purchases, subcontractors and plant land on the job as they occur.' },
+          { name: 'Estimate versus actual', desc: 'Line-by-line comparison while the job is live.' },
+          { name: 'Applications and retentions', desc: 'Construction billing handled properly.' },
+          { name: 'Margin by job', desc: 'Reported by job, phase, customer and manager.' },
+        ],
+      },
+      {
+        heading: 'Migration and go-live without a lost week',
+        body: [
+          'The riskiest fortnight in any ERP project is the cutover. Customers, products, prices, stock and open orders have to come across clean, the team has to know the new system, and the old one has to stay available for reference. Businesses that go live on a Monday with untested data spend a month recovering.',
+          'We clean and migrate data in rehearsals, train each role on their own workflows, run the pilot team on real transactions before cutover, plan the go-live for the quietest point in the calendar, and stay on hypercare for the weeks after so issues are fixed the same day.',
+        ],
+        points: [
+          { name: 'Rehearsed migration', desc: 'Data loaded and checked more than once before go-live.' },
+          { name: 'Role-based training', desc: 'Each team trained on its own screens and tasks.' },
+          { name: 'Pilot before cutover', desc: 'Real transactions run by real users first.' },
+          { name: 'Hypercare', desc: 'Same-day fixes in the weeks after launch.' },
+        ],
+      },
+    ],
+    extraFaqs: [
+      { question: 'Should we buy an off-the-shelf ERP or build one?', answer: 'It depends on how unusual the processes are. Where a platform such as Odoo, HubSpot or Dynamics fits, we implement and extend it; where the business runs on workflows no package supports, a custom system is cheaper over five years. We tell you which after discovery.' },
+      { question: 'Does it integrate with Xero, Sage or QuickBooks?', answer: 'Yes. The accounting package stays the ledger. Invoices, bills, payments and credits post through the API with the right VAT codes, and reconciliation runs against bank feeds and payment providers.' },
+      { question: 'Can it handle CIS for our subcontractors?', answer: 'Yes. Subcontractor verification status, deductions calculated at payment, statements and the data for monthly CIS returns are built into the job and purchase workflows.' },
+      { question: 'Can you connect us to retailer EDI?', answer: 'Yes. Orders, despatch advices and invoices exchanged with UK retailers in their formats, with labelling and delivery windows handled in picking and despatch.' },
+      { question: 'How long does an implementation take?', answer: 'Ten to twenty weeks for most businesses, in stages: discovery, core build, integrations, migration, training and go-live, with the pilot team using the system well before cutover.' },
+      { question: 'What about our existing data?', answer: 'Customers, products, prices, stock and open transactions are cleaned, migrated in rehearsals and checked before go-live, with the old system kept available for reference.' },
+      { question: 'Can staff use it on site from a phone?', answer: 'Yes. Timesheets, job sheets, photos, stock movements and approvals work from mobile, offline where needed, and sync to the main system.' },
+      { question: 'What support do you provide after go-live?', answer: 'Hypercare for the first weeks, then managed support with monitoring, releases from an agreed backlog and a quarterly review of what the business needs next.' },
+      { question: 'Can the CRM capture leads from our website, phone and portals automatically?', answer: 'Yes. Forms, tracked calls, portal enquiries and inboxes are captured with their source, deduplicated and routed to the right person, with response time measured.' },
+      { question: 'Does it handle multi-currency for trading with Europe and the Gulf?', answer: 'Yes. Sales and purchases in multiple currencies with exchange rates, and posting to the accounting package in the way it expects for UK reporting.' },
+    ],
+  },
+
+  'business-automation': {
+    overview: [
+      'Business automation for UK companies whose people spend their days moving information between systems: keying supplier invoices into Xero, chasing approvals over email, copying enquiries into the CRM, reconciling Stripe and GoCardless payouts, assembling the same report every Monday and checking the same compliance boxes for every new client. We map those processes, automate the repeatable parts and route only the exceptions to a person, from our office in Dagenham for clients across the country.',
+      'The tools are chosen for the business rather than the other way round. Many UK companies live in Microsoft 365, so Power Automate, SharePoint and Teams are often the right place for an approval or a document flow. Accounting runs in Xero, Sage or QuickBooks, direct debits in GoCardless, signatures in DocuSign or Adobe Sign, and identity checks and company lookups through Companies House and regulated verification providers. Where no tool fits, we write the code.',
+      'The rules are part of the design. Personal data moves under UK GDPR with a documented basis and retention, marketing automation respects PECR, anti-money laundering checks for solicitors, accountants and estate agents follow their supervisors’ requirements, and HMRC submissions go through compatible software. Every automation logs what it did, so an auditor, a regulator or the finance director can see the trail.',
+      'Accountancy and law firms, estate and lettings agents, distributors and manufacturers, e-commerce brands, care providers, recruitment agencies, property managers and any business with more than one person doing manual data entry as a job.',
+    ],
+    capabilitiesHeading: 'What we automate',
+    capabilities: [
+      { name: 'Accounts payable', desc: 'Supplier invoices captured, matched to purchase orders, approved and posted to the accounting package.' },
+      { name: 'Payment reconciliation', desc: 'Stripe, GoCardless, PayPal, Amazon and bank feeds matched to invoices automatically, mismatches flagged.' },
+      { name: 'Client onboarding and KYC', desc: 'Engagement letters, identity and AML checks, Companies House lookups and CRM records without re-keying.' },
+      { name: 'Approvals and documents', desc: 'Purchase, leave, expense and contract approvals routed in Teams or email with e-signature.' },
+      { name: 'Lead and enquiry handling', desc: 'Forms, calls, portals and inboxes captured, deduplicated, routed and answered inside minutes.' },
+      { name: 'Reporting', desc: 'Weekly and monthly packs assembled from live systems and sent before anyone asks.' },
+      { name: 'Compliance workflows', desc: 'Renewals, certificates, right-to-work checks and audit trails tracked and chased automatically.' },
+      { name: 'Custom integrations', desc: 'Code where no connector exists, with monitoring and retries so silent failures cannot happen.' },
+    ],
+    specsHeading: 'Common automations',
+    specsColumns: ['Process', 'Before', 'After'],
+    specs: [
+      ['Supplier invoices', 'Keyed by hand, approved by email', 'Captured, matched, approved in Teams, posted to Xero or Sage'],
+      ['Payout reconciliation', 'Monthly spreadsheet exercise', 'Matched daily, only mismatches reviewed'],
+      ['New client onboarding', 'Forms, emails and ID copies in a folder', 'Portal, checks, engagement letter, CRM record, all logged'],
+      ['Enquiry response', 'Whoever sees the inbox first', 'Routed by rule, acknowledged instantly, tracked in CRM'],
+      ['Monday report', 'Built from five exports', 'Generated from live data and sent automatically'],
+      ['Renewals and certificates', 'Remembered, sometimes', 'Chased on schedule with evidence stored'],
+    ],
+    useCasesHeading: 'Who it is for',
+    useCases: [
+      { name: 'Accountancy and law firms', desc: 'Onboarding, AML checks, engagement letters and matter or job setup without the admin backlog.' },
+      { name: 'Estate and lettings agents', desc: 'Applicant handling, referencing, compliance certificates and landlord statements.' },
+      { name: 'Distributors and manufacturers', desc: 'Purchase-to-pay, order confirmations and despatch notifications.' },
+      { name: 'E-commerce brands', desc: 'Payout reconciliation, returns handling and marketplace fee tracking.' },
+      { name: 'Care and recruitment', desc: 'Right-to-work checks, training renewals, timesheets and compliance evidence.' },
+      { name: 'Property managers', desc: 'Service charge collection, contractor instructions and certificate tracking.' },
+    ],
+    engagementsHeading: 'Ways of working',
+    engagements: [
+      { name: 'Process audit', desc: 'Two to three weeks mapping where the hours go, with a prioritised plan.' },
+      { name: 'Automation programme', desc: 'The plan delivered as a sequence of live workflows, highest value first.' },
+      { name: 'Single workflow', desc: 'One painful process automated end to end as a fixed project.' },
+      { name: 'Managed automation', desc: 'Monitoring, maintenance and improvement of everything in production.' },
+    ],
+    detail: [
+      {
+        heading: 'Accounts payable that posts itself',
+        body: [
+          'A supplier invoice arrives by email, someone downloads it, keys it into the accounting package, forwards it for approval, waits, chases, and files the PDF somewhere. Multiply by a few hundred a month and it is a job. It is also where duplicate payments, missed early-payment discounts and VAT errors creep in.',
+          'We capture invoices from the inbox or a supplier portal, extract the fields, match them to purchase orders and goods receipts where they exist, route approval to the right person in Teams or email with one click, post the approved invoice to Xero, Sage or QuickBooks with the correct VAT code and nominal, and store the document against it. Exceptions, and only exceptions, reach a person.',
+        ],
+        points: [
+          { name: 'Captured automatically', desc: 'Inbox, portal or scan, fields extracted and checked.' },
+          { name: 'Matched', desc: 'Purchase order and goods receipt matched before approval.' },
+          { name: 'One-click approval', desc: 'Routed by rule, approved in Teams or email.' },
+          { name: 'Posted correctly', desc: 'VAT, nominal and supplier right in the ledger, document attached.' },
+        ],
+      },
+      {
+        heading: 'Onboarding a client without the paperwork',
+        body: [
+          'Regulated firms onboard slowly. Identity documents, address checks, source of funds, Companies House lookups for corporate clients, engagement letters, conflict checks and CRM setup can take a week of email tennis before any work starts. Clients notice, and the firm carries AML risk if a step is skipped.',
+          'We build an onboarding flow: a portal where the client provides details and documents, automated identity and AML checks through the firm’s chosen regulated provider, a Companies House lookup that fills in directors and ownership, an engagement letter generated and signed electronically, and the matter or job created in the practice system with everything logged for the supervisor.',
+        ],
+        points: [
+          { name: 'Client portal', desc: 'Details and documents collected once, securely.' },
+          { name: 'Checks automated', desc: 'Identity, AML and Companies House through regulated providers.' },
+          { name: 'Letters signed', desc: 'Engagement terms generated and e-signed.' },
+          { name: 'Fully logged', desc: 'An audit trail your supervisor can inspect.' },
+        ],
+      },
+      {
+        heading: 'Automation inside Microsoft 365',
+        body: [
+          'A great many UK businesses already pay for Microsoft 365, and much of what they need automating lives in Outlook, Teams, SharePoint and Excel. Building a separate tool for an approval flow that could run in Teams, or for a document process that belongs in SharePoint, adds cost and another login.',
+          'Where the business runs on Microsoft, we build in Power Automate, Power Apps and SharePoint, connect them to the accounting package and the CRM, and add code only where the platform cannot do the job. The result is automation the IT team can see and support, inside the tools staff already have open.',
+        ],
+        points: [
+          { name: 'Native to Microsoft 365', desc: 'Power Automate, Power Apps, SharePoint and Teams.' },
+          { name: 'Connected', desc: 'Accounting, CRM and line-of-business systems linked in.' },
+          { name: 'Supportable', desc: 'Visible to your IT team and documented.' },
+          { name: 'Code where needed', desc: 'Custom services only where the platform runs out.' },
+        ],
+      },
+      {
+        heading: 'Automations that report when they fail',
+        body: [
+          'An automation that fails silently is worse than the manual process it replaced, because nobody is watching. A connector changes, a supplier alters an invoice layout, an API key expires, and for three weeks nothing posts and nobody notices until the month-end numbers are wrong.',
+          'Every workflow we put into production is monitored, retries safely, alerts a named person when something needs attention, and keeps a log of every run. Managed automation covers keeping it all working as the connected systems change.',
+        ],
+        points: [
+          { name: 'Monitored', desc: 'Every run tracked, failures alerted to a person.' },
+          { name: 'Safe retries', desc: 'Transient errors retried without duplicating anything.' },
+          { name: 'Run logs', desc: 'What happened, when, with what data.' },
+          { name: 'Kept current', desc: 'Connectors and credentials maintained under managed automation.' },
+        ],
+      },
+    ],
+    extraFaqs: [
+      { question: 'Which processes should we automate first?', answer: 'The process audit measures where the hours and the errors are. Accounts payable, payment reconciliation, client onboarding and enquiry handling are usually first because they combine volume, cost and risk.' },
+      { question: 'Do you work with Microsoft 365 and Power Automate?', answer: 'Yes. Where a business runs on Microsoft, we build in Power Automate, Power Apps, SharePoint and Teams and connect them to accounting and CRM, adding code only where the platform cannot do the job.' },
+      { question: 'Can you automate AML and identity checks for a regulated firm?', answer: 'Yes. Checks run through your chosen regulated verification provider, Companies House lookups fill in corporate details, engagement letters are generated and signed, and everything is logged for your supervisor.' },
+      { question: 'Does it post to Xero, Sage or QuickBooks?', answer: 'Yes. Invoices, bills, payments and journals post through the accounting package’s API with the right VAT codes and nominals, and reconciliation runs against bank feeds and payment providers.' },
+      { question: 'How do you handle UK GDPR in automations?', answer: 'Each flow is designed with the lawful basis, minimisation and retention written down, personal data stays in UK regions, and marketing automations respect PECR consent.' },
+      { question: 'How quickly can the first automation be live?', answer: 'A process audit takes two to three weeks, and a single workflow such as accounts payable or onboarding is typically live two to four weeks after that.' },
+      { question: 'What if a connected system changes?', answer: 'Every workflow is monitored, alerts a named person on failure and is maintained under managed automation, so changes to connectors, layouts or credentials are handled before they cause a backlog.' },
+      { question: 'Can our team build on what you set up?', answer: 'Yes. Flows are documented, built in tools your team can see, and we train the people who will own them.' },
+      { question: 'Can you automate direct debit collection through GoCardless?', answer: 'Yes. Mandates set up from the CRM or portal, payments scheduled from invoices, failures retried and chased automatically, and every collection reconciled in the accounting package.' },
+      { question: 'Can you automate right-to-work and compliance checks for staff?', answer: 'Yes. Document collection, checks through your chosen provider, expiry tracking and renewal chasing are automated with evidence stored for inspection.' },
+    ],
+  },
+
+  'cloud-solutions': {
+    overview: [
+      'Cloud infrastructure and hosting for UK businesses that need their applications, data and systems running reliably, securely and within budget, in the UK. We design, build and manage environments on AWS London, Microsoft Azure UK South and Google Cloud London, and on UK data-centre providers where the requirement calls for it, from our office in Dagenham for clients across the country.',
+      'Data residency is a real question for British companies. UK GDPR permits transfers abroad only with the right safeguards, many customers and public sector buyers ask where data is held, and health and legal sectors expect it to stay in the country. Running in UK regions removes the question for most businesses, and where a service must reach into Europe or the Gulf, the transfer basis is documented rather than assumed.',
+      'Security is built to standards buyers recognise: Cyber Essentials and Cyber Essentials Plus controls, ISO 27001-aligned practices, and for NHS and care work the Data Security and Protection Toolkit. Backups are tested, not just taken. Costs are tagged, budgeted and reviewed monthly, because the second most common cloud problem after an outage is an invoice nobody can explain.',
+      'SaaS companies, e-commerce brands, professional services firms, healthcare and care providers, education organisations, manufacturers and distributors with on-premise servers to retire, and any business that inherited an environment nobody documented.',
+    ],
+    capabilitiesHeading: 'What we run',
+    capabilities: [
+      { name: 'Architecture and migration', desc: 'From on-premise, a single VPS or a tangled account to a designed environment in a UK region, moved with a rehearsed cutover.' },
+      { name: 'Application hosting', desc: 'Web applications, APIs, stores and portals on managed services with scaling, TLS and a CDN.' },
+      { name: 'Databases and storage', desc: 'Managed PostgreSQL, MySQL and SQL Server, object storage and caching with encryption and retention.' },
+      { name: 'Security and compliance', desc: 'Identity, network segmentation, secrets, patching, logging and the evidence for Cyber Essentials and DSPT.' },
+      { name: 'Backup and recovery', desc: 'Automated backups, tested restores and a recovery plan with agreed objectives.' },
+      { name: 'Monitoring and on-call', desc: 'Uptime, performance, error and cost alerts to named people with defined response times.' },
+      { name: 'DevOps and delivery', desc: 'CI/CD pipelines, infrastructure as code and environments for development, staging and production.' },
+      { name: 'Cost governance', desc: 'Tagging, budgets, reserved capacity and a monthly review that explains every line.' },
+    ],
+    specsHeading: 'Engagement types',
+    specsColumns: ['Engagement', 'Typical duration', 'Output'],
+    specs: [
+      ['Cloud audit', '1 to 2 weeks', 'Security, resilience, cost and documentation findings with a plan'],
+      ['Environment build', '2 to 6 weeks', 'Designed, documented infrastructure as code in your account'],
+      ['Migration', '4 to 12 weeks', 'Systems moved with rehearsed cutover and rollback'],
+      ['Security hardening', '2 to 4 weeks', 'Controls implemented, evidence prepared for assessment'],
+      ['Managed cloud', 'Monthly', 'Monitoring, patching, backups, on-call, cost review'],
+      ['DevOps setup', '2 to 4 weeks', 'Pipelines, environments and release process'],
+    ],
+    useCasesHeading: 'Who it is for',
+    useCases: [
+      { name: 'SaaS companies', desc: 'Multi-tenant platforms that need to scale, stay up and pass customer security reviews.' },
+      { name: 'E-commerce', desc: 'Stores that must survive Black Friday and post orders to the accounts without a hiccup.' },
+      { name: 'Healthcare and care', desc: 'Environments meeting DSPT expectations with UK residency and audited access.' },
+      { name: 'Professional services', desc: 'Client data held securely with the evidence a Cyber Essentials assessor or insurer asks for.' },
+      { name: 'Manufacturers and distributors', desc: 'ERP, file servers and line-of-business systems moved off ageing on-premise hardware.' },
+      { name: 'Inherited environments', desc: 'Accounts nobody documented, made safe, understood and affordable.' },
+    ],
+    engagementsHeading: 'Ways of working',
+    engagements: [
+      { name: 'Audit and plan', desc: 'A short, fixed engagement that tells you what you have and what to do about it.' },
+      { name: 'Build or migrate', desc: 'A fixed-scope project with a rehearsed cutover and rollback plan.' },
+      { name: 'Managed cloud', desc: 'Ongoing operation with monitoring, patching, backups and a response commitment.' },
+      { name: 'Embedded DevOps', desc: 'An engineer working with your developers on pipelines and environments.' },
+    ],
+    detail: [
+      {
+        heading: 'Keeping data in the UK, deliberately',
+        body: [
+          'Since the UK left the EU, UK GDPR has its own rules on international transfers, the ICO has its own transfer risk assessment guidance, and the adequacy arrangement with the EU is reviewed rather than permanent. Many businesses do not know which region their data sits in because a developer picked a default years ago. Customers, insurers and public sector buyers are now asking.',
+          'We run environments in AWS London, Azure UK South or Google Cloud London by default, confirm every managed service and backup stays in region, and document any transfer that a business genuinely needs, such as a support team abroad or a European customer base, with the safeguards UK GDPR requires.',
+        ],
+        points: [
+          { name: 'UK regions by default', desc: 'London and UK South for compute, data and backups.' },
+          { name: 'Services checked', desc: 'Every managed service confirmed in region.' },
+          { name: 'Transfers documented', desc: 'Safeguards and assessments where data must move.' },
+          { name: 'Answers ready', desc: 'Residency questions from customers answered in writing.' },
+        ],
+      },
+      {
+        heading: 'Security evidence, not just security',
+        body: [
+          'Cyber Essentials asks for specific controls: boundary firewalls, secure configuration, access control, malware protection and patch management, and Plus adds testing. ISO 27001 asks for a managed system around them. The NHS Data Security and Protection Toolkit asks for assertions and evidence. In each case, the environment has to be secure and the business has to be able to prove it.',
+          'We implement the controls as infrastructure as code, keep logging and access records the assessment can use, patch on a schedule with a record, and prepare the technical evidence, so the assessment is a review of what exists rather than a scramble to create it.',
+        ],
+        points: [
+          { name: 'Controls as code', desc: 'Firewalls, configuration and access defined and versioned.' },
+          { name: 'Patch record', desc: 'Scheduled patching with evidence of what was applied when.' },
+          { name: 'Logging retained', desc: 'Access and change logs kept for the assessment.' },
+          { name: 'Evidence pack', desc: 'Technical documentation for Cyber Essentials, ISO 27001 and DSPT.' },
+        ],
+      },
+      {
+        heading: 'A backup is only real once it has been restored',
+        body: [
+          'Every environment we audit has backups. Fewer have restored one recently, and several could not because the backup was in the same account as the thing it protected, or the encryption key had been lost, or nobody knew the procedure. A ransomware event or a deleted database is when the business discovers which kind it has.',
+          'We design backups with copies outside the primary account, immutable where the platform supports it, run restore tests on a schedule and record the results, and write a recovery plan with the time and data-loss objectives the business has actually agreed to.',
+        ],
+        points: [
+          { name: 'Separate copies', desc: 'Backups outside the primary account, immutable where possible.' },
+          { name: 'Restores tested', desc: 'Scheduled restore tests with recorded results.' },
+          { name: 'Agreed objectives', desc: 'Recovery time and data-loss targets written down.' },
+          { name: 'Runbook', desc: 'A procedure anyone on call can follow.' },
+        ],
+      },
+      {
+        heading: 'Cloud bills that make sense',
+        body: [
+          'Cloud cost creeps in ways that are invisible until the invoice: oversized instances, forgotten environments, data transfer, snapshots nobody deleted, and on-demand pricing for workloads that run constantly. Finance sees a number rising and nobody can say why.',
+          'We tag every resource to a system and owner, set budgets with alerts, right-size on evidence, use reserved or committed capacity for steady workloads, shut down what is not used, and review the bill line by line each month with the client, so the cost is a decision rather than a surprise.',
+        ],
+        points: [
+          { name: 'Everything tagged', desc: 'Every resource attributed to a system and an owner.' },
+          { name: 'Budgets and alerts', desc: 'Spend limits that warn before they are breached.' },
+          { name: 'Right-sized', desc: 'Capacity matched to measured demand.' },
+          { name: 'Monthly review', desc: 'The bill explained line by line, with actions.' },
+        ],
+      },
+      {
+        heading: 'Microsoft 365 and Azure as one estate',
+        body: [
+          'Most UK organisations already run on Microsoft 365, and their identity lives in Entra ID. Applications hosted elsewhere with separate logins, separate security policies and separate monitoring create the gaps attackers use and the admin overhead IT teams resent.',
+          'Where Microsoft is the platform, we host in Azure UK South with single sign-on from Entra, conditional access and multi-factor policies applied consistently, security monitoring in one place, and backups covering both Microsoft 365 data and the hosted applications.',
+        ],
+        points: [
+          { name: 'One identity', desc: 'Entra ID sign-on across Microsoft 365 and hosted applications.' },
+          { name: 'Consistent policy', desc: 'Conditional access and MFA applied everywhere.' },
+          { name: 'One security view', desc: 'Monitoring across the estate.' },
+          { name: 'Backups for both', desc: 'Microsoft 365 data and applications protected.' },
+        ],
+      },
+    ],
+    extraFaqs: [
+      { question: 'Which cloud do you recommend?', answer: 'It depends on what the business already runs. Microsoft-centred organisations usually suit Azure UK South, most custom applications suit AWS London, and some data and analytics workloads suit Google Cloud London. We recommend after an audit and can run any of them.' },
+      { question: 'Will our data stay in the UK?', answer: 'Yes by default. Compute, databases, storage and backups run in UK regions, every managed service is checked, and any transfer the business genuinely needs is documented with UK GDPR safeguards.' },
+      { question: 'Can you help with Cyber Essentials or ISO 27001?', answer: 'Yes. Controls are implemented as code, logs and patch records are kept, and we prepare the technical evidence for your assessor. Certification itself is through an accredited body.' },
+      { question: 'Do you support NHS DSPT requirements?', answer: 'Yes. For healthcare and care clients we build environments and evidence aligned to the Data Security and Protection Toolkit assertions that apply to them.' },
+      { question: 'Can you migrate our on-premise servers?', answer: 'Yes. We assess what runs on them, design the target environment, migrate in rehearsals with a rollback plan, and retire the hardware once everything is proven.' },
+      { question: 'How do you handle backups?', answer: 'Copies outside the primary account, immutable where possible, scheduled restore tests with recorded results, and a written recovery plan with agreed objectives.' },
+      { question: 'What does managed cloud include?', answer: 'Monitoring, patching, backups, security updates, on-call response with defined times, and a monthly cost and performance review with the client.' },
+      { question: 'Who owns the accounts?', answer: 'You do. Every cloud account, domain and certificate is in your name; we operate them under delegated access that can be revoked at any time.' },
+    ],
+  },
+
+  'ui-ux-design': {
+    overview: [
+      'UI and UX design for products and services used in the UK: research with the people who will use them, interfaces designed for phones, tablets and desktops, design systems that keep a growing product consistent, and accessibility built to WCAG 2.2 rather than retrofitted before a public sector tender. We design web applications, mobile apps, portals, dashboards and e-commerce experiences from our office in Dagenham, and in most cases the same teams then build them.',
+      'British users have particular expectations formed by the services they use every day. Banking apps have set the standard for clarity and security. GOV.UK has taught a generation what a plain, accessible form looks like. Retailers have made next-day delivery and one-tap payment normal. A product that feels heavier or less trustworthy than those loses users before it explains itself.',
+      'So we start with research: interviews and usability sessions with real customers, staff or patients, analytics from the existing product, and the constraints the business operates under. We prototype early, test before engineering, and hand over a design system with components, states and accessibility annotations that developers can build from without guessing. Accessibility is tested with assistive technology, not inferred from a checklist.',
+      'SaaS founders, e-commerce brands, healthcare and care providers, financial and professional services firms, education organisations, public sector suppliers, and businesses whose internal tools are costing them staff time and patience.',
+    ],
+    capabilitiesHeading: 'What we design',
+    capabilities: [
+      { name: 'User research', desc: 'Interviews, usability testing, surveys and analytics review with the actual audience, in person or remote.' },
+      { name: 'Product and service design', desc: 'Journeys, information architecture and flows for web, mobile and multi-channel services.' },
+      { name: 'Interface design', desc: 'Screens, states, interactions and responsive layouts designed for real content and real devices.' },
+      { name: 'Design systems', desc: 'Tokens, components, patterns and documentation that keep a product consistent as teams and features grow.' },
+      { name: 'Accessibility', desc: 'WCAG 2.2 AA design and annotations, tested with screen readers, keyboard and magnification.' },
+      { name: 'Conversion design', desc: 'Checkout, onboarding, booking and enquiry flows designed and tested to reduce drop-off.' },
+      { name: 'Dashboards and internal tools', desc: 'Operational screens designed for speed and error prevention by people who use them all day.' },
+      { name: 'Prototyping', desc: 'Clickable prototypes tested with users before a line of code is written.' },
+    ],
+    specsHeading: 'Engagement types',
+    specsColumns: ['Engagement', 'Typical duration', 'Deliverables'],
+    specs: [
+      ['UX audit', '1 to 2 weeks', 'Findings, prioritised fixes, quick wins'],
+      ['Research and definition', '2 to 4 weeks', 'Research findings, journeys, requirements, prototype'],
+      ['Product design', '4 to 10 weeks', 'Tested prototype, full screen designs, design system, annotations'],
+      ['Design system', '4 to 8 weeks', 'Tokens, components, patterns, documentation, code alignment'],
+      ['Accessibility review', '1 to 3 weeks', 'WCAG 2.2 findings, remediation plan, statement support'],
+      ['Embedded designer', 'Monthly', 'A designer working in your product team'],
+    ],
+    useCasesHeading: 'Who it is for',
+    useCases: [
+      { name: 'SaaS products', desc: 'Onboarding, core workflows and a system that scales with the roadmap.' },
+      { name: 'E-commerce', desc: 'Product pages, checkout and account areas tested for conversion on mobile.' },
+      { name: 'Healthcare and care', desc: 'Patient, resident and clinician interfaces designed for clarity and safety.' },
+      { name: 'Financial and professional services', desc: 'Onboarding and client portals that feel as trustworthy as a bank.' },
+      { name: 'Public sector suppliers', desc: 'Services meeting WCAG 2.2 AA and the expectations set by GOV.UK patterns.' },
+      { name: 'Internal tools', desc: 'Dashboards and operational screens that reduce errors and training time.' },
+    ],
+    engagementsHeading: 'Ways of working',
+    engagements: [
+      { name: 'Design project', desc: 'Research to handover as a fixed-scope engagement with tested prototypes.' },
+      { name: 'Design and build', desc: 'Designed and engineered by the same Infynix team, with no handover gap.' },
+      { name: 'Embedded designer', desc: 'A designer inside your product team month to month.' },
+      { name: 'Audit and fix', desc: 'A short review of an existing product with prioritised, buildable changes.' },
+    ],
+    detail: [
+      {
+        heading: 'Research with the people who will actually use it',
+        body: [
+          'Most products are designed from the opinions of the people paying for them. The users are somewhere else: a carer on a night shift, a customer on a train, a finance clerk with a hundred invoices to clear. We recruit and talk to those people, watch them use the current product or a prototype, and design from what they struggle with rather than what the stakeholders assume.',
+          'Research is scoped to the decision it needs to inform, so it takes days or weeks rather than months, and the findings arrive as things to change rather than a report to file.',
+        ],
+        points: [
+          { name: 'Real participants', desc: 'Customers, staff or patients recruited for the product.' },
+          { name: 'Observation', desc: 'Watching use, not just asking opinions.' },
+          { name: 'Scoped to decisions', desc: 'Research sized to what needs deciding.' },
+          { name: 'Actionable findings', desc: 'Changes to make, prioritised.' },
+        ],
+      },
+      {
+        heading: 'Accessibility designed in, tested for real',
+        body: [
+          'WCAG 2.2 AA is the legal standard for public sector websites and apps and increasingly a contractual one for their suppliers, and the Equality Act applies to everyone. An automated checker catches perhaps a third of the issues. Focus order, meaningful labels, error messages, colour contrast on real content, target sizes and motion all need a designer to decide them and a person with assistive technology to test them.',
+          'We design with contrast, focus, structure and target sizes decided up front, annotate the designs so developers build them correctly, and test the built product with screen readers, keyboard only and magnification. Where the client must publish an accessibility statement, we provide the findings that support it.',
+        ],
+        points: [
+          { name: 'Designed to 2.2 AA', desc: 'Contrast, focus, targets and structure decided in design.' },
+          { name: 'Annotated for developers', desc: 'Roles, labels and behaviour specified on the designs.' },
+          { name: 'Tested with people', desc: 'Screen readers, keyboard and magnification on the built product.' },
+          { name: 'Statement supported', desc: 'Findings that back an honest accessibility statement.' },
+        ],
+      },
+      {
+        heading: 'A design system that survives the roadmap',
+        body: [
+          'A product designed screen by screen drifts as soon as a second designer or a second developer touches it: three button styles, four table layouts, inconsistent errors. A design system fixes the decisions once as tokens, components and patterns with documented usage, so new features are assembled from parts that already work and already pass accessibility.',
+          'We build design systems in Figma aligned to the code components the developers use, document each pattern with its states and rules, and hand the system over in the client’s name so their own team owns it.',
+        ],
+        points: [
+          { name: 'Tokens and components', desc: 'Colour, type, spacing and every component with its states.' },
+          { name: 'Aligned to code', desc: 'Figma and the component library kept in step.' },
+          { name: 'Documented usage', desc: 'When to use each pattern, and when not to.' },
+          { name: 'Owned by you', desc: 'Files and documentation in your name.' },
+        ],
+      },
+      {
+        heading: 'Flows that convert on a phone',
+        body: [
+          'Checkout, booking, onboarding and enquiry flows are where a product earns its keep, and they are used mostly on phones by people in a hurry. Each unnecessary field, unclear error or surprise at the payment step costs a percentage of completions that compounds across the year.',
+          'We map the flow, remove and reorder steps, design forms that explain themselves and their errors, place Apple Pay, Google Pay and buy-now-pay-later where UK users expect them, prototype and test with users, and measure completion after launch against the baseline.',
+        ],
+        points: [
+          { name: 'Fewer steps', desc: 'Every field justified, every step earning its place.' },
+          { name: 'Forms that explain', desc: 'Clear labels, inline validation, recoverable errors.' },
+          { name: 'Payment where expected', desc: 'Wallets and finance options placed for UK habits.' },
+          { name: 'Measured', desc: 'Completion tracked against the baseline after launch.' },
+        ],
+      },
+      {
+        heading: 'Content and forms in plain English',
+        body: [
+          'The clearest interfaces in the UK are the ones that borrowed GOV.UK’s discipline: one question per page where it helps, plain words instead of jargon, error messages that say what to do, and no field that the service does not need. Users who have applied for a passport online expect that standard from a bank, a clinic and a council supplier alike.',
+          'We write the interface copy as part of the design, test it with users who have not seen the product, and specify labels, hints and error messages so developers do not improvise them in the last sprint.',
+        ],
+        points: [
+          { name: 'Plain English', desc: 'Words users understand at first reading.' },
+          { name: 'Errors that help', desc: 'Messages that say what went wrong and what to do.' },
+          { name: 'Only what is needed', desc: 'Every question and field justified.' },
+          { name: 'Copy tested', desc: 'Checked with users, not just stakeholders.' },
+        ],
+      },
+    ],
+    extraFaqs: [
+      { question: 'Do you do research with real users?', answer: 'Yes. Interviews, usability sessions and testing with the actual customers, staff or patients of the product, scoped to the decisions that need making and delivered as changes to make.' },
+      { question: 'Can you design to WCAG 2.2 AA?', answer: 'Yes. Accessibility is decided in design, annotated for developers and tested on the built product with screen readers, keyboard and magnification. We support accessibility statements with the findings.' },
+      { question: 'Do you build what you design?', answer: 'Usually, yes. Infynix Growth Solutions engineers web and mobile products, so design and build can run as one team with no handover gap. We also hand designs to in-house or third-party developers.' },
+      { question: 'What do developers receive?', answer: 'A tested prototype, full screen designs with states, a design system with tokens and components, and accessibility annotations, all in Figma files in your name.' },
+      { question: 'Can you redesign an existing product without starting over?', answer: 'Yes. A UX audit finds the highest-value problems, and changes are designed to fit the current codebase and released incrementally.' },
+      { question: 'How long does design take?', answer: 'A UX audit takes one to two weeks, research and definition two to four, and full product design four to ten depending on scope. An embedded designer works month to month.' },
+      { question: 'Do you design internal tools and dashboards?', answer: 'Yes. Operational screens used all day are designed for speed and error prevention, with the people who use them involved in testing.' },
+      { question: 'Who owns the design files?', answer: 'You do. Figma files, the design system and all documentation are held in your name from the start.' },
+    ],
+  },
+};

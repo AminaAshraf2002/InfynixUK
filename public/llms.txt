@@ -1,35 +1,114 @@
-# Infynix Solutions - The Growth Engineering Company
+# Infynix Solutions (United Kingdom)
 
-> Infynix Solutions is a premier Growth Engineering firm. We unify technical SEO engineering, performance media, custom web/app software, AI agents, and AI surveillance solutions into cohesive growth engines.
+> Infynix Solutions is a Growth Engineering company: three divisions that build the marketing, media and business systems a company needs to attract, convert and scale. This file describes the United Kingdom site at https://www.infynixsolutions.co.uk.
 
-## Primary Business Pillars
+## Business
+- Legal name: Infynix Solutions
+- Office: 39 Becontree Avenue, Dagenham, Greater London, RM8 2UH, GB
+- Telephone: +44 7436 670553
+- Email: office@infynixsolutions.co.uk
+- Areas served: United Kingdom, London, United Arab Emirates, Ajman, Dubai, India
+- Contact page: https://www.infynixsolutions.co.uk/contact
 
-### 1. Infynix Agency (Marketing & Advertising)
-- **Paid Media & Performance Advertising**: Scalable customer acquisition across Meta Ads (Facebook & Instagram), Google Search, Shopping, Performance Max, and LinkedIn Ads.
-- **SEO Engineering**: Technical SEO architecture, sub-second pre-rendering, programmatic landing page engines, structured JSON-LD schemas, and semantic keyword cluster dominance.
-- **Conversion Rate Optimization (CRO)**: Funnel architecture, landing page optimization, behavioral tracking, and data-backed A/B experimentation.
+## Divisions
+### Infynix Agency (Performance and digital marketing)
+Paid media, search, social and the measurement underneath them. The side of the business that creates demand and proves where it came from.
+- Hub: https://www.infynixsolutions.co.uk/solutions/infynix-agency
+- [Performance Advertising](https://www.infynixsolutions.co.uk/solutions/performance-advertising): Data-driven paid media campaigns on Google, Meta, and LinkedIn designed for direct sales return.
+- [SEO & Content Marketing](https://www.infynixsolutions.co.uk/solutions/seo-content-marketing): Technical search pre-rendering, clean HTML tags, and commercial keyword rankings.
+- [Social Media Management](https://www.infynixsolutions.co.uk/solutions/social-media-management): Building active social profiles and brand authority on social channels.
+- [Marketing Automation & CRM](https://www.infynixsolutions.co.uk/solutions/marketing-automation-crm): Automating lead follow-ups, email drips, and CRM synchronization.
+- [UI/UX Design & Brand Styling](https://www.infynixsolutions.co.uk/solutions/ui-ux-design): We design digital product layouts and visual brand styles that look modern and guide users to buy.
+- [Analytics & Reporting](https://www.infynixsolutions.co.uk/solutions/analytics-reporting): Custom analytics dashboards and reporting systems that turn your data into clear, actionable business intelligence.
+- [Brand Strategy & Positioning](https://www.infynixsolutions.co.uk/solutions/brand-strategy-positioning): Clear brand strategy and market positioning for UK businesses, defining who you are, who you serve, and why they should choose you.
+- [SEO Services & Search Infrastructure](https://www.infynixsolutions.co.uk/solutions/seo-services): We engineer technical search pre-rendering, clean HTML tags, and keyword content to help your business rank at the top of search engine results.
+- [Performance Marketing & Paid Ads](https://www.infynixsolutions.co.uk/solutions/performance-marketing): We manage targeted ad campaigns on Google, Meta, and LinkedIn focused on customer acquisition and return on ad spend.
 
-### 2. Infynix Media (Branding & Production)
-- **Brand Identity & Design**: Strategic positioning, messaging frameworks, visual identity systems, and UI/UX product design.
-- **Cinematic Production**: High-end brand films, broadcast commercials, studio photography, and 3D motion graphics.
-- **Short-Form & Social Content**: High-retention vertical video (Reels, TikTok, Shorts) designed for organic algorithmic reach.
+### Infynix Growth Solutions (Software, ERP and business systems)
+Custom web applications, CRM and ERP development, business automation, cloud infrastructure and AI vision systems. The engineering practice.
+- Hub: https://www.infynixsolutions.co.uk/solutions/infynix-growth-solutions
+- [AI Surveillance & Security Solutions](https://www.infynixsolutions.co.uk/solutions/ai-surveillance): Real-time AI computer vision security, local edge processing, and automated threat alerts for commercial facilities.
+- [Custom Web & App Development](https://www.infynixsolutions.co.uk/solutions/custom-web-app-development): Custom web software engineered in React 19 and Next.js built for your business operations.
+- [AI Product Development & Agents](https://www.infynixsolutions.co.uk/solutions/ai-native-product-development): Building smart software tools powered by Large Language Models and AI agents.
+- [Website Development Services](https://www.infynixsolutions.co.uk/solutions/website-development): We build fast, secure web platforms using React 19 and Next.js designed to convert visitors into clients.
+- [Mobile App Development](https://www.infynixsolutions.co.uk/solutions/mobile-app-development): We develop custom mobile applications for iOS and Android built for speed, offline usability, and clear navigation.
+- [Artificial Intelligence & AI Integration](https://www.infynixsolutions.co.uk/solutions/artificial-intelligence): We build custom AI agents and workflow tools that automate daily administrative tasks.
+- [Business Automation Solutions](https://www.infynixsolutions.co.uk/solutions/business-automation): We connect your software tools with automated APIs so your team spends zero time copying data by hand.
+- [Custom CRM & ERP Software](https://www.infynixsolutions.co.uk/solutions/crm-erp-development): We build custom CRM and business management software designed around how your company actually operates.
+- [Cloud Infrastructure & Hosting](https://www.infynixsolutions.co.uk/solutions/cloud-solutions): We set up and manage secure cloud hosting on AWS, Google Cloud, and Vercel.
+- [IoT & Connected Systems](https://www.infynixsolutions.co.uk/solutions/iot-connected-systems): IoT system design and development for UK businesses, connecting physical devices to cloud dashboards, automation workflows, and real-time monitoring.
+- [API & Systems Integration](https://www.infynixsolutions.co.uk/solutions/api-systems-integration): API development and systems integration for UK businesses, connecting your tools, platforms, and databases into a single, coherent operational system.
+- [Data Platforms & Dashboards](https://www.infynixsolutions.co.uk/solutions/data-platforms-dashboards): Custom data platforms and business intelligence dashboards for UK companies, turning raw data into clear, actionable insights.
 
-### 3. Infynix Growth Solutions (Software & AI Surveillance)
-- **Custom Software & Web Engineering**: High-performance web applications, React/Next.js architectures, progressive web apps, and native mobile apps (iOS & Android).
-- **AI Agents & LLM Integration**: Autonomous AI agents, RAG (Retrieval-Augmented Generation) systems, and workflow automation connected to enterprise CRMs/ERPs.
-- **AI Surveillance & Security Solutions**: Real-time computer vision pipelines, edge AI hardware processing (NVIDIA Jetson & Google Coral), automated threat/intrusion profiling, and smart CCTV network analytics.
+### Infynix Media (Content, film and production)
+Brand films, photography, motion graphics and short-form social content, produced in house.
+- Hub: https://www.infynixsolutions.co.uk/solutions/infynix-media
+- [Photography & Videography](https://www.infynixsolutions.co.uk/solutions/photography-videography): Professional photography and videography services for UK brands, product shoots, corporate headshots, brand campaigns, and commercial video production.
+- [Short-Form & Social Content](https://www.infynixsolutions.co.uk/solutions/short-form-social-content): High-impact short-form video content for Instagram Reels, TikTok, YouTube Shorts, and LinkedIn, produced and optimised for maximum reach and engagement.
+- [Brand Films & Commercials](https://www.infynixsolutions.co.uk/solutions/brand-films-commercials): Cinematic brand films and commercial video production for UK businesses, from concept and scripting through to final broadcast-ready delivery.
+- [Motion Graphics & Animation](https://www.infynixsolutions.co.uk/solutions/motion-graphics-animation): Professional motion graphics and animation for UK brands, explainer videos, animated logos, product demos, and 3D renders.
 
-## Core Technology Stack
-- **Frontend & Web**: React 19, Next.js, Vite 8, React Router 7, Framer Motion, GSAP.
-- **Backend & AI**: Node.js, Express, Python, OpenAI/Claude APIs, LangChain, RAG Vector Databases.
-- **Edge & Computer Vision**: OpenCV, YOLO, NVIDIA Jetson, Google Coral, RTSP/CCTV Stream Gateways.
-- **Cloud & DevOps**: AWS, GCP, Vercel, Docker, CI/CD pipelines.
+## Location and service pages
+- [Digital Marketing Agency in London](https://www.infynixsolutions.co.uk/digital-marketing-agency-in-london)
+- [Software Development Company in London](https://www.infynixsolutions.co.uk/software-development-company-in-london)
+- [SEO Company in London](https://www.infynixsolutions.co.uk/seo-company-in-london)
+- [Web Design Company in London](https://www.infynixsolutions.co.uk/web-design-company-in-london)
+- [Mobile App Development in London](https://www.infynixsolutions.co.uk/mobile-app-development-in-london)
+- [E-Commerce Development in London](https://www.infynixsolutions.co.uk/ecommerce-development-in-london)
+- [UI/UX Design Company in London](https://www.infynixsolutions.co.uk/ui-ux-design-company-in-london)
+- [Digital Marketing Agency in Manchester](https://www.infynixsolutions.co.uk/digital-marketing-agency-in-manchester)
+- [Software Development Company in Manchester](https://www.infynixsolutions.co.uk/software-development-company-in-manchester)
+- [SEO Company in Manchester](https://www.infynixsolutions.co.uk/seo-company-in-manchester)
+- [Web Design Company in Manchester](https://www.infynixsolutions.co.uk/web-design-company-in-manchester)
+- [Performance Marketing Agency in Manchester](https://www.infynixsolutions.co.uk/performance-marketing-in-manchester)
+- [Digital Marketing Agency in Birmingham](https://www.infynixsolutions.co.uk/digital-marketing-in-birmingham)
+- [Software Development Company in Birmingham](https://www.infynixsolutions.co.uk/software-development-in-birmingham)
+- [SEO Company in Birmingham](https://www.infynixsolutions.co.uk/seo-company-in-birmingham)
+- [Web Design Company in Birmingham](https://www.infynixsolutions.co.uk/web-design-company-in-birmingham)
+- [Digital Marketing Agency in Leeds](https://www.infynixsolutions.co.uk/digital-marketing-in-leeds)
+- [Software Development Company in Leeds](https://www.infynixsolutions.co.uk/software-development-in-leeds)
+- [SEO Company in Leeds](https://www.infynixsolutions.co.uk/seo-company-in-leeds)
+- [Web Design Company in Leeds](https://www.infynixsolutions.co.uk/web-design-company-in-leeds)
+- [Video Post-Production Company in London](https://www.infynixsolutions.co.uk/video-post-production-company-in-london)
 
-## Canonical Website Directory
-- Main Website: https://www.infynix-solutions.com
-- Growth Engineering: https://www.infynix-solutions.com/growth-engineering
-- Solutions & Pillars: https://www.infynix-solutions.com/solutions
-- Industries: https://www.infynix-solutions.com/industries
-- Case Studies: https://www.infynix-solutions.com/case-studies
-- Insights & Tech Lab: https://www.infynix-solutions.com/insights
-- Contact & Discovery: https://www.infynix-solutions.com/contact
+## Industries
+- [Healthcare](https://www.infynixsolutions.co.uk/industries/healthcare)
+- [Education](https://www.infynixsolutions.co.uk/industries/education)
+- [Real Estate](https://www.infynixsolutions.co.uk/industries/real-estate)
+- [Retail & Commerce](https://www.infynixsolutions.co.uk/industries/retail)
+
+## Case studies
+- [Salon Procurement & Multi-Branch Inventory System](https://www.infynixsolutions.co.uk/case-studies/beyond-demands)
+- [Multi-Role SaaS Platform for Field Team & Task Operations](https://www.infynixsolutions.co.uk/case-studies/task-management-system)
+- [Client Onboarding & Project Management Operating System](https://www.infynixsolutions.co.uk/case-studies/agency-os)
+- [AI Face Recognition & Surveillance System](https://www.infynixsolutions.co.uk/case-studies/ai-surveillance)
+- [Salon Service Menu & Beauty Brand Visual Identity](https://www.infynixsolutions.co.uk/case-studies/salon-branding-menucard)
+- [Salon Visiting Card & Corporate Visual Identity](https://www.infynixsolutions.co.uk/case-studies/corporate-brand-identity)
+- [Multi-Channel Paid Ads & ROI Scaling Campaign](https://www.infynixsolutions.co.uk/case-studies/performance-ad-campaign)
+
+## Insights
+- [What is Growth Engineering and Why Your Business Needs It](https://www.infynixsolutions.co.uk/insights/what-is-growth-engineering)
+- [How Real-Time AI Computer Vision Improves Facility Security](https://www.infynixsolutions.co.uk/insights/ai-surveillance-computer-vision-security)
+
+## Site directory
+- Home: https://www.infynixsolutions.co.uk/
+- Growth Engineering: https://www.infynixsolutions.co.uk/growth-engineering
+- Solutions: https://www.infynixsolutions.co.uk/solutions
+- Industries: https://www.infynixsolutions.co.uk/industries
+- Case studies: https://www.infynixsolutions.co.uk/case-studies
+- Insights: https://www.infynixsolutions.co.uk/insights
+- About: https://www.infynixsolutions.co.uk/about
+- Contact: https://www.infynixsolutions.co.uk/contact
+- Sitemap: https://www.infynixsolutions.co.uk/sitemap.xml
+
+## Sister sites
+Infynix Solutions is registered separately in India, the United Kingdom and the United Arab Emirates. Each site describes the services and office of that entity.
+- India: https://www.infynixgrowthsolutions.com/
+- United Arab Emirates: https://www.infynixsolutions.ae/
+
+## Profiles
+- https://www.linkedin.com/company/infynix-solutionglobal/
+- https://www.instagram.com/infynix_growth_solutions/
+- https://www.facebook.com/people/Infynix-Solutions/61584250757142/
+- https://share.google/nr3IR1BycI55dDqUs
+

@@ -51,7 +51,7 @@ export default function Seo({
           equivalent gets the cluster ignored. All three domains carry the same
           set, which is what makes the annotation reciprocal. */}
       {path === '/' && (
-        <link rel="alternate" hrefLang="en-IN" href="https://www.infynix-solutions.com/" />
+        <link rel="alternate" hrefLang="en-IN" href="https://www.infynixgrowthsolutions.com/" />
       )}
       {path === '/' && (
         <link rel="alternate" hrefLang="en-AE" href="https://www.infynixsolutions.ae/" />
@@ -60,7 +60,7 @@ export default function Seo({
         <link rel="alternate" hrefLang="en-GB" href="https://www.infynixsolutions.co.uk/" />
       )}
       {path === '/' && (
-        <link rel="alternate" hrefLang="x-default" href="https://www.infynix-solutions.com/" />
+        <link rel="alternate" hrefLang="x-default" href="https://www.infynixgrowthsolutions.com/" />
       )}
 
       <meta
