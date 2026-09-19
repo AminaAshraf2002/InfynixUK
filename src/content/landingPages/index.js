@@ -13,6 +13,8 @@ import { birminghamPages } from './birmingham.js';
 import { leedsPages } from './leeds.js';
 // Deep post-production page, built to the depth the ranking field carries.
 import { postProductionPages } from './post-production.js';
+// Long-tail pages: regional video editing, London ERP and CRM.
+import { ukLongTailPages } from './uk-longtail.js';
 
 export const landingPages = [
   ...londonPages,
@@ -20,6 +22,7 @@ export const landingPages = [
   ...birminghamPages,
   ...leedsPages,
   ...postProductionPages,
+  ...ukLongTailPages,
 ];
 
 export const landingPageBySlug = Object.fromEntries(
