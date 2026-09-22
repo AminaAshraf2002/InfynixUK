@@ -15,16 +15,12 @@ import TimelineSection from './components/TimelineSection';
 import StatsSection from './components/StatsSection';
 import SpecializeSection from './components/SpecializeSection';
 import InitiativesSection from './components/InitiativesSection';
-import RiversideChatSection from './components/RiversideChatSection';
 import PartnersSection from './components/PartnersSection';
 import ClientsSection from './components/ClientsSection';
 import ServicesSection from './components/Services';
 // import FeaturedWork from './components/FeaturedWork';
-import WhatWeDo from './components/WhatWeDo';
 import WhoWeAre from './components/WhoWeAre';
-import FutureOfRetail from './components/FutureOfRetail';
 import Footer from './components/Footer';
-import News from './components/News';
 import Contact from './components/Contact';
 import WhatsAppButton from './components/WhatsAppButton';
 
@@ -36,6 +32,7 @@ import SolutionsIndex from './components/SolutionsIndex';
 import IndustriesPage from './components/IndustriesPage';
 import CaseStudiesPage from './components/CaseStudiesPage';
 import InsightsPage from './components/InsightsPage';
+import BlogPage from './components/BlogPage';
 import { PrivacyPolicy, TermsOfService, NotFoundPage } from './components/UtilityPages';
 
 // Location + service landing pages (SEO)
@@ -130,6 +127,8 @@ function AppContent() {
             <Route path="/case-studies"      element={<CaseStudiesPage />} />
             <Route path="/insights/:slug"    element={<InsightsPage />} />
             <Route path="/insights"          element={<InsightsPage />} />
+            <Route path="/blog/:id"          element={<BlogPage />} />
+            <Route path="/blog"              element={<BlogPage />} />
             <Route path="/about"             element={<WhoWeAre />} />
             <Route path="/who-we-are"        element={<Navigate to="/about" replace />} />
             <Route path="/contact"           element={<Contact />} />
