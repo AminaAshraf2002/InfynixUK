@@ -7,6 +7,8 @@ import ukLImage from '../assets/UKL.svg';
 import dubaiImage from '../assets/dubai.svg';
 import kochiImage from '../assets/kochi.svg';
 import SocialLinks from './SocialLinks';
+import BrandContactBlocks from './BrandContactBlocks';
+import SisterWebsitesSection from './SisterWebsitesSection';
 
 const ClientsSection = () => {
   useIxReveal();
@@ -180,6 +182,14 @@ const ClientsSection = () => {
                 </div>
               </a>
             </div>
+          </div>
+
+          <hr className="footer-divider" style={{ margin: '40px 0' }} />
+
+          {/* Brand Contact Blocks & Sister Websites — 3 columns in one row */}
+          <div className="footer-divisions-row">
+            <BrandContactBlocks theme="dark" displayContents />
+            <SisterWebsitesSection theme="dark" title="Global Presence" />
           </div>
 
           <hr className="footer-divider" style={{ margin: '40px 0' }} />

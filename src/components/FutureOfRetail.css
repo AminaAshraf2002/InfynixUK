@@ -1,5 +1,6 @@
 
-:root {
+.for-scoped-theme,
+.future-of-retail-wrapper {
     --green: #007A5E;
     --lime: #A7D600;
     --font-body: 'Inter', sans-serif;

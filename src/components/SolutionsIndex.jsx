@@ -10,41 +10,9 @@ import { solutionsData } from '../lib/contentData';
 import { solutionSlugForTitle } from '../content/crossLinks.js';
 import Seo from '../seo/Seo';
 import { organizationSchema, breadcrumbSchema } from '../seo/schema';
+import SolutionsMarquee from './SolutionsMarquee';
 
-// Marquee Card (adapted for dark theme)
-const MarqueeCard = ({ title }) => {
-  const [isHovered, setIsHovered] = useState(false);
-  return (
-    <div 
-      style={{
-        flex: '0 0 auto',
-        width: '280px',
-        height: '90px',
-        background: isHovered ? '#1a1a1a' : '#0a0a0a',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        cursor: 'pointer',
-        transition: 'background 0.3s ease',
-        padding: '0 20px',
-        textAlign: 'center',
-        border: '1px solid #333'
-      }}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      {isHovered ? (
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#ccc', fontSize: '1rem', fontFamily: 'var(--ix-font-body)' }}>
-          View Service <ArrowRight size={16} />
-        </div>
-      ) : (
-        <span style={{ fontSize: '1.05rem', fontWeight: 500, color: '#fff', fontFamily: 'var(--ix-font-body)' }}>
-          {title}
-        </span>
-      )}
-    </div>
-  );
-};
+
 
 const SolutionsIndex = () => {
   useEffect(() => {
@@ -279,26 +247,7 @@ const SolutionsIndex = () => {
       </section>
 
       {/* 4. INFINITE MARQUEE */}
-      <section data-aos="fade-in" style={{ background: '#000', padding: '120px 0', overflow: 'hidden', borderBottom: '1px dashed #333' }}>
-        <div className="marquee-container" style={{ display: 'flex', width: 'max-content', whiteSpace: 'nowrap' }}
-             onMouseEnter={(e) => {
-               const tracks = e.currentTarget.querySelectorAll('.marquee-track');
-               tracks.forEach(t => t.style.animationPlayState = 'paused');
-             }}
-             onMouseLeave={(e) => {
-               const tracks = e.currentTarget.querySelectorAll('.marquee-track');
-               tracks.forEach(t => t.style.animationPlayState = 'running');
-             }}
-        >
-          {[1, 2].map(trackIndex => (
-            <div key={trackIndex} className="marquee-track" style={{ display: 'flex', animation: 'marquee 60s linear infinite' }}>
-              {allSubCategories.filter((title) => solutionSlugForTitle(title)).map((title, i) => (
-                <MarqueeCard key={`m${trackIndex}-${i}`} title={title} />
-              ))}
-            </div>
-          ))}
-        </div>
-      </section>
+      <SolutionsMarquee isDark={true} background="#000" padding="120px 0" />
 
       {/* 5. CLOSING CTA SECTION */}
       <section style={{ padding: '80px 5%', textAlign: 'center', background: '#0a0a0a', borderBottom: '1px dashed #333' }}>

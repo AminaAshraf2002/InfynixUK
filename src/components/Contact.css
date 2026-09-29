@@ -337,6 +337,24 @@ a.sidebar-query-val:hover { color: #007A5E; }
 }
 
 /* ══════════════════════════════════════════════
+   BRAND DIVISIONS DIRECT COMMUNICATION SECTION
+══════════════════════════════════════════════ */
+.contact-brands-section {
+    position: relative;
+    padding: 5rem clamp(80px, 8vw, 160px);
+    background: #f8fafc;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .contact-brands-section {
+        padding: 3.5rem clamp(24px, 5vw, 40px) 4rem;
+    }
+}
+
+/* ══════════════════════════════════════════════
    OFFICES SECTION
 ══════════════════════════════════════════════ */
 .offices-section {

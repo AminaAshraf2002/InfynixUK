@@ -2002,6 +2002,23 @@ section[style*="var(--ix-primary)"]::after,
   margin: 0;
 }
 
+/* Footer 3-column divisions row (Agency, Media House, Global Presence) */
+.footer-divisions-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.5rem;
+  margin-bottom: 0;
+  align-items: start;
+  width: 100%;
+}
+
+@media (max-width: 868px) {
+  .footer-divisions-row {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
 /* Nav grid */
 .footer-nav-grid {
   display: grid;

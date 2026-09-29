@@ -5,6 +5,8 @@ import ukLImage from '../assets/UKL.svg';
 import dubaiImage from '../assets/dubai.svg';
 import kochiImage from '../assets/kochi.svg';
 import SocialLinks from './SocialLinks';
+import BrandContactBlocks from './BrandContactBlocks';
+import SisterWebsitesSection from './SisterWebsitesSection';
 
 const Footer = () => {
   return (
@@ -60,6 +62,14 @@ const Footer = () => {
               </div>
             </a>
           </div>
+        </div>
+
+        <hr className="footer-divider" style={{ margin: '40px 0' }} />
+
+        {/* Brand Contact Blocks & Sister Websites — 3 columns in one row */}
+        <div className="footer-divisions-row">
+          <BrandContactBlocks theme="dark" displayContents />
+          <SisterWebsitesSection theme="dark" title="Global Presence" />
         </div>
 
         <hr className="footer-divider" style={{ margin: '40px 0' }} />
@@ -126,34 +136,6 @@ const Footer = () => {
               <Link to="/terms-of-service">Terms of Use</Link>
               <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer">XML Sitemap</a>
             </div>
-
-            <div className="footer-nav-col">
-              <span style={{ color: '#ffffff', fontWeight: 'bold', fontSize: '0.85rem', marginBottom: '8px' }}>GLOBAL PRESENCE</span>
-              <a
-                href="https://www.infynixsolutions.co.uk"
-                target="_blank"
-                rel="noopener"
-                style={{ display: 'flex', alignItems: 'center', gap: '6px' }}
-              >
-                🇬🇧 UK, infynixsolutions.co.uk
-              </a>
-              <a
-                href="https://www.infynixsolutions.ae"
-                target="_blank"
-                rel="noopener"
-                style={{ display: 'flex', alignItems: 'center', gap: '6px' }}
-              >
-                🇦🇪 UAE, infynixsolutions.ae
-              </a>
-              <a
-                href="https://www.infynixgrowthsolutions.com"
-                target="_blank"
-                rel="noopener"
-                style={{ display: 'flex', alignItems: 'center', gap: '6px' }}
-              >
-                🇮🇳 India, infynixgrowthsolutions.com
-              </a>
-            </div>
           </div>
         </div>
 
@@ -167,4 +149,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

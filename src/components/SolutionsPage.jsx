@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { Phone } from 'lucide-react';
+import InstagramIcon from './ui/InstagramIcon';
 import { solutionsData, caseStudiesData } from '../lib/contentData';
 import Seo from '../seo/Seo';
 import { divisionForSlug, isDivision, getDivision, servicesInDivision } from '../content/divisions';
@@ -9,6 +11,8 @@ import ServiceDepth from './ServiceDepth';
 import ServiceCrossLinks from './ServiceCrossLinks';
 import { solutionSlugForTitle } from '../content/crossLinks.js';
 import { serviceDepth } from '../content/serviceDepth/index.js';
+import SolutionsMarquee from './SolutionsMarquee';
+import { getBrandBySlug } from '../data/contact';
 import defaultHeroBg from '../assets/hero_bg_abstract.jpg';
 import capImg1 from '../assets/cap_img_1.jpg';
 import capImg2 from '../assets/cap_img_2.jpg';
@@ -134,44 +138,10 @@ const CapabilitiesAccordion = ({ items }) => {
 };
 
 
-const MarqueeCard = ({ title, slug }) => {
-  const [isHovered, setIsHovered] = useState(false);
-  return (
-    <Link 
-      to={`/solutions/${slug}`}
-      style={{
-        flex: '0 0 auto',
-        width: '280px',
-        height: '90px',
-        background: isHovered ? '#f4f4f4' : '#fafafa',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        cursor: 'pointer',
-        transition: 'background 0.3s ease',
-        padding: '0 20px',
-        textAlign: 'center',
-        textDecoration: 'none'
-      }}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      {isHovered ? (
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#999', fontSize: '1rem', fontFamily: 'var(--ix-font-body)' }}>
-          View Service <ArrowRight />
-        </div>
-      ) : (
-        <span style={{ fontSize: '1.05rem', fontWeight: 500, color: '#111', fontFamily: 'var(--ix-font-body)' }}>
-          {title}
-        </span>
-      )}
-    </Link>
-  );
-};
-
 const SolutionsPage = () => {
   const { slug } = useParams();
   const activeSlug = slug || 'website-development';
+  const brandContact = getBrandBySlug(activeSlug);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -244,6 +214,22 @@ const SolutionsPage = () => {
           }
           .solutions-hero-overlay {
             background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(17,17,17,1) calc(100vw * 0.56)) !important;
+          }
+        }
+        @media (max-width: 640px) {
+          .brand-hero-actions {
+            flex-direction: column !important;
+            width: 100% !important;
+          }
+          .brand-hero-btn {
+            width: 100% !important;
+            justify-content: center !important;
+            box-sizing: border-box !important;
+          }
+        }
+        @media (max-width: 768px) {
+          .brand-mobile-sticky-bar {
+            display: flex !important;
           }
         }
       `}} />
@@ -341,6 +327,71 @@ const SolutionsPage = () => {
           }}>
             {data.title}
           </h1>
+
+          {brandContact && (
+            <div
+              className="brand-hero-actions"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+                gap: '12px',
+                marginTop: '28px',
+              }}
+            >
+              <a
+                href={brandContact.tel}
+                aria-label={brandContact.callAriaLabel}
+                className="brand-hero-btn primary"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '10px',
+                  background: 'rgb(167, 214, 0)',
+                  color: '#000',
+                  padding: '14px 28px',
+                  borderRadius: '100px',
+                  fontFamily: 'var(--ix-font-body, "Montserrat", sans-serif)',
+                  fontSize: '0.95rem',
+                  fontWeight: 600,
+                  textDecoration: 'none',
+                  transition: 'all 0.25s ease',
+                  boxShadow: '0 4px 15px rgba(167, 214, 0, 0.3)',
+                }}
+              >
+                <Phone size={18} />
+                <span>Call us: {brandContact.phoneDisplay}</span>
+              </a>
+
+              <a
+                href={brandContact.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={brandContact.instagramAriaLabel}
+                className="brand-hero-btn outline"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '10px',
+                  background: 'rgba(255, 255, 255, 0.12)',
+                  backdropFilter: 'blur(10px)',
+                  color: '#fff',
+                  border: '1px solid rgba(255, 255, 255, 0.35)',
+                  padding: '14px 28px',
+                  borderRadius: '100px',
+                  fontFamily: 'var(--ix-font-body, "Montserrat", sans-serif)',
+                  fontSize: '0.95rem',
+                  fontWeight: 600,
+                  textDecoration: 'none',
+                  transition: 'all 0.25s ease',
+                }}
+              >
+                <InstagramIcon size={18} />
+                <span>Instagram {brandContact.instagramHandle}</span>
+              </a>
+            </div>
+          )}
         </div>
       </section>
 
@@ -637,7 +688,96 @@ const SolutionsPage = () => {
             })}
           </div>
 
-          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '60px' }}>
+          {/* Brand Contact Card at bottom of page in/above CTA section */}
+          {brandContact && (
+            <div
+              className="brand-page-bottom-card"
+              data-aos="fade-up"
+              style={{
+                maxWidth: '680px',
+                margin: '50px auto 30px auto',
+                padding: '24px 28px',
+                borderRadius: '16px',
+                background: '#fafafa',
+                border: '1px solid #e5e7eb',
+                boxShadow: '0 4px 20px rgba(0,0,0,0.04)',
+                textAlign: 'left',
+                boxSpacing: 'border-box',
+              }}
+            >
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px', marginBottom: '16px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                  <div style={{ width: '42px', height: '42px', borderRadius: '10px', background: 'rgba(0,122,94,0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <InstagramIcon size={22} color="#007A5E" />
+                  </div>
+                  <div>
+                    <h3 style={{ margin: 0, fontSize: '1.25rem', fontFamily: 'var(--font-display, "Albert Sans", sans-serif)', fontWeight: 700, color: '#111' }}>
+                      {brandContact.name}
+                    </h3>
+                    <span style={{ fontSize: '0.82rem', color: '#6b7280' }}>Direct Brand Contact &amp; Production Desk</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="brand-bottom-actions" style={{ display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
+                <a
+                  href={brandContact.tel}
+                  aria-label={brandContact.callAriaLabel}
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '8px',
+                    padding: '12px 22px',
+                    borderRadius: '8px',
+                    background: '#007A5E',
+                    color: '#fff',
+                    textDecoration: 'none',
+                    fontSize: '0.9rem',
+                    fontWeight: 600,
+                    transition: 'background 0.2s',
+                  }}
+                  onMouseEnter={(e) => (e.currentTarget.style.background = '#005f49')}
+                  onMouseLeave={(e) => (e.currentTarget.style.background = '#007A5E')}
+                >
+                  <Phone size={16} />
+                  <span>Call {brandContact.phoneDisplay}</span>
+                </a>
+                <a
+                  href={brandContact.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={brandContact.instagramAriaLabel}
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '8px',
+                    padding: '12px 22px',
+                    borderRadius: '8px',
+                    background: '#ffffff',
+                    border: '1px solid #d1d5db',
+                    color: '#111',
+                    textDecoration: 'none',
+                    fontSize: '0.9rem',
+                    fontWeight: 600,
+                    transition: 'border-color 0.2s, color 0.2s',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.borderColor = '#007A5E';
+                    e.currentTarget.style.color = '#007A5E';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.borderColor = '#d1d5db';
+                    e.currentTarget.style.color = '#111';
+                  }}
+                >
+                  <InstagramIcon size={16} color="#007A5E" />
+                  <span>Instagram {brandContact.instagramHandle} ↗</span>
+                </a>
+              </div>
+            </div>
+          )}
+
+          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '40px' }}>
             <Link to="/solutions" style={{ 
               display: 'inline-flex', 
               alignItems: 'center', 
@@ -663,29 +803,73 @@ const SolutionsPage = () => {
       </section>
 
       {/* ══ 7. INFINITE MARQUEE ══ */}
-      <section style={{ background: '#fff', padding: '0 0 120px 0', overflow: 'hidden' }}>
-        <div className="marquee-container" style={{ display: 'flex', width: 'max-content', whiteSpace: 'nowrap' }}
-             onMouseEnter={(e) => {
-               const tracks = e.currentTarget.querySelectorAll('.marquee-track');
-               tracks.forEach(t => t.style.animationPlayState = 'paused');
-             }}
-             onMouseLeave={(e) => {
-               const tracks = e.currentTarget.querySelectorAll('.marquee-track');
-               tracks.forEach(t => t.style.animationPlayState = 'running');
-             }}
+      <SolutionsMarquee padding="0 0 120px 0" />
+
+      {/* Sticky Mobile Tappable CTA Bar for Brand Pages */}
+      {brandContact && (
+        <div
+          className="brand-mobile-sticky-bar"
+          style={{
+            position: 'fixed',
+            bottom: 0,
+            left: 0,
+            right: 0,
+            zIndex: 999,
+            background: '#111315',
+            borderTop: '1px solid rgba(255,255,255,0.15)',
+            padding: '10px 16px',
+            display: 'none',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            boxShadow: '0 -4px 20px rgba(0,0,0,0.3)',
+          }}
         >
-          {/* We render the track twice for seamless infinite looping */}
-          {[1, 2].map(trackIndex => (
-            <div key={trackIndex} className="marquee-track" style={{ display: 'flex', animation: 'marquee 60s linear infinite' }}>
-              {Object.entries(solutionsData)
-                .filter(([slug]) => !isDivision(slug))
-                .map(([slug, entry], i) => (
-                  <MarqueeCard key={`m${trackIndex}-${i}`} title={entry.title} slug={slug} />
-                ))}
-            </div>
-          ))}
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <span style={{ fontSize: '0.75rem', color: '#9ca3af', fontWeight: 500 }}>{brandContact.name}</span>
+            <span style={{ fontSize: '0.85rem', color: '#fff', fontWeight: 700 }}>Direct Line</span>
+          </div>
+          <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
+            <a
+              href={brandContact.tel}
+              aria-label={brandContact.callAriaLabel}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '6px',
+                background: '#a7d600',
+                color: '#000',
+                padding: '8px 14px',
+                borderRadius: '9999px',
+                fontSize: '0.82rem',
+                fontWeight: 700,
+                textDecoration: 'none',
+              }}
+            >
+              <Phone size={14} />
+              <span>Call</span>
+            </a>
+            <a
+              href={brandContact.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={brandContact.instagramAriaLabel}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                width: '34px',
+                height: '34px',
+                borderRadius: '50%',
+                background: 'rgba(255,255,255,0.1)',
+                color: '#fff',
+                textDecoration: 'none',
+              }}
+            >
+              <InstagramIcon size={16} />
+            </a>
+          </div>
         </div>
-      </section>
+      )}
 
     </div>
   );
