@@ -34,7 +34,7 @@ import CaseStudiesPage from './components/CaseStudiesPage';
 import InsightsPage from './components/InsightsPage';
 import BlogPage from './components/BlogPage';
 import { PrivacyPolicy, TermsOfService, NotFoundPage } from './components/UtilityPages';
-import SolutionsMarquee from './components/SolutionsMarquee';
+import WhatWeOffer from './components/WhatWeOffer';
 
 // Location + service landing pages (SEO)
 import LandingPage from './components/LandingPage';
@@ -59,15 +59,8 @@ function HomePage() {
       {/* About Infynix Section */}
       <AboutInfynix />
 
-      {/* "What We Offer" Solutions Marquee */}
-      <SolutionsMarquee
-        showHeading={true}
-        eyebrow="OUR CAPABILITIES"
-        heading="What We Offer"
-        subtitle="Explore our connected ecosystem of digital marketing, creative media, and software engineering solutions."
-        padding="60px 0 80px 0"
-        background="#ffffff"
-      />
+      {/* "What We Offer" Section */}
+      <WhatWeOffer />
 
       {/* 2. "We Specialize" + CTA card + Footer (all inside) */}
       <SpecializeSection />
@@ -134,6 +127,9 @@ function AppContent() {
             <Route path="/solutions/infynix-media-house" element={<Navigate to="/solutions/infynix-media" replace />} />
             <Route path="/solutions/:slug"   element={<SolutionsPage />} />
             <Route path="/solutions"        element={<SolutionsIndex />} />
+            <Route path="/services/ui-ux-design-brand-styling" element={<Navigate to="/solutions/ui-ux-design" replace />} />
+            <Route path="/services/:slug"   element={<SolutionsPage />} />
+            <Route path="/services"         element={<Navigate to="/solutions" replace />} />
             <Route path="/industries/:slug" element={<IndustriesPage />} />
             <Route path="/industries"       element={<IndustriesPage />} />
             <Route path="/case-studies/:slug" element={<CaseStudiesPage />} />
